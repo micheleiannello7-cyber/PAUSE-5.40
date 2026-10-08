@@ -171,9 +171,9 @@ const useStyles = makeStyles((colors) => ({
   // (icone più grandi, tutte uguali, che riempiono bene il contenitore in vetro).
   artBox: { position: "absolute", top: 6, left: "10%", width: "80%", aspectRatio: 1 },
   labels: { paddingHorizontal: 4, paddingBottom: 8, alignItems: "center" },
-  tileName: { color: palette.text, fontFamily: typography.bodyMedium, fontSize: 12.5, lineHeight: 16, minHeight: 32, textAlign: "center", verticalAlign: "middle" },
-  largeName: { fontSize: 15, lineHeight: 18, minHeight: 36 },
-  denseName: { fontSize: 10, lineHeight: 12.5, minHeight: 25 },
+  tileName: { color: palette.text, fontFamily: typography.bodyMedium, fontSize: 12.5, lineHeight: 16, height: 32, textAlign: "center", textAlignVertical: "top" },
+  largeName: { fontSize: 15, lineHeight: 18, height: 36 },
+  denseName: { fontSize: 10, lineHeight: 12.5, height: 25 },
   pressed: { opacity: 0.86, transform: [{ scale: 0.98 }] },
   glassBg: { position: "absolute", top: 0, left: 0, right: 0, bottom: 0 },
 }));
