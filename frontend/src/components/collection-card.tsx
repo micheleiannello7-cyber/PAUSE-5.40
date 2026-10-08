@@ -8,6 +8,7 @@ import Ionicons from "@react-native-vector-icons/ionicons";
 import { StoryPreview } from "@/src/api";
 import { makeStyles, useTheme, radius, typography, withAlpha } from "@/src/theme";
 import { StoryHero } from "@/src/components/story-hero";
+import { CategoryArtMark } from "@/src/components/category-artwork";
 
 export const CARD_W = 108, CARD_H = 148;
 
@@ -42,14 +43,22 @@ export function CollectionCard({ story, onPress, testID, width = CARD_W, height 
   );
 }
 
-export function LockedCard({ color, testID, width = CARD_W, height = CARD_H }: { color: string; testID?: string; width?: number; height?: number }) {
+// Carta non ancora scoperta: la sagoma dell'icona 3D della propria categoria,
+// attenuata dentro un alone, con un piccolo lucchetto.
+export function LockedCard({ color, categoryId, testID, width = CARD_W, height = CARD_H }: { color: string; categoryId: string; testID?: string; width?: number; height?: number }) {
   const styles = useStyles();
   const { colors } = useTheme();
+  const art = Math.round(width * 0.62);
   return (
-    <View style={[styles.card, styles.locked, { width, height, borderColor: withAlpha(color, 0.18) }]} testID={testID}>
-      <LinearGradient pointerEvents="none" colors={[withAlpha(color, 0.10), withAlpha(colors.surfaceDeep, 0.0)]} style={StyleSheet.absoluteFill} />
-      <View style={[styles.lockedRing, { borderColor: withAlpha(color, 0.35) }]}>
-        <Ionicons name="sparkles-outline" size={16} color={withAlpha(color, 0.6)} />
+    <View style={[styles.card, styles.locked, { width, height, borderColor: withAlpha(color, 0.22) }]} testID={testID}>
+      <LinearGradient pointerEvents="none" colors={[withAlpha(color, 0.14), withAlpha(colors.surfaceDeep, 0.0)]} style={StyleSheet.absoluteFill} />
+      <View style={[styles.halo, { width: art + 16, height: art + 16, borderRadius: (art + 16) / 2, backgroundColor: withAlpha(color, 0.1), borderColor: withAlpha(color, 0.28) }]}>
+        <View style={styles.artDim}>
+          <CategoryArtMark categoryId={categoryId} color={color} size={art} plain tight testID={`${testID}-art`} />
+        </View>
+      </View>
+      <View style={[styles.lockBadge, { backgroundColor: withAlpha(colors.surfaceDeep, 0.85), borderColor: withAlpha(color, 0.5) }]}>
+        <Ionicons name="lock-closed" size={11} color={withAlpha(color, 0.9)} />
       </View>
     </View>
   );
@@ -61,7 +70,9 @@ const useStyles = makeStyles((colors) => ({
     padding: 8, backgroundColor: colors.surfaceTertiary,
   },
   locked: { alignItems: "center", justifyContent: "center", backgroundColor: withAlpha(colors.surfaceDeep, 0.7) },
-  lockedRing: { width: 38, height: 38, borderRadius: 19, borderWidth: 1, alignItems: "center", justifyContent: "center" },
+  halo: { borderWidth: 1, alignItems: "center", justifyContent: "center" },
+  artDim: { opacity: 0.4 },
+  lockBadge: { position: "absolute", bottom: 10, alignSelf: "center", width: 24, height: 24, borderRadius: 12, borderWidth: 1, alignItems: "center", justifyContent: "center" },
   dot: { position: "absolute", top: 8, left: 8, width: 7, height: 7, borderRadius: 4 },
   dotCompact: { top: 6, left: 6 },
   title: { color: "#FFFFFF", fontFamily: typography.bodyBold, fontSize: 11, lineHeight: 14, textShadowColor: "rgba(0,0,0,0.7)", textShadowRadius: 4 },

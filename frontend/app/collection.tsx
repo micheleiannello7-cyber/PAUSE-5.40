@@ -96,7 +96,7 @@ export default function CollectionScreen() {
                 <Text style={styles.ringTotal} numberOfLines={1}>/{data.total}</Text>
               </View>
               <View style={styles.ringLabelPill} testID="collection-progress-label">
-                <Text style={styles.ringLabel} numberOfLines={1}>{t.collection_progress}</Text>
+                <Text style={styles.ringLabel} numberOfLines={2}>{t.collection_progress}</Text>
               </View>
               <Text style={styles.summaryQuote} testID="collection-summary-quote">{t.collection_summary_quote}</Text>
               {data.unlocked === 0 ? <Text style={styles.empty} testID="collection-empty">{t.collection_empty}</Text> : null}
@@ -174,7 +174,7 @@ function Group({ group, onOpen, focusStoryId }: { group: CollectionGroup; onOpen
               testID={`collection-card-${group.stories[item.index].id}`}
             />
           ) : (
-            <LockedCard color={group.color} testID={`collection-locked-${item.id}`} />
+            <LockedCard color={group.color} categoryId={group.id} testID={`collection-locked-${item.id}`} />
           )
         }
         showsHorizontalScrollIndicator={false}
@@ -214,11 +214,11 @@ const useStyles = makeStyles((colors) => ({
   ringCount: { color: "#FFFFFF", fontFamily: typography.displayHero, fontSize: 30, lineHeight: 32, textShadowColor: "rgba(0,0,0,0.6)", textShadowRadius: 6 },
   ringTotal: { color: "rgba(234,242,255,0.78)", fontFamily: typography.bodyBold, fontSize: 18, textShadowColor: "rgba(0,0,0,0.5)", textShadowRadius: 4 },
   ringLabelPill: {
-    alignSelf: "flex-start", marginTop: spacing.xs, paddingHorizontal: 10, paddingVertical: 4,
-    borderRadius: radius.pill, borderWidth: 1, borderColor: withAlpha(colors.brand, 0.7), backgroundColor: withAlpha(colors.brand, 0.22),
+    alignSelf: "flex-start", maxWidth: "100%", marginTop: spacing.xs, paddingHorizontal: 10, paddingVertical: 4,
+    borderRadius: radius.md, borderWidth: 1, borderColor: withAlpha(colors.brand, 0.7), backgroundColor: withAlpha(colors.brand, 0.22),
   },
   ringLabel: {
-    color: "#FFFFFF", fontFamily: typography.displayBold, fontSize: 13, letterSpacing: 1.2, textTransform: "uppercase",
+    color: "#FFFFFF", fontFamily: typography.displayBold, fontSize: 12, lineHeight: 16, letterSpacing: 0.6, textTransform: "uppercase", flexShrink: 1,
     textShadowColor: "rgba(0,0,0,0.6)", textShadowRadius: 5,
   },
   summaryQuote: {

@@ -46,3 +46,4 @@ Imported from https://github.com/micheleiannello7-cyber/PAUSE-5.38 and overlaid 
 - Gemstone 3D now uses 16 AI-rendered PNGs (frontend/assets/images/gem/, nav-topics-active recoloured from base); SVG kept as fallback. Theme picker: same icon order for all 3 themes; Hologram marked "TEMA BASE" with note that only it follows the accent colour.
 - Icon themes 3D Realistico & Gemstone 3D are Premium-only (useIconFamily falls back to holo for free users; locked cards route to /premium). Topic light bars restored.
 - Collection: "storie completate" shown as bold pill; quote changed to "Non smettere mai di essere curioso, la curiosità è la chiave di ogni scoperta". Mini collection card (reader ending) shows the full cover without title overlay.
+- Collection locked cards now show dimmed category 3D art + lock badge per category.
