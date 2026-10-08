@@ -12,6 +12,7 @@ import Animated, { Easing, useAnimatedStyle, useSharedValue, withSequence, withS
 import { withAlpha } from "@/src/theme";
 import { BOOKMARK_3D } from "./icon-3d-assets";
 import { HoloSymbol } from "./holo-icons";
+import { GemSymbol } from "./gem-icons";
 import { useIconFamily } from "@/src/icon-theme";
 
 const ART = {
@@ -88,12 +89,14 @@ export function ActionIcon3D({ kind, active = false, glowColor, size = 34, onPre
         <Animated.View testID={`${testID}-base`} style={[StyleSheet.absoluteFill, baseStyle]}>
           {iconFamily === "holo"
             ? <HoloSymbol name={kind} active={!art.active} />
+            : iconFamily === "gem" ? <GemSymbol name={kind} active={!art.active} />
             : <Image source={art.base} style={StyleSheet.absoluteFill} contentFit="contain" transition={0} />}
         </Animated.View>
         {art.active ? (
           <Animated.View testID={`${testID}-active`} style={[StyleSheet.absoluteFill, activeStyle]}>
             {iconFamily === "holo"
               ? <HoloSymbol name={kind} active />
+              : iconFamily === "gem" ? <GemSymbol name={kind} />
               : <Image source={art.active} style={StyleSheet.absoluteFill} contentFit="contain" transition={0} />}
           </Animated.View>
         ) : null}

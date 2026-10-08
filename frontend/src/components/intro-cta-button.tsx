@@ -13,6 +13,7 @@ import Animated, {
 import { makeStyles, radius, typography, useTheme, withAlpha } from "@/src/theme";
 import { useIconFamily } from "@/src/icon-theme";
 import { HoloSymbol } from "./holo-icons";
+import { GemSymbol } from "./gem-icons";
 
 const ART = {
   book: require("../../assets/images/kind-book.png"),
@@ -29,6 +30,7 @@ export function IntroCtaButton({ label, icon, onPress, testID, style, loading = 
   const { colors, scheme } = useTheme();
   const [iconFamily] = useIconFamily();
   const holo = iconFamily === "holo";
+  const gem = iconFamily === "gem";
   const flip = useSharedValue(0);   // 0 → 1: la pagina ruota da destra a sinistra
   const bounce = useSharedValue(1);
   const glowColor = icon === "book" ? colors.cyan : colors.brand;
@@ -69,8 +71,9 @@ export function IntroCtaButton({ label, icon, onPress, testID, style, loading = 
           <Animated.View style={[styles.art, artStyle]}>
             {holo
               ? <HoloSymbol name={icon === "book" ? "books" : "headphones"} />
+              : gem ? <GemSymbol name={icon === "book" ? "book" : "headphones"} />
               : <Image source={ART[icon]} style={StyleSheet.absoluteFill} contentFit="contain" transition={0} />}
-            {icon === "book" && !holo ? (
+            {icon === "book" && !holo && !gem ? (
               <Animated.View pointerEvents="none" style={[styles.page, pageStyle]}>
                 <Image source={ART.book} style={styles.pageArt} contentFit="contain" transition={0} />
                 <Animated.View style={[StyleSheet.absoluteFill, { backgroundColor: colors.artworkSurface }, pageShade]} />

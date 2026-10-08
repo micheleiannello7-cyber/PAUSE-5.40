@@ -16,6 +16,7 @@ import { makeStyles, useTheme, withAlpha } from "@/src/theme";
 import { useI18n } from "@/src/i18n";
 import { useIconFamily } from "@/src/icon-theme";
 import { HoloSymbol } from "@/src/components/holo-icons";
+import { GemSymbol } from "../gem-icons";
 import { useAudio } from "./context";
 
 const HEADPHONES = require("../../../assets/images/kind-headphones.png");
@@ -45,6 +46,7 @@ export function AudioMiniBadge({ visible, onPress, testID = "audio-mini-badge" }
         <BlurView pointerEvents="none" tint={scheme === "dark" ? "dark" : "light"} intensity={30} style={StyleSheet.absoluteFill} />
         {iconFamily === "holo"
           ? <View style={styles.art}><HoloSymbol name="headphones" /></View>
+          : iconFamily === "gem" ? <View style={styles.art}><GemSymbol name="headphones" /></View>
           : <Image source={HEADPHONES} style={styles.art} contentFit="contain" transition={0} />}
         <View style={styles.status} testID={`${testID}-status`}>
           {buffering ? <ActivityIndicator size="small" color={colors.cyan} style={styles.spinner} /> : playing ? <Equalizer color={colors.cyan} /> : null}

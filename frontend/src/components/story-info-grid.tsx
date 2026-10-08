@@ -12,6 +12,7 @@ import { useI18n } from "@/src/i18n";
 import { KindIcon } from "./kind-icon";
 import { CategoryArtMark } from "./category-artwork";
 import { HoloClock } from "./holo-icons";
+import { GemSymbol } from "./gem-icons";
 import { useIconFamily } from "@/src/icon-theme";
 
 // Dimensioni finali comuni a tema 3D e Olografico, scelte perché la parte
@@ -50,6 +51,7 @@ export function StoryInfoGrid({ story, minutes, inline = false, embedded = false
     { id: "time", value: `${minutes} ${t.min}`,
       icon: iconFamily === "holo"
         ? <HoloClock size={GLYPH} testID={`${testID}-time-icon`} />
+        : iconFamily === "gem" ? <View style={styles.clock} testID={`${testID}-time-icon`}><GemSymbol name="clock" /></View>
         : <Image source={CLOCK} style={styles.clock} contentFit="contain" transition={0} testID={`${testID}-time-icon`} /> },
   ];
   return (

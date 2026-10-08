@@ -9,6 +9,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { TabIcon3D } from "./tab-icon-3d";
 import { TopicsTileIcon } from "./topics-tile-icon";
 import { HoloTabIcon, HoloRoute } from "./tab-icon-holo";
+import { GemTabIcon } from "./gem-icons";
 import { TAB_ART_3D } from "./icon-3d-assets";
 import { useIconFamily } from "@/src/icon-theme";
 import * as Haptics from "@/src/haptics";
@@ -69,6 +70,7 @@ export function GlassTabBar({ state, descriptors, navigation }: Props) {
                 {focused ? <View style={[styles.halo, { backgroundColor: withAlpha(colors.brand, 0.14), boxShadow: `0px 0px 18px ${withAlpha(colors.brand, 0.42)}` as any }]} /> : null}
                 {iconFamily === "holo"
                   ? <HoloTabIcon route={holoRoute} focused={focused} testID={`${testID}-icon`} />
+                  : iconFamily === "gem" ? <GemTabIcon route={holoRoute} focused={focused} testID={`${testID}-icon`} />
                   : route.name === "explore"
                     ? <TopicsTileIcon focused={focused} testID={`${testID}-icon`} />
                     : <TabIcon3D route={icon} focused={focused} testID={`${testID}-icon`} />}

@@ -15,6 +15,7 @@ import { useLimitGate } from "@/src/hooks/use-limit-gate";
 import { useI18n } from "@/src/i18n";
 import { useIconFamily } from "@/src/icon-theme";
 import { HoloSymbol } from "./holo-icons";
+import { GemSymbol } from "./gem-icons";
 
 const BOOK = require("../../assets/images/kind-book.png");
 
@@ -104,6 +105,7 @@ export function LimitBadge({ testID = "limit-badge", timerOnTap = false }: {
         <View pointerEvents="none" style={[styles.bookGlow, { backgroundColor: withAlpha(accent, 0.35), boxShadow: `0px 0px 10px ${withAlpha(accent, 0.7)}` as any }]} />
         {iconFamily === "holo"
           ? <HoloSymbol name="books" />
+          : iconFamily === "gem" ? <GemSymbol name="books" />
           : <Image source={BOOK} style={styles.book} contentFit="contain" transition={0} />}
       </View>
       <Text testID={`${testID}-count`} style={[styles.count, { color: accent }]}>{credits}</Text>

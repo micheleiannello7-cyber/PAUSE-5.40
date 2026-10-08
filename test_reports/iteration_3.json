@@ -1,0 +1,30 @@
+{
+  "summary": "Frontend-only verification of Profile → Themes revamp (ThemeFamilyPicker + Gemstone 3D). All three family cards (theme-holo-tile, theme-3d-tile, theme-gem-tile) render with their own 6-icon preview strip (theme-{id}-preview, 6 children each) drawn in the correct family style — Hologram = purple holo SVG symbols; 3D Realistic = PNG renders; Gemstone 3D = faceted vector gems. Default state shows theme-holo-current ('In uso'). Tapping any card updates the selection badge, persists across hard reload, and swaps the bottom tab bar icons (GemTabIcon exposes {tab-*}-icon-base / {tab-*}-icon-active sub-nodes for all 4 routes). With Gemstone 3D active, deep-dive /deep-dive/{id} opens without errors, the info-grid clock + CURIOSITY badge render as gems, and scrolling through all 6 chapters produces 0 console errors and 0 red-screens (67 SVGs rendered). Switching back to Hologram and 3D Realistic still works. The deprecated 'Prova nuovi temi' CTA is confirmed removed (0 instances).",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [],
+    "react_native_issues": [
+      {"component": "GemTabIcon", "issue": "`pointerEvents` passed as a prop on <Animated.View> is deprecated — move to style. Reference: /app/frontend/src/components/gem-icons.tsx:200"},
+      {"component": "StyleSheet (multiple)", "issue": "Deprecated `textShadow*` style props still used across components (carried from previous iteration). Non-blocking web warnings."}
+    ]
+  },
+  "test_report_links": [],
+  "action_items": [
+    "Address `pointerEvents` prop deprecation in gem-icons.tsx (move to style={{ pointerEvents: 'none' }}); same pattern remains in several other components flagged in iteration_2.",
+    "Optional: the Gemstone preview strip for the 'topaz' tone used on `book` and `clock` outer bezel can read as very pale against the dark artworkSurface — consider nudging the `topaz` middle stop slightly darker for better contrast on dark theme."
+  ],
+  "critical_code_review_comments": [
+    "theme-family-picker.tsx is clean, under 90 lines, follows RN primitives (View/Text/Pressable) and uses testIDs properly. ART_3D map and REF list are kept symmetric.",
+    "gem-icons.tsx (~210 lines) centralises gem rendering; GemSymbol returns a single Svg with per-part clipped facets which keeps the DOM size reasonable (~15 nodes per icon).",
+    "IconFamily store (icon-theme.ts) is a tiny subscribe/notify singleton — good enough for a global theme toggle and avoids pulling in a store library."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "n/a", "frontend": "100%"},
+  "seed_data_creation": "None",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Tab testIDs on the glass tab bar are tab-home / tab-explore / tab-saved / tab-profile (NOT tab-discover / tab-bookmarks even though the GemTabIcon internal routes are discover/explore/bookmarks/profile). Each gem tab also exposes {tab-*}-icon, {tab-*}-icon-base, {tab-*}-icon-active, {tab-*}-label. Theme family picker lives inside the profile screen; scroll it into view before clicking (it is below the atmosphere grid). Guest onboarding: fill `onboarding-profile-name`, click `onboarding-profile-continue`, then on topics click `chip-all` and `onboarding-continue`.",
+  "rca_of_issue": "N/A — verification only."
+}

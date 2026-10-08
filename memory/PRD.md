@@ -42,3 +42,5 @@ Imported from https://github.com/micheleiannello7-cyber/PAUSE-5.38 and overlaid 
 ## Oct 2026 updates
 - Topic picker: icons reduced 15%, removed light-bar/reflection under tiles (selection via glowing border).
 - Shareable story cards: share bottom sheet in reader (Storia 9:16 / Post 4:5), 1080px PNG export via expo-sharing on device; text fallback on web.
+- Icon themes: added "Gemstone 3D" family (SVG faceted gems + gold rims, src/components/gem-icons.tsx) wired in tab bar, action icons, kind badges, clocks, headphones, CTA. Profile → Themes redesigned (theme-family-picker.tsx) with 6 reference icons per theme. AI-rendered gem PNGs pending (script backend/gen_gem_icons.py) — Universal Key budget was 0.
+- Gemstone 3D now uses 16 AI-rendered PNGs (frontend/assets/images/gem/, nav-topics-active recoloured from base); SVG kept as fallback. Theme picker: same icon order for all 3 themes; Hologram marked "TEMA BASE" with note that only it follows the accent colour.

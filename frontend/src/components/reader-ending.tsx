@@ -27,6 +27,7 @@ import { KindIcon } from "@/src/components/kind-icon";
 import { CategoryArtMark } from "@/src/components/category-artwork";
 import { CollectionCard } from "@/src/components/collection-card";
 import { HoloClock } from "@/src/components/holo-icons";
+import { GemSymbol } from "./gem-icons";
 import { useIconFamily } from "@/src/icon-theme";
 
 const CLOCK = require("../../assets/images/kind-clock.png");
@@ -71,6 +72,7 @@ function BadgeIcons({ story, testID }: { story: StoryPreview; testID?: string })
     <CategoryArtMark key="category" categoryId={story.category_id} color={story.category_color} size={23} aspect={1.3} plain tight testID={`${testID}-category`} />,
     iconFamily === "holo"
       ? <HoloClock key="time" size={32} testID={`${testID}-time`} />
+      : iconFamily === "gem" ? <View key="time" style={styles.badgeClock} testID={`${testID}-time`}><GemSymbol name="clock" /></View>
       : <Image key="time" source={CLOCK} style={styles.badgeClock} contentFit="contain" transition={0} testID={`${testID}-time`} />,
   ];
   return (

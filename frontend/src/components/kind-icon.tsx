@@ -11,6 +11,7 @@ import Animated, {
 
 import { useTheme, withAlpha } from "@/src/theme";
 import { HoloSymbol } from "./holo-icons";
+import { GemSymbol } from "./gem-icons";
 import { useIconFamily } from "@/src/icon-theme";
 
 export type StoryKind = "stories" | "lessons";
@@ -102,6 +103,7 @@ export function KindIcon({
       <Animated.View style={[StyleSheet.absoluteFill, imgStyle]}>
         {iconFamily === "holo"
           ? <HoloSymbol name={kind === "stories" ? "bulb" : "books"} />
+          : iconFamily === "gem" ? <GemSymbol name={kind === "stories" ? "bulb" : "books"} />
           : <Image source={SOURCES[kind]} style={StyleSheet.absoluteFill} contentFit="contain" transition={0} />}
       </Animated.View>
     </View>

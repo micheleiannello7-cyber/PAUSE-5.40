@@ -1,8 +1,8 @@
-// PAUSE — tema icone ("holo" = Ologramma, default · "3d" = 3D Realistico), persistito sul device.
+// PAUSE — tema icone ("holo" = Ologramma, default · "3d" = 3D Realistico · "gem" = Gemstone 3D), persistito sul device.
 import { useCallback, useEffect, useState } from "react";
 import { storage } from "@/src/utils/storage";
 
-export type IconFamily = "holo" | "3d";
+export type IconFamily = "holo" | "3d" | "gem";
 const KEY = "pause.icon.family";
 const DEFAULT: IconFamily = "holo";
 
@@ -12,7 +12,7 @@ const listeners = new Set<(f: IconFamily) => void>();
 async function load(): Promise<IconFamily> {
   if (cached) return cached;
   const raw = await storage.getItem(KEY, DEFAULT);
-  cached = raw === "3d" ? "3d" : "holo";
+  cached = raw === "3d" || raw === "gem" ? raw : "holo";
   return cached;
 }
 

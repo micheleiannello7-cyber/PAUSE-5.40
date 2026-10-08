@@ -14,7 +14,6 @@ import { useSoundsEnabled, useSoundsVolume, play as playSound } from "@/src/soun
 import { VolumeSlider } from "@/src/components/volume-slider";
 import { spacing, radius, typography, ACCENTS, useTheme, ThemeMode, AccentId, makeStyles, withAlpha } from "@/src/theme";
 import { AtmospherePreview } from "@/src/components/atmosphere-preview";
-import { CategoryArtMark } from "@/src/components/category-artwork";
 import { useReaderSize, READER_SIZES, READER_SCALE } from "@/src/reader-prefs";
 import { BODY_FONT, BODY_LH } from "@/src/components/reader-section";
 
@@ -30,7 +29,7 @@ import { GlassSurface, AmbientGlow } from "@/src/components/glass";
 import { useI18n, Lang } from "@/src/i18n";
 import { useAuth } from "@/src/auth";
 import { useIconFamily } from "@/src/icon-theme";
-import { HoloThemePreview } from "@/src/components/holo-theme-preview";
+import { ThemeFamilyPicker } from "@/src/components/theme-family-picker";
 
 export default function Profile() {
   const insets = useSafeAreaInsets();
@@ -312,51 +311,7 @@ export default function Profile() {
               <Text style={styles.rowHint}>{t.themes_hint}</Text>
             </View>
           </View>
-          <View style={styles.themeFamilyRow}>
-            {/* Ologramma (default): icone vettoriali olografiche. */}
-            <Pressable
-              testID="theme-holo-tile"
-              onPress={() => setIconFamily("holo")}
-              style={[styles.themeFamilyTile, iconFamily === "holo" && styles.themeFamilyActive]}
-            >
-              <View style={styles.themeFamilyPreview}>
-                <HoloThemePreview size={64} testID="theme-holo-preview" />
-                {iconFamily === "holo" ? (
-                  <View style={[styles.accentMark, { backgroundColor: colors.brand }]}>
-                    <Ionicons name="checkmark" size={12} color={colors.onBrand} />
-                  </View>
-                ) : null}
-              </View>
-              <Text style={styles.themeFamilyName}>{t.theme_holo}</Text>
-              {iconFamily === "holo" ? <Text style={styles.themeFamilyStatus}>{t.theme_current}</Text> : null}
-            </Pressable>
-            {/* 3D Realistico: icone raster (reference-3d-v6). */}
-            <Pressable
-              testID="theme-3d-tile"
-              onPress={() => setIconFamily("3d")}
-              style={[styles.themeFamilyTile, iconFamily === "3d" && styles.themeFamilyActive]}
-            >
-              <View style={styles.themeFamilyPreview}>
-                <CategoryArtMark categoryId="spazio" color="#9B6BFF" size={52} aspect={1.2} plain tight testID="theme-3d-preview" />
-                {iconFamily === "3d" ? (
-                  <View style={[styles.accentMark, { backgroundColor: colors.brand }]}>
-                    <Ionicons name="checkmark" size={12} color={colors.onBrand} />
-                  </View>
-                ) : null}
-              </View>
-              <Text style={styles.themeFamilyName}>{t.theme_3d}</Text>
-              {iconFamily === "3d" ? <Text style={styles.themeFamilyStatus}>{t.theme_current}</Text> : null}
-            </Pressable>
-          </View>
-          {/* Preview di 3 proposte di terzo tema (Linea · Essenziale · Soft Neon). */}
-          <Pressable testID="theme-preview-cta" onPress={() => router.push("/theme-preview")} style={styles.themePreviewCta}>
-            <Ionicons name="sparkles-outline" size={18} color={colors.brand} />
-            <View style={{ flex: 1 }}>
-              <Text style={styles.themePreviewTitle}>Prova nuovi temi</Text>
-              <Text style={styles.themePreviewHint}>3 proposte in anteprima: scegli quella che preferisci.</Text>
-            </View>
-            <Ionicons name="chevron-forward" size={18} color={colors.muted} />
-          </Pressable>
+          <ThemeFamilyPicker value={iconFamily} onChange={setIconFamily} />
         </View>
       </Section>
 
