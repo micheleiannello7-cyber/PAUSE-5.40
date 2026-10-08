@@ -1,0 +1,31 @@
+{
+  "summary": "Frontend-only verification of Premium gating on icon themes + restored topic-grid light bars. All 6 flows from the request PASS. Free guest: `theme-3d-tile` and `theme-gem-tile` render the lock pill (`theme-3d-locked`/`theme-gem-locked`, visible text 'Premium' with lock-closed icon), while `theme-holo-tile` shows `theme-holo-current` ('In uso'), `theme-holo-base-badge` (text 'DEFAULT') and `theme-holo-accent-note`. Tapping `theme-3d-tile` (or gem) as a free user navigates to /premium and does NOT change the current theme (holo-current remains). After tapping `premium-activate` on the paywall (placeholder, no payment), returning to Profile → Themes removes both lock pills, selecting Gemstone 3D updates `theme-gem-current` and swaps the glass tab bar to GemTabIcon for all 4 tabs. Tapping `premium-cancel` restores the free tier: lock pills return, picker auto-falls back to `theme-holo-current` (even though storage still has `pause.icon.family='gem'`), and the tab bar re-renders as HoloTabIcon — confirming `useIconFamily()`'s effective-family guard `isPremium || !isPremiumFamily(family) ? family : DEFAULT` works. Topic grid light bars: onboarding renders 13 `category-light-*` nodes (all + 12 categories), /explore renders 14 (adds `category-light-home-explore`); tapping `chip-all` flips its light to aria-label='on'. Zero red-screen errors, zero crashes, zero console errors across onboarding → topics → home → profile → premium → cancel flow.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [],
+    "react_native_issues": [
+      {"component": "GemTabIcon (Animated.View)", "issue": "`props.pointerEvents is deprecated. Use style.pointerEvents` warning still logged. Reference: /app/frontend/src/components/gem-icons.tsx:223 — currently uses `style={[styles.icon, { pointerEvents: 'none' }, motion]}` which is correct, but another consumer (likely HoloTabIcon or other Animated.View) still passes it as a prop. Grep shows pointerEvents still used as prop in /app/frontend/src/components/tab-icon-holo.tsx:94 and category-grid.tsx (allLight)."},
+      {"component": "StyleSheet (multiple)", "issue": "`textShadow* style props are deprecated. Use textShadow.` warnings still logged on initial load (carried from previous iterations). Non-blocking."}
+    ]
+  },
+  "test_report_links": [],
+  "action_items": [
+    "Non-blocking: move `pointerEvents=\"none\"` prop → `style.pointerEvents` in /app/frontend/src/components/tab-icon-holo.tsx:94 (and any remaining Animated.View call sites) to silence the deprecation warning.",
+    "Non-blocking: collapse legacy `textShadowColor/Offset/Radius` style props into the single `textShadow` shorthand for RN 0.75+ compatibility."
+  ],
+  "critical_code_review_comments": [
+    "icon-theme.ts correctly treats holo as the only free tier (`isPremiumFamily = f => f !== DEFAULT`) and the hook returns the DEFAULT family when the stored one is premium-only and the user is not premium — this is why cancelling premium instantly rolls the UI back to Hologram without clearing storage. Clean.",
+    "theme-family-picker.tsx: lock pill routes to `/premium` with `router.push` on tap, keeping the selection unchanged — matches the request's 'does NOT change the icon theme' acceptance criterion. testIDs (`theme-{id}-tile`, `theme-{id}-locked`, `theme-{id}-current`, `theme-{id}-preview`, `theme-holo-base-badge`, `theme-holo-accent-note`) are complete.",
+    "premium.ts activate/cancel use TanStack Query mutation + `qc.setQueryData` on success → UI reacts instantly; discover-next and limit queries are invalidated. Good pattern; placeholder correctly marked for RevenueCat replacement.",
+    "category-grid.tsx renders `<CategorySelectionLight id={c.id} color={color} active={active} />` under every tile name (and `allLight` under the Any-topic card). Light bars confirmed present in both onboarding and /explore DOM."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "n/a", "frontend": "100%"},
+  "seed_data_creation": "None",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Both HoloTabIcon and GemTabIcon expose `${testID}-base` and `${testID}-active` sub-nodes — do NOT use their presence as a signal for which family is active. To distinguish, look at inner SVG structure or compare visual icon. Picker tiles (`theme-{id}-tile`) are below the atmosphere grid in Profile: scroll into view before clicking. The /premium page auto-navigates back after `premium-activate`; re-open /premium via direct URL to verify the active state via `premium-active-chip` / `premium-cancel`. Guest onboarding is unchanged: `onboarding-profile-name` → `onboarding-profile-continue` → `chip-all` → `onboarding-continue`. Topic lights have testID `category-light-{id}` with accessibilityLabel 'on'/'off'.",
+  "rca_of_issue": "N/A — verification only, all requested behaviors confirmed working."
+}

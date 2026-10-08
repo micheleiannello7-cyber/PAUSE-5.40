@@ -1,6 +1,7 @@
 // PAUSE — tema icone ("holo" = Ologramma, default · "3d" = 3D Realistico · "gem" = Gemstone 3D), persistito sul device.
 import { useCallback, useEffect, useState } from "react";
 import { storage } from "@/src/utils/storage";
+import { usePremiumFlag } from "@/src/premium";
 
 export type IconFamily = "holo" | "3d" | "gem";
 const KEY = "pause.icon.family";
@@ -22,7 +23,11 @@ export async function setIconFamily(f: IconFamily) {
   listeners.forEach((l) => l(f));
 }
 
+// Solo Ologramma (tema base) è gratuito: 3D Realistico e Gemstone 3D sono Premium.
+export const isPremiumFamily = (f: IconFamily) => f !== DEFAULT;
+
 export function useIconFamily(): [IconFamily, (f: IconFamily) => Promise<void>] {
+  const isPremium = usePremiumFlag();
   const [family, setFamily] = useState<IconFamily>(cached ?? DEFAULT);
   useEffect(() => {
     let alive = true;
@@ -32,5 +37,5 @@ export function useIconFamily(): [IconFamily, (f: IconFamily) => Promise<void>] 
     return () => { alive = false; listeners.delete(l); };
   }, []);
   const update = useCallback((f: IconFamily) => setIconFamily(f), []);
-  return [family, update];
+  return [isPremium || !isPremiumFamily(family) ? family : DEFAULT, update];
 }

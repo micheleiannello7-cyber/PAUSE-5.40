@@ -4,10 +4,12 @@ import { ReactNode } from "react";
 import { View, Text, Pressable } from "react-native";
 import { Image } from "expo-image";
 import Ionicons from "@react-native-vector-icons/ionicons";
+import { useRouter } from "expo-router";
 
 import { makeStyles, useTheme, spacing, radius, typography, withAlpha } from "@/src/theme";
 import { useI18n } from "@/src/i18n";
-import { IconFamily } from "@/src/icon-theme";
+import { IconFamily, isPremiumFamily } from "@/src/icon-theme";
+import { usePremiumFlag } from "@/src/premium";
 import { HoloSymbol, HoloName } from "./holo-icons";
 import { GemSymbol } from "./gem-icons";
 
@@ -31,6 +33,8 @@ export function ThemeFamilyPicker({ value, onChange }: { value: IconFamily; onCh
   const { t } = useI18n();
   const { colors } = useTheme();
   const styles = useStyles();
+  const router = useRouter();
+  const isPremium = usePremiumFlag();
   const options: { id: IconFamily; name: string; sub: string }[] = [
     { id: "holo", name: t.theme_holo, sub: t.theme_holo_sub },
     { id: "3d", name: t.theme_3d, sub: t.theme_3d_sub },
@@ -40,8 +44,9 @@ export function ThemeFamilyPicker({ value, onChange }: { value: IconFamily; onCh
     <View style={styles.list} testID="theme-family-picker">
       {options.map((o) => {
         const on = value === o.id;
+        const locked = !isPremium && isPremiumFamily(o.id);
         return (
-          <Pressable key={o.id} testID={`theme-${o.id}-tile`} onPress={() => onChange(o.id)}
+          <Pressable key={o.id} testID={`theme-${o.id}-tile`} onPress={() => (locked ? router.push("/premium") : onChange(o.id))}
             accessibilityRole="radio" accessibilityState={{ selected: on }}
             style={({ pressed }) => [styles.card, on && styles.cardOn, pressed && styles.pressed]}>
             <View style={styles.head}>
@@ -61,9 +66,14 @@ export function ThemeFamilyPicker({ value, onChange }: { value: IconFamily; onCh
                   <Ionicons name="checkmark-circle" size={16} color={colors.cyan} />
                   <Text style={styles.statusText}>{t.theme_current}</Text>
                 </View>
+              ) : locked ? (
+                <View style={[styles.lockPill, { borderColor: withAlpha(colors.warning, 0.6), backgroundColor: withAlpha(colors.warning, 0.12) }]} testID={`theme-${o.id}-locked`}>
+                  <Ionicons name="lock-closed" size={11} color={colors.warning} />
+                  <Text style={[styles.lockText, { color: colors.warning }]}>Premium</Text>
+                </View>
               ) : <View style={styles.radio} />}
             </View>
-            <View style={styles.strip} testID={`theme-${o.id}-preview`}>
+            <View style={[styles.strip, locked && styles.stripLocked]} testID={`theme-${o.id}-preview`}>
               {REF.map((n) => <View key={n} style={styles.cell}>{refIcon(o.id, n)}</View>)}
             </View>
             {o.id === "holo" ? (
@@ -97,6 +107,9 @@ const useStyles = makeStyles((colors) => ({
   sub: { color: colors.muted, fontFamily: typography.body, fontSize: 11, marginTop: 1 },
   status: { flexDirection: "row", alignItems: "center", gap: 4 },
   statusText: { color: colors.cyan, fontFamily: typography.bodyMedium, fontSize: 11 },
+  lockPill: { flexDirection: "row", alignItems: "center", gap: 4, paddingHorizontal: 8, paddingVertical: 3, borderRadius: radius.pill, borderWidth: 1 },
+  lockText: { fontFamily: typography.bodyBold, fontSize: 10 },
+  stripLocked: { opacity: 0.75 },
   radio: { width: 16, height: 16, borderRadius: 8, borderWidth: 1.5, borderColor: colors.muted },
   strip: {
     flexDirection: "row", justifyContent: "space-between", paddingVertical: spacing.sm, paddingHorizontal: spacing.sm,

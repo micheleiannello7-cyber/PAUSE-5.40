@@ -95,7 +95,9 @@ export default function CollectionScreen() {
                 </View>
                 <Text style={styles.ringTotal} numberOfLines={1}>/{data.total}</Text>
               </View>
-              <Text style={styles.ringLabel} numberOfLines={1}>{t.collection_progress}</Text>
+              <View style={styles.ringLabelPill} testID="collection-progress-label">
+                <Text style={styles.ringLabel} numberOfLines={1}>{t.collection_progress}</Text>
+              </View>
               <Text style={styles.summaryQuote} testID="collection-summary-quote">{t.collection_summary_quote}</Text>
               {data.unlocked === 0 ? <Text style={styles.empty} testID="collection-empty">{t.collection_empty}</Text> : null}
             </View>
@@ -211,9 +213,13 @@ const useStyles = makeStyles((colors) => ({
   ringInner: { position: "absolute", left: 0, right: 0, top: 0, bottom: 0, alignItems: "center", justifyContent: "center" },
   ringCount: { color: "#FFFFFF", fontFamily: typography.displayHero, fontSize: 30, lineHeight: 32, textShadowColor: "rgba(0,0,0,0.6)", textShadowRadius: 6 },
   ringTotal: { color: "rgba(234,242,255,0.78)", fontFamily: typography.bodyBold, fontSize: 18, textShadowColor: "rgba(0,0,0,0.5)", textShadowRadius: 4 },
+  ringLabelPill: {
+    alignSelf: "flex-start", marginTop: spacing.xs, paddingHorizontal: 10, paddingVertical: 4,
+    borderRadius: radius.pill, borderWidth: 1, borderColor: withAlpha(colors.brand, 0.7), backgroundColor: withAlpha(colors.brand, 0.22),
+  },
   ringLabel: {
-    color: "rgba(234,242,255,0.9)", fontFamily: typography.bodyMedium, fontStyle: "italic", fontSize: 14,
-    textShadowColor: "rgba(0,0,0,0.6)", textShadowRadius: 5, marginTop: 2,
+    color: "#FFFFFF", fontFamily: typography.displayBold, fontSize: 13, letterSpacing: 1.2, textTransform: "uppercase",
+    textShadowColor: "rgba(0,0,0,0.6)", textShadowRadius: 5,
   },
   summaryQuote: {
     color: "#EAF2FF", fontFamily: typography.bodyMedium, fontStyle: "italic", fontSize: 13, lineHeight: 19,
