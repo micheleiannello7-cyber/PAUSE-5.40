@@ -1,6 +1,6 @@
 import { useRef, useCallback, useEffect, useMemo, useState } from "react";
 import {
-  View, Text, StyleSheet, ActivityIndicator, Share, useWindowDimensions, LayoutChangeEvent, Platform, BackHandler,
+  View, Text, StyleSheet, ActivityIndicator, useWindowDimensions, LayoutChangeEvent, Platform, BackHandler,
 } from "react-native";
 import Ionicons from "@react-native-vector-icons/ionicons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -9,8 +9,6 @@ import Animated, {
 } from "react-native-reanimated";
 import { useLocalSearchParams, useNavigation, useRouter } from "expo-router";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import { captureRef } from "react-native-view-shot";
-import * as Sharing from "expo-sharing";
 import * as Haptics from "@/src/haptics";
 import { play as playSound } from "@/src/sounds";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
@@ -33,7 +31,7 @@ import { ChapterSection, ChapterTrack } from "@/src/components/reader-section";
 import { ReaderEnding } from "@/src/components/reader-ending";
 import { SaveConfirmToast } from "@/src/components/save-confirm-toast";
 import { Screen } from "@/src/components/screen";
-import { StoryShareCard, SHARE_CARD_WIDTH } from "@/src/components/story-share-card";
+import { StoryShareSheet } from "@/src/components/story-share-sheet";
 import { useMorphHost } from "@/src/components/morph-host";
 import { StoryMorph, MorphRect } from "@/src/components/story-morph";
 import { useI18n } from "@/src/i18n";
@@ -102,7 +100,7 @@ export default function DeepDive() {
   }, [chaptersReady, morph, introMeasured]);
   const completedRef = useRef<string | null>(null);
   const endSoundRef = useRef(false);
-  const shareRef = useRef<View>(null);
+  const [shareOpen, setShareOpen] = useState(false);
   const startedAtRef = useRef<number>(Date.now());
   const [section, setSection] = useState(0);
   const [audioOpen, setAudioOpen] = useState(listen === "1");
@@ -502,18 +500,7 @@ export default function DeepDive() {
     } catch {}
   };
 
-  // Share a ready-made image card (cover + title + hook + brand). Falls back
-  // to a plain text share where image sharing isn't available (e.g. web).
-  const onShare = async () => {
-    try {
-      if (shareRef.current && (await Sharing.isAvailableAsync())) {
-        const uri = await captureRef(shareRef, { format: "png", quality: 1, result: "tmpfile" });
-        await Sharing.shareAsync(uri, { dialogTitle: t.share, mimeType: "image/png", UTI: "public.png" });
-        return;
-      }
-    } catch {}
-    Share.share({ message: `${story.title} — ${t.share_suffix}` }).catch(() => {});
-  };
+  const onShare = () => setShareOpen(true);
 
   // Ritorno alla Home: lo stesso suono dell'ingresso, al contrario. Arrivati
   // con la transizione (ingresso senza animazione nativa) il ritorno normale è
@@ -639,14 +626,7 @@ export default function DeepDive() {
       <ReaderFrame />
       {/* Conferma ampia del salvataggio: banner fisso, centrato in basso. */}
       <SaveConfirmToast trigger={savedTrigger} bottomInset={insets.bottom} />
-      {/* Off-screen share card, captured as PNG on demand. */}
-      {chaptersReady ? (
-        <View style={styles.shareHidden}>
-          <View ref={shareRef} collapsable={false}>
-            <StoryShareCard story={story} />
-          </View>
-        </View>
-      ) : null}
+      <StoryShareSheet story={story} visible={shareOpen} onClose={() => setShareOpen(false)} />
     </Screen>
   );
 }
@@ -660,7 +640,6 @@ const useStyles = makeStyles((colors: ThemeColors) => ({
     backgroundColor: colors.overlay, borderWidth: 1, borderColor: withAlpha(colors.success, 0.5),
   },
   rereadText: { color: colors.onSurface, fontFamily: typography.bodyBold, fontSize: 11.5 },
-  shareHidden: { position: "absolute", left: -4000, top: 0, width: SHARE_CARD_WIDTH, pointerEvents: "none" },
   listen: { alignSelf: "flex-start", minWidth: 180 },
   ending: { paddingTop: spacing.sm, flexDirection: "column" },
 }));

@@ -38,3 +38,7 @@ Imported from https://github.com/micheleiannello7-cyber/PAUSE-5.38 and overlaid 
 - Imported from https://github.com/micheleiannello7-cyber/PAUSE-5.39 as-is; only added EMERGENT_LLM_KEY to backend .env.
 - Tested end-to-end: backend 13/13, guest onboarding → topics → discover → reader → bookmarks → profile all working.
 - Mocked/disabled: TTS (TTS_ENABLED unset), Stripe (no STRIPE_API_KEY), Google login untested.
+
+## Oct 2026 updates
+- Topic picker: icons reduced 15%, removed light-bar/reflection under tiles (selection via glowing border).
+- Shareable story cards: share bottom sheet in reader (Storia 9:16 / Post 4:5), 1080px PNG export via expo-sharing on device; text fallback on web.

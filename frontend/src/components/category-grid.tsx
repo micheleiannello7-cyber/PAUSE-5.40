@@ -6,7 +6,7 @@ import { Category } from "@/src/api";
 import { makeStyles, spacing, radius, typography, withAlpha, categoryTilePalette as palette } from "@/src/theme";
 import { useI18n } from "@/src/i18n";
 import { CategoryArtwork, CategoryArtMark } from "./category-artwork";
-import { CategorySelectionLight, CategoryTileEdge } from "./category-tile-effects";
+import { CategoryTileEdge } from "./category-tile-effects";
 
 export const ALL_ID = "all";
 // Modalità "adatta all'altezza": tessera larga più bassa e altezza minima delle tessere.
@@ -57,11 +57,11 @@ export function CategoryGrid({
   const fixedExtra = spacing.md + spacing.xs + spacing.sm * (rows - 1);
   // Prima si abbassa la tessera larga (fino a FIT_ALL_H), poi le tessere.
   const allH = fit && tileW ? Math.max(FIT_ALL_H, Math.min(90, maxHeight - rows * naturalTileH - fixedExtra)) : undefined;
-  const allArt = (allH ?? 90) - 8;
+  const allArt = Math.round(((allH ?? 90) - 8) * 0.85);
   const tileH = fit && tileW && allH
     ? Math.max(FIT_TILE_MIN, Math.min(naturalTileH, Math.floor((maxHeight - allH - fixedExtra) / rows)))
     : undefined;
-  const artSize = tileH && tileW ? Math.min(Math.floor(tileW * 0.82), tileH - (dense ? 32 : 38)) : undefined;
+  const artSize = tileH && tileW ? Math.floor(Math.min(Math.floor(tileW * 0.82), tileH - (dense ? 32 : 38)) * 0.85) : undefined;
   const fitArt = artSize && tileW ? { width: artSize, height: artSize, left: Math.floor((tileW - artSize) / 2), aspectRatio: undefined } : null;
 
   // Count label reflects which content modes are active (curiosities / lessons
@@ -93,14 +93,13 @@ export function CategoryGrid({
       >
         <LinearGradient colors={[palette.top, palette.surface]} style={[styles.glassBg, styles.allBg]} pointerEvents="none" />
         {/* Oggetto 3D intero, tutto dentro la tessera (nessuna sporgenza). */}
-        <View pointerEvents="none" style={[styles.allArt, { top: 4, width: allArt, height: allArt }]}>
+        <View pointerEvents="none" style={[styles.allArt, { top: Math.round(((allH ?? 90) - allArt) / 2), width: allArt, height: allArt }]}>
           <CategoryArtMark categoryId="all" color={palette.accents.all} size={allArt} plain testID="category-art-all" />
         </View>
         <View style={styles.allText}>
           <Text testID="category-all-name" style={styles.allName} numberOfLines={2}>{t.any_topic}</Text>
           <Text testID="category-all-subtitle" style={styles.allSub} numberOfLines={2}>{t.any_topic_sub}</Text>
         </View>
-        <View style={styles.allLight}><CategorySelectionLight id="all" color={palette.accents.all} active={allActive} /></View>
         <CategoryTileEdge color={palette.accents.all} rounded={radius.lg} active={allActive} />
       </Pressable>
       </Animated.View>
@@ -131,7 +130,6 @@ export function CategoryGrid({
               <View style={[styles.artBox, fitArt]} pointerEvents="none"><CategoryArtwork category={c} reference fade={false} testID={`category-art-${c.id}`} /></View>
               <View style={styles.labels}>
                 <Text testID={`category-name-${c.id}`} style={[styles.tileName, tileW >= 140 && styles.largeName, dense && styles.denseName]} numberOfLines={2}>{c.name}</Text>
-                <CategorySelectionLight id={c.id} color={color} active={active} />
               </View>
               <CategoryTileEdge color={color} active={active} />
             </Pressable>
@@ -171,12 +169,11 @@ const useStyles = makeStyles((colors) => ({
   denseTile: { aspectRatio: 0.76, minHeight: 0, borderRadius: 14 },
   // Riquadro dell'oggetto 3D: in alto, quasi a tutta larghezza della tessera
   // (icone più grandi, tutte uguali, che riempiono bene il contenitore in vetro).
-  artBox: { position: "absolute", top: 1, left: "2%", width: "96%", aspectRatio: 1 },
-  labels: { paddingHorizontal: 4, paddingBottom: 3, alignItems: "center" },
+  artBox: { position: "absolute", top: 6, left: "10%", width: "80%", aspectRatio: 1 },
+  labels: { paddingHorizontal: 4, paddingBottom: 8, alignItems: "center" },
   tileName: { color: palette.text, fontFamily: typography.bodyMedium, fontSize: 12.5, lineHeight: 16, minHeight: 32, textAlign: "center", verticalAlign: "middle" },
   largeName: { fontSize: 15, lineHeight: 18, minHeight: 36 },
   denseName: { fontSize: 10, lineHeight: 12.5, minHeight: 25 },
   pressed: { opacity: 0.86, transform: [{ scale: 0.98 }] },
-  allLight: { position: "absolute", bottom: 3, left: 0, right: 0 },
   glassBg: { position: "absolute", top: 0, left: 0, right: 0, bottom: 0 },
 }));
