@@ -1,0 +1,18 @@
+{
+  "version": "holo-v1",
+  "artworks": {
+    "scienza": "pause/category/holo-v1/scienza-77bed3c030ac.webp",
+    "spazio": "pause/category/holo-v1/spazio-a605e922411b.webp",
+    "tecnologia": "pause/category/holo-v1/tecnologia-a51418e728e1.webp",
+    "natura": "pause/category/holo-v1/natura-d0e2e2441d12.webp",
+    "animali": "pause/category/holo-v1/animali-446e7f990fa6.webp",
+    "storia": "pause/category/holo-v1/storia-1487cc19c7c4.webp",
+    "psicologia": "pause/category/holo-v1/psicologia-b910989b9a15.webp",
+    "corpo-umano": "pause/category/holo-v1/corpo-umano-262f9edca3e9.webp",
+    "cultura": "pause/category/holo-v1/cultura-94767f390864.webp",
+    "economia": "pause/category/holo-v1/economia-81d8ebda1c41.webp",
+    "arte": "pause/category/holo-v1/arte-a14c87714085.webp",
+    "geografia": "pause/category/holo-v1/geografia-9208eb31281f.webp",
+    "all": "pause/category/holo-v1/all-9fca67b4c21b.webp"
+  }
+}

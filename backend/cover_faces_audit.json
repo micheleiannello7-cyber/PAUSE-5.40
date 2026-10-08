@@ -1,0 +1,3453 @@
+{
+ "ani-octopus-intelligence": {
+  "description": "Un polpo mimetizzato sul fondale marino tra i coralli.",
+  "digest": "051565e4f2c4",
+  "faces": "none",
+  "people": "none",
+  "title": "Il polpo: un alieno intelligente sotto il mare"
+ },
+ "ani-tardigrade": {
+  "description": "Un tardigrado che galleggia in un ambiente scuro con detriti microscopici.",
+  "digest": "0953bc431c05",
+  "faces": "none",
+  "people": "none",
+  "title": "Il tardigrado: l'animale che non si può uccidere"
+ },
+ "arte-color-psychology": {
+  "description": "Una pittrice che tiene una tavolozza e un pennello davanti a un cavalletto.",
+  "digest": "51fbb60d3bc2",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché i colori ci fanno provare emozioni?"
+ },
+ "arte-design-everyday": {
+  "description": "Una donna preoccupata tiene un telecomando vicino a una porta di legno in un corridoio.",
+  "digest": "f2da503e372e",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché alcuni oggetti sono facili da usare e altri no?"
+ },
+ "arte-golden-ratio": {
+  "description": "Un primo piano dettagliato del centro di un girasole.",
+  "digest": "eb14c00c0fae",
+  "faces": "none",
+  "people": "none",
+  "title": "La sezione aurea: il numero della bellezza?"
+ },
+ "arte-mona-lisa": {
+  "description": "Una folla di persone scatta foto alla Monna Lisa in un museo.",
+  "digest": "ed94461420a6",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Perché la Gioconda è il quadro più famoso al mondo?"
+ },
+ "arte-music-emotion": {
+  "description": "Una giovane donna con le cuffie piange ad occhi chiusi.",
+  "digest": "7794c3ab01c0",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché la musica ci commuove così tanto?"
+ },
+ "arte-perspective": {
+  "description": "Una donna che dipinge una scena architettonica su una tela in uno studio.",
+  "digest": "d9dd7d34a353",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "La prospettiva: come si dipinge la profondità sul piatto?"
+ },
+ "arte-street-art": {
+  "description": "Un artista di strada dipinge un graffito su un muro in un vicolo buio.",
+  "digest": "fa6fc812acc5",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Come i graffiti sono diventati arte da milioni?"
+ },
+ "arte-why-modern-art": {
+  "description": "Un uomo osserva l'opera 'Fontana' di Marcel Duchamp in un museo.",
+  "digest": "fe3ec692105f",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché l'arte moderna a volte sembra 'roba che potrei fare anch'io'?"
+ },
+ "arte-why-photos-good": {
+  "description": "Una mano che regge una macchina fotografica d'epoca.",
+  "digest": "dc80a481ee72",
+  "faces": "none",
+  "people": "minor",
+  "title": "Cosa rende bella una fotografia?"
+ },
+ "arte-why-statues-white": {
+  "description": "Una statua antica di un giovane uomo con vesti colorate.",
+  "digest": "20deb5a81e44",
+  "faces": "none",
+  "people": "none",
+  "title": "Le statue greche erano davvero bianche?"
+ },
+ "aurora-borealis": {
+  "description": "Splendida aurora boreale sopra un paesaggio notturno innevato.",
+  "digest": "a486e2f2d64b",
+  "faces": "none",
+  "people": "none",
+  "title": "Come si accende un'aurora boreale?"
+ },
+ "bees-communicate": {
+  "description": "Due api si fronteggiano su un pezzo di legno scuro.",
+  "digest": "fbd63aa5ea29",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fanno le api a parlarsi?"
+ },
+ "big-bang-basics": {
+  "description": "Una vasta galassia a spirale circondata da innumerevoli stelle nello spazio profondo.",
+  "digest": "24ecb0a6da07",
+  "faces": "none",
+  "people": "none",
+  "title": "Cos'è il Big Bang, in parole semplici?"
+ },
+ "bird-migration": {
+  "description": "Un uccello vola sopra il mare al tramonto con montagne sullo sfondo.",
+  "digest": "dd7446a2f179",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fanno gli uccelli migratori a non perdersi?"
+ },
+ "black-holes-basics": {
+  "description": "Un buco nero circondato da un disco di accrescimento nello spazio profondo.",
+  "digest": "fe4c6d5d3d08",
+  "faces": "none",
+  "people": "none",
+  "title": "Cos'è davvero un buco nero?"
+ },
+ "blood-basics": {
+  "description": "Un'infermiera esegue un prelievo di sangue a un paziente.",
+  "digest": "8e1d2b900065",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Cosa c'è davvero nel tuo sangue?"
+ },
+ "brain-doesnt-see": {
+  "description": "Modello anatomico di una sezione di cervello e di un neurone.",
+  "digest": "ea9e11b5b1ed",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il tuo cervello non vede davvero il mondo"
+ },
+ "chemistry-basics": {
+  "description": "Una lavagna verde coperta di formule matematiche e fisiche scritte col gesso bianco.",
+  "digest": "881c8a2426af",
+  "faces": "none",
+  "people": "none",
+  "title": "Cos'è davvero un atomo?"
+ },
+ "chess-history": {
+  "description": "Pezzi di scacchi su una scacchiera in bianco e nero.",
+  "digest": "99005a70d384",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché gli scacchi affascinano da 1500 anni?"
+ },
+ "colors-cant-see": {
+  "description": "Un primo piano macro della testa di una libellula, un'ape e un serpente.",
+  "digest": "bf7997acd82e",
+  "faces": "none",
+  "people": "none",
+  "title": "Ci sono colori che non puoi vedere?"
+ },
+ "cor-gut-brain": {
+  "description": "Una tavola di legno imbandita con piatti per la colazione e il brunch.",
+  "digest": "9897626eed18",
+  "faces": "none",
+  "people": "minor",
+  "title": "Il 'secondo cervello' nascosto nella pancia"
+ },
+ "cor-why-dreams": {
+  "description": "Una donna che dorme serenamente in un letto con lenzuola scure.",
+  "digest": "a34389be2ab5",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché sogniamo?"
+ },
+ "cor-why-fingerprints": {
+  "description": "Un primo piano di un dito che tocca una superficie scura e ruvida.",
+  "digest": "e1c845837bf5",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché abbiamo le impronte digitali (e sono tutte diverse)?"
+ },
+ "cor-why-hiccup": {
+  "description": "Una donna che esprime dolore fisico con le mani sul petto e sull'addome.",
+  "digest": "9f047c2ff56b",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché ci viene il singhiozzo (e a cosa serve)?"
+ },
+ "cul-handshake": {
+  "description": "Due uomini si stringono la mano in un ambiente buio.",
+  "digest": "298224a8e737",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché ci stringiamo la mano?"
+ },
+ "cul-language-shapes": {
+  "description": "Una pila di libri su un tavolo.",
+  "digest": "84a824f5a410",
+  "faces": "none",
+  "people": "none",
+  "title": "La lingua che parliamo cambia il modo in cui pensiamo?"
+ },
+ "cul-superstitions": {
+  "description": "Mani che toccano un ferro di cavallo vicino a una scala e una carta da gioco.",
+  "digest": "dee0ac014133",
+  "faces": "none",
+  "people": "minor",
+  "title": "Da dove nascono le superstizioni?"
+ },
+ "cul-why-clink-glasses": {
+  "description": "Persone che brindano con calici di vino rosso all'aperto.",
+  "digest": "753c47b0a80c",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Perché brindiamo dicendo 'cin cin'?"
+ },
+ "cul-why-music-universal": {
+  "description": "Una donna che suona un flauto di legno.",
+  "digest": "d8da8f1ebaa0",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché in ogni cultura del mondo esiste la musica?"
+ },
+ "cur-why-mirrors-reverse": {
+  "description": "Una donna dai capelli scuri che osserva il proprio riflesso in uno specchio.",
+  "digest": "ca62fa2faf96",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché lo specchio inverte destra e sinistra ma non sopra e sotto?"
+ },
+ "cur-why-onions-cry": {
+  "description": "Un occhio umano che piange all'interno di una cipolla rossa tagliata a metà.",
+  "digest": "56a7ca94c45b",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Perché tagliare la cipolla ci fa piangere?"
+ },
+ "cur-why-time-flies": {
+  "description": "Un uomo maturo e pensieroso seduto a un tavolo con una clessidra.",
+  "digest": "6f1f615a47d3",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché il tempo sembra volare da adulti?"
+ },
+ "eco-brands-value": {
+  "description": "Due magliette grigie appese a grucce davanti a un muro scuro.",
+  "digest": "34908466ac67",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché un logo può valere miliardi?"
+ },
+ "eco-compound-interest": {
+  "description": "Un uomo che conta pile di monete sopra un libro antico in uno studio.",
+  "digest": "da7f3eb61289",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "L'interesse composto: l'ottava meraviglia?"
+ },
+ "eco-gdp": {
+  "description": "Una mano che tiene una mazzetta di banconote in euro.",
+  "digest": "59279fe0e78a",
+  "faces": "none",
+  "people": "minor",
+  "title": "PIL: il numero che misura la ricchezza di un Paese"
+ },
+ "eco-inflation": {
+  "description": "Un uomo anziano conta banconote e monete su un tavolo di legno.",
+  "digest": "bcf3daa26453",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Cos'è l'inflazione e perché i prezzi salgono?"
+ },
+ "eco-scarcity-choices": {
+  "description": "Un uomo con la barba tiene delle monete tra le mani in un ambiente scuro.",
+  "digest": "b160c7b5cabf",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché non possiamo avere tutto: la scienza delle scelte"
+ },
+ "eco-stock-market": {
+  "description": "Una persona in giacca tiene un certificato azionario Fiat all'interno della Borsa Italiana.",
+  "digest": "d9de5b01f798",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Cos'è la borsa e perché le azioni salgono e scendono?"
+ },
+ "eco-supply-demand": {
+  "description": "Un uomo anziano che tiene una bottiglia d'acqua e una pietra preziosa.",
+  "digest": "40fdf8bb63e8",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Domanda e offerta: la legge invisibile dei prezzi"
+ },
+ "eco-why-taxes": {
+  "description": "Mani sporche che sorreggono un mucchio di monete e piccoli edifici in miniatura.",
+  "digest": "ff92f7eb54b5",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Perché paghiamo le tasse (e dove finiscono)?"
+ },
+ "eco-why-things-cost": {
+  "description": "Una donna guarda il cellulare seduta al tavolo di un caffè in aeroporto.",
+  "digest": "7f27f5b46aea",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché lo stesso prodotto costa prezzi diversi?"
+ },
+ "egyptian-pyramids": {
+  "description": "Una maestosa piramide egizia nel deserto sotto un cielo parzialmente nuvoloso.",
+  "digest": "1ef47f18cc4c",
+  "faces": "none",
+  "people": "minor",
+  "title": "Come furono costruite le piramidi?"
+ },
+ "elephants-memory": {
+  "description": "Primo piano di un elefante con sfondo scuro.",
+  "digest": "0118dfbe2e9c",
+  "faces": "none",
+  "people": "none",
+  "title": "Gli elefanti dimenticano davvero mai?"
+ },
+ "empathy-basics": {
+  "description": "Primo piano in bianco e nero di un bambino che piange.",
+  "digest": "ca5b4453afe2",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Cos'è l'empatia (e perché non ce l'hanno tutti)?"
+ },
+ "exoplanets-basics": {
+  "description": "Un astronauta sulla superficie lunare con la Terra sullo sfondo.",
+  "digest": "685c7417ece4",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Ci sono altri pianeti come la Terra?"
+ },
+ "fear-basics": {
+  "description": "Un giovane uomo con felpa e cappuccio si copre il viso con le mani.",
+  "digest": "50eef9911b27",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Cos'è davvero la paura?"
+ },
+ "french-revolution": {
+  "description": "Una donna povera in abiti d'epoca è inginocchiata in una strada buia con un pezzo di pane tra le mani.",
+  "digest": "4d8f932769ce",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché scoppiò la Rivoluzione Francese?"
+ },
+ "geo-borders": {
+  "description": "Un uomo seduto a un tavolo che studia una vecchia mappa con un compasso.",
+  "digest": "aa56b44ce5b3",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché i confini degli Stati hanno forme così strane?"
+ },
+ "geo-highest-mountain": {
+  "description": "Un alpinista osserva le montagne innevate al tramonto.",
+  "digest": "d40d5ae07f36",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "L'Everest è davvero la montagna più alta?"
+ },
+ "geo-map-lies": {
+  "description": "Una donna indica un punto su un mappamondo posto su un tavolo di legno.",
+  "digest": "669faccea52a",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché tutte le mappe del mondo 'mentono'?"
+ },
+ "geo-plate-tectonics": {
+  "description": "Un uomo esamina un minerale con una lente d'ingrandimento in uno studio con mappe.",
+  "digest": "38e7990a0f12",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "I continenti si muovono davvero?"
+ },
+ "geo-population": {
+  "description": "Una veduta della Terra dallo spazio di notte con le luci delle città illuminate.",
+  "digest": "cabcd68c246b",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché la gente vive ammassata in certi posti e non in altri?"
+ },
+ "geo-rivers-civilization": {
+  "description": "Veduta aerea di Londra al crepuscolo con il Big Ben e il Tamigi.",
+  "digest": "d78e30ceb73e",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché le grandi città nascono quasi sempre vicino all'acqua?"
+ },
+ "geo-why-deserts": {
+  "description": "Dune di sabbia dorata in un paesaggio desertico sotto un cielo azzurro.",
+  "digest": "6da826a80572",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i deserti si formano dove si formano?"
+ },
+ "geo-why-oceans-salty": {
+  "description": "Una mano raccoglie l'acqua sopra un mare scuro di notte.",
+  "digest": "9a9c34fae4d8",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché il mare è salato e i fiumi no?"
+ },
+ "geo-why-timezones": {
+  "description": "Tre orologi su un muro di mattoni indicano fusi orari diversi sopra una mano con bussola e mappa.",
+  "digest": "398bac817f2e",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché esistono i fusi orari?"
+ },
+ "geo-why-travel": {
+  "description": "Una spiaggia tranquilla al tramonto con onde che bagnano la sabbia.",
+  "digest": "04c7c52a72da",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché viaggiare ci cambia davvero?"
+ },
+ "gravity-newton-einstein": {
+  "description": "Una vista notturna della Terra dallo spazio con le luci delle città.",
+  "digest": "0e143b8924e5",
+  "faces": "none",
+  "people": "none",
+  "title": "Cos'è davvero la gravità?"
+ },
+ "how-3d-printing": {
+  "description": "Una stampante 3D in funzione mentre realizza una mano artificiale nera.",
+  "digest": "055fb83bedde",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fa una stampante 3D a creare oggetti dal nulla?"
+ },
+ "how-ai-learns": {
+  "description": "Un rack di server con una rappresentazione luminosa di una rete neurale.",
+  "digest": "2597b8659ec4",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fa un'AI a imparare?"
+ },
+ "how-batteries-work": {
+  "description": "Una batteria agli ioni di litio sezionata che mostra i suoi componenti interni.",
+  "digest": "c2a937531bff",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fa una batteria a conservare energia?"
+ },
+ "how-dna-works": {
+  "description": "Una rappresentazione tridimensionale di una doppia elica di DNA con sequenze di basi azotate luminose.",
+  "digest": "b4746dd58dc8",
+  "faces": "none",
+  "people": "none",
+  "title": "Cos'è il DNA e come ti fa essere te?"
+ },
+ "how-encryption-works": {
+  "description": "Un lucchetto a combinazione sopra una tastiera bianca accanto a carte di credito dorate.",
+  "digest": "fa9c2bb9172a",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fa WhatsApp a essere davvero privato?"
+ },
+ "how-glaciers-move": {
+  "description": "Un imponente ghiacciaio che si sgretola in un bacino d'acqua sotto un cielo cupo.",
+  "digest": "d324943eeaa8",
+  "faces": "none",
+  "people": "none",
+  "title": "I ghiacciai si muovono davvero?"
+ },
+ "how-gps-works": {
+  "description": "Una mappa del mondo con molti spilli colorati inseriti.",
+  "digest": "69378af009bf",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fa il GPS a sapere dove sei?"
+ },
+ "how-internet-works": {
+  "description": "Un pannello di rete con vari cavi Ethernet collegati a porte numerate.",
+  "digest": "f755bad2a027",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona davvero internet?"
+ },
+ "how-iss-works": {
+  "description": "La Stazione Spaziale Internazionale in orbita sopra la Terra.",
+  "digest": "848bad4f2d9c",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona la Stazione Spaziale Internazionale?"
+ },
+ "how-many-galaxies": {
+  "description": "Una donna osserva la Via Lattea in un cielo notturno stellato.",
+  "digest": "9586203be693",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Quante galassie ci sono nell'universo?"
+ },
+ "how-oled-works": {
+  "description": "Uno schermo televisivo che mostra una galassia a spirale in una stanza buia.",
+  "digest": "4f06e5f6426d",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona uno schermo OLED?"
+ },
+ "how-skin-works": {
+  "description": "Primo piano di una mano sudata con vene visibili.",
+  "digest": "9bccf67f622e",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché la pelle è l'organo più straordinario?"
+ },
+ "how-stars-die": {
+  "description": "Un'esplosione cosmica vibrante con nubi di gas e stelle nello spazio profondo.",
+  "digest": "ced034df8128",
+  "faces": "none",
+  "people": "none",
+  "title": "Come muore una stella?"
+ },
+ "how-taste-works": {
+  "description": "Un tavolo di legno con vari piatti per la colazione e mani di persone attorno.",
+  "digest": "9897626eed18",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché i sapori non sono solo 5 (o forse sì)?"
+ },
+ "how-trees-live": {
+  "description": "Un grande albero frondoso svetta in un campo d'erba sotto un cielo azzurro.",
+  "digest": "82c683908fb6",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fa un albero a vivere così a lungo?"
+ },
+ "how-wifi-works": {
+  "description": "Un router futuristico circondato da onde di luce colorata.",
+  "digest": "4292f1066ef9",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fa il Wi-Fi ad attraversare i muri?"
+ },
+ "immune-system": {
+  "description": "Rappresentazione microscopica di cellule e virus.",
+  "digest": "b53d92eab92d",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona il sistema immunitario?"
+ },
+ "lez-algoritmo": {
+  "description": "Blocchi di legno a forma di scala con una piccola sfera metallica.",
+  "digest": "8c7286e6572f",
+  "faces": "none",
+  "people": "none",
+  "title": "Cos'è un algoritmo: imparare a pensare per passi"
+ },
+ "lez-bias-conferma": {
+  "description": "Una lastra di vetro colorato separa piccoli dischi rossi e blu su un tavolo scuro.",
+  "digest": "71f7a2a4782b",
+  "faces": "none",
+  "people": "none",
+  "title": "Il bias di conferma: come riconoscerlo in te stesso"
+ },
+ "lez-calendario": {
+  "description": "La Terra che orbita attorno al Sole nello spazio profondo.",
+  "digest": "cee09077382b",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché l'anno dura 365 giorni (e a volte 366)"
+ },
+ "lez-ciclo-acqua": {
+  "description": "Un drammatico paesaggio montano con un temporale che cade su un lago tra le vette.",
+  "digest": "5d1445cd5d58",
+  "faces": "none",
+  "people": "none",
+  "title": "Il ciclo dell'acqua: dove va la pioggia di oggi"
+ },
+ "lez-classificare-animali": {
+  "description": "Quattro sculture bronzee di animali su piedistalli in un ambiente museale.",
+  "digest": "4f1936cc461e",
+  "faces": "none",
+  "people": "none",
+  "title": "Come si classificano gli animali: la mappa in 4 livelli"
+ },
+ "lez-eco": {
+  "description": "Una persona su una cima rocciosa che guarda le montagne al tramonto.",
+  "digest": "cfb3796386fa",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Perché senti l'eco (e a volte no)"
+ },
+ "lez-ecolocalizzazione": {
+  "description": "Un pipistrello in volo in una grotta che caccia un piccolo insetto.",
+  "digest": "e228865c1de3",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona l'ecolocalizzazione: vedere con le orecchie"
+ },
+ "lez-energia-conservazione": {
+  "description": "Un pendolo dorato in movimento che crea scie di luce su uno sfondo scuro.",
+  "digest": "470bedb83110",
+  "faces": "none",
+  "people": "none",
+  "title": "Cos'è davvero l'energia (e perché non si crea mai)"
+ },
+ "lez-etimologia": {
+  "description": "Una pila di vecchi libri e una tavoletta di argilla su un tavolo di legno.",
+  "digest": "4fb9d2484dd0",
+  "faces": "none",
+  "people": "none",
+  "title": "Da dove vengono le parole: capire l'etimologia"
+ },
+ "lez-febbre": {
+  "description": "Un termometro, un bicchiere d'acqua e un panno su un comodino.",
+  "digest": "552547c1b492",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché viene la febbre (ed è dalla tua parte)"
+ },
+ "lez-fusi-orari": {
+  "description": "Il pianeta Terra visto dallo spazio con una griglia di coordinate.",
+  "digest": "318eb3a841da",
+  "faces": "none",
+  "people": "none",
+  "title": "I fusi orari: perché non è la stessa ora ovunque"
+ },
+ "lez-ghiaccio-galleggia": {
+  "description": "Un bicchiere d'acqua con un grande cubetto di ghiaccio su sfondo scuro.",
+  "digest": "b380f4058262",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il ghiaccio galleggia sull'acqua"
+ },
+ "lez-inflazione": {
+  "description": "Una pagnotta di pane in un cestino di metallo con delle monete sparse su una superficie scura.",
+  "digest": "19cb2a681933",
+  "faces": "none",
+  "people": "none",
+  "title": "L'inflazione: perché 100 euro non valgono sempre uguale"
+ },
+ "lez-interesse-composto": {
+  "description": "Una piccola pianta cresce da un barattolo pieno di monete e terra.",
+  "digest": "b06abcdb13c5",
+  "faces": "none",
+  "people": "none",
+  "title": "L'interesse composto: perché il tempo conta più dei soldi"
+ },
+ "lez-leggere-mappa": {
+  "description": "Una mappa topografica e una bussola di ottone su un tavolo di legno rustico.",
+  "digest": "4a08c9a4fe83",
+  "faces": "none",
+  "people": "none",
+  "title": "Leggere una mappa: scala, simboli e orientamento"
+ },
+ "lez-leggere-nuvole": {
+  "description": "Una grande nuvola cumuliforme sovrasta un paesaggio collinare al tramonto.",
+  "digest": "4d99fed38e5f",
+  "faces": "none",
+  "people": "none",
+  "title": "Come leggere le nuvole per prevedere il tempo"
+ },
+ "lez-linea-del-tempo": {
+  "description": "Una serie di oggetti storici esposti in fila su un lungo tavolo in un museo.",
+  "digest": "88a42be575be",
+  "faces": "none",
+  "people": "none",
+  "title": "Come leggere una linea del tempo: secoli, a.C. e d.C."
+ },
+ "lez-memoria-tecniche": {
+  "description": "Una biblioteca antica in legno scuro con una mela rossa in primo piano.",
+  "digest": "6fb5bc9f89cb",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona la memoria e come usarla meglio"
+ },
+ "lez-metodo-scientifico": {
+  "description": "Una piccola pianta cresce in un becher su un tavolo da laboratorio accanto a un taccuino.",
+  "digest": "e05dedaf8047",
+  "faces": "none",
+  "people": "none",
+  "title": "Come ragiona uno scienziato: il metodo in 4 passi"
+ },
+ "lez-orbite-gravita": {
+  "description": "Un'illustrazione della Terra in orbita attorno al Sole nello spazio.",
+  "digest": "a76bf265ab0f",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i pianeti non cadono nel Sole: le orbite spiegate"
+ },
+ "lez-orientarsi-stelle": {
+  "description": "Una persona con uno zaino osserva il cielo stellato sopra le montagne.",
+  "digest": "329cf1c0f96b",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Come orientarsi con le stelle in 4 mosse"
+ },
+ "lez-password-sicura": {
+  "description": "Un lucchetto di metallo appoggiato su una tastiera nera.",
+  "digest": "51dec3db14f4",
+  "faces": "none",
+  "people": "none",
+  "title": "Come si costruisce una password davvero sicura"
+ },
+ "lez-prospettiva": {
+  "description": "Una donna in cappotto scuro cammina in un corridoio gotico con archi a sesto acuto.",
+  "digest": "69cef943473d",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "La prospettiva: come dare profondità a un disegno"
+ },
+ "lez-respirazione": {
+  "description": "Un'illustrazione anatomica tridimensionale di polmoni umani e trachea.",
+  "digest": "0499257a1826",
+  "faces": "none",
+  "people": "none",
+  "title": "Come respiri davvero: il diaframma al lavoro"
+ },
+ "lez-teoria-colore": {
+  "description": "Una tavolozza con macchie di colore vibrante e un pennello.",
+  "digest": "2160949a7828",
+  "faces": "none",
+  "people": "none",
+  "title": "I colori: come nascono tutte le tinte da pochi"
+ },
+ "lez-valutare-fonte": {
+  "description": "Una scrivania con una vecchia mappa, una lente d'ingrandimento e un computer portatile.",
+  "digest": "465c362f240f",
+  "faces": "none",
+  "people": "none",
+  "title": "Come valutare una fonte storica (e una notizia di oggi)"
+ },
+ "mars-red": {
+  "description": "Una veduta realistica del pianeta Marte nello spazio profondo.",
+  "digest": "1acccdbea777",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché Marte è rosso?"
+ },
+ "memory-basics": {
+  "description": "Una mano che lavora su una bacheca con mappe e fili.",
+  "digest": "5b540e3a8be5",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché dimentichiamo (e come funziona la memoria)?"
+ },
+ "nat-tides": {
+  "description": "Una persona cammina su una spiaggia scura sotto la mezza luna.",
+  "digest": "8973905a3ec2",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Perché il mare sale e scende? Il mistero delle maree"
+ },
+ "nat-why-leaves-fall": {
+  "description": "Un albero con foglie autunnali dai colori vivaci in una foresta scura.",
+  "digest": "159758026238",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché le foglie cambiano colore e cadono in autunno?"
+ },
+ "octopus-brains": {
+  "description": "Un polpo nuota nell'oscurità delle profondità oceaniche.",
+  "digest": "5e0c627e45bb",
+  "faces": "none",
+  "people": "none",
+  "title": "Il polpo ha davvero otto cervelli?"
+ },
+ "origin-alphabet": {
+  "description": "Antiche tavolette di pietra con incisioni.",
+  "digest": "6d897ef1cbc0",
+  "faces": "none",
+  "people": "none",
+  "title": "Chi ha inventato l'alfabeto?"
+ },
+ "penguins-cold": {
+  "description": "Due pinguini reali in piedi su una spiaggia rocciosa.",
+  "digest": "bc891bf4203d",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fanno i pinguini a non congelare?"
+ },
+ "photosynthesis-basics": {
+  "description": "Un sentiero soleggiato attraversa una fitta foresta di alti alberi.",
+  "digest": "44e591f705e5",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fanno le piante a mangiare la luce?"
+ },
+ "printing-press": {
+  "description": "Un uomo lavora a un'antica pressa tipografica in legno in una stanza buia.",
+  "digest": "e4961e1ee6b7",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché la stampa a caratteri mobili ha cambiato tutto?"
+ },
+ "psi-dunning-kruger": {
+  "description": "Un uomo brizzolato in giacca e maglione posa davanti a un muro di cemento.",
+  "digest": "96efa8ec09d7",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché gli incompetenti si sentono spesso i più bravi?"
+ },
+ "psi-placebo": {
+  "description": "Modello anatomico di un cervello e di un neurone su una superficie grigia.",
+  "digest": "ea9e11b5b1ed",
+  "faces": "none",
+  "people": "none",
+  "title": "L'effetto placebo: come una pillola finta può curare davvero"
+ },
+ "psi-why-procrastinate": {
+  "description": "Una giovane donna studia con aria preoccupata in una stanza buia.",
+  "digest": "184edc87b78e",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché rimandiamo le cose importanti?"
+ },
+ "quantum-basics": {
+  "description": "Un'illustrazione astratta di atomi e onde di energia in blu e arancione.",
+  "digest": "7b0ce677339d",
+  "faces": "none",
+  "people": "none",
+  "title": "Cos'è la fisica quantistica in parole semplici?"
+ },
+ "shark-facts": {
+  "description": "Un grande squalo bianco che nuota nelle acque profonde e scure.",
+  "digest": "43b2895c998f",
+  "faces": "none",
+  "people": "none",
+  "title": "Gli squali sono davvero i cattivi del mare?"
+ },
+ "sky-blue-sunset-orange": {
+  "description": "Un tramonto sereno su un lago calmo con un molo e una barca.",
+  "digest": "ed963e19f28d",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il cielo è blu e il tramonto è arancione?"
+ },
+ "sto-great-wall": {
+  "description": "La Grande Muraglia Cinese serpeggia tra colline boscose dai colori autunnali.",
+  "digest": "ae1a9042e419",
+  "faces": "none",
+  "people": "minor",
+  "title": "La Grande Muraglia si vede davvero dallo spazio?"
+ },
+ "sto-rosetta": {
+  "description": "Una grande stele di pietra con iscrizioni antiche esposta in un museo.",
+  "digest": "def6ec2c1c7e",
+  "faces": "none",
+  "people": "none",
+  "title": "Come abbiamo imparato a leggere i geroglifici?"
+ },
+ "sto-spices": {
+  "description": "Varie spezie esotiche e strumenti di navigazione disposti su un vecchio tavolo di legno.",
+  "digest": "1d12a7d3669f",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché le spezie hanno cambiato la storia del mondo?"
+ },
+ "v4-banconote-valore": {
+  "description": "Banconote arrotolate e monete sparse su una superficie scura.",
+  "digest": "838933afbda0",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché una banconota vale qualcosa se è solo carta"
+ },
+ "v4-biblioteca-alessandria": {
+  "description": "Un'antica biblioteca in pietra con scaffali pieni di rotoli di pergamena.",
+  "digest": "46c788534801",
+  "faces": "none",
+  "people": "none",
+  "title": "La Biblioteca di Alessandria non bruciò in una notte"
+ },
+ "v4-caffe-espresso": {
+  "description": "Una tazza di caffè fumante in primo piano all'interno di un bar.",
+  "digest": "73cf3ba38ea2",
+  "faces": "partial",
+  "people": "minor",
+  "title": "Come l'Italia ha inventato l'espresso (e perché non è stata la prima con il caffè)"
+ },
+ "v4-cane-naso": {
+  "description": "Un bassotto esplora un sentiero nel bosco.",
+  "digest": "f9e96ac4f99e",
+  "faces": "none",
+  "people": "none",
+  "title": "Il naso di un cane può sentire il tempo"
+ },
+ "v4-carta-sette-volte": {
+  "description": "Una ragazza con una felpa verde seduta a un banco con una pila di fogli bianchi.",
+  "digest": "1d21245f2e6c",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché non puoi piegare un foglio più di sette volte (e chi ci è riuscito)"
+ },
+ "v4-cavi-sottomarini": {
+  "description": "Un cavo a fibre ottiche sottomarino poggia sul fondale marino.",
+  "digest": "86c6ecac44e7",
+  "faces": "none",
+  "people": "none",
+  "title": "Internet viaggia in fondo al mare, non nello spazio"
+ },
+ "v4-cleopatra-piramidi": {
+  "description": "Un busto di faraone davanti a una finestra con vista sulle piramidi.",
+  "digest": "7d1646946272",
+  "faces": "none",
+  "people": "none",
+  "title": "Cleopatra era più vicina a noi che alle piramidi"
+ },
+ "v4-effetto-spettatore": {
+  "description": "Un ombrello rosso aperto giace abbandonato su un marciapiede affollato di Londra.",
+  "digest": "0bc010912046",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché in mezzo alla folla nessuno interviene"
+ },
+ "v4-effetto-zeigarnik": {
+  "description": "Un puzzle quasi completato con un pezzo mancante e uno separato.",
+  "digest": "21660044a2f8",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché le cose lasciate a metà ti restano in testa"
+ },
+ "v4-fascia-asteroidi": {
+  "description": "Un grande asteroide roccioso fluttua nello spazio profondo con la Via Lattea sullo sfondo.",
+  "digest": "12ab1c00df2c",
+  "faces": "none",
+  "people": "none",
+  "title": "La fascia degli asteroidi non è un campo minato"
+ },
+ "v4-fulmini": {
+  "description": "Un fulmine colpisce la cima di una montagna durante un temporale notturno.",
+  "digest": "55e048d6820b",
+  "faces": "none",
+  "people": "none",
+  "title": "Cosa succede davvero in un fulmine"
+ },
+ "v4-funghi-rete": {
+  "description": "Piccoli funghi su un terreno boschivo con un micelio luminoso visibile sottoterra.",
+  "digest": "16aa323c07ed",
+  "faces": "none",
+  "people": "none",
+  "title": "Sotto i tuoi piedi c'è un internet di funghi"
+ },
+ "v4-ghiaccio-galleggia": {
+  "description": "Un cubetto di ghiaccio che galleggia su una superficie scura con il suo riflesso.",
+  "digest": "58d6d5ee37c3",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il ghiaccio galleggia sull'acqua?"
+ },
+ "v4-giorno-venere": {
+  "description": "Un pianeta con un'atmosfera densa fluttua nell'oscurità dello spazio stellato.",
+  "digest": "043913813ca0",
+  "faces": "none",
+  "people": "none",
+  "title": "Su Venere un giorno dura più di un anno"
+ },
+ "v4-gps": {
+  "description": "Un satellite artificiale orbita sopra la superficie terrestre nello spazio.",
+  "digest": "e7cb7fc7f0c2",
+  "faces": "none",
+  "people": "none",
+  "title": "Il GPS funziona grazie alla relatività di Einstein"
+ },
+ "v4-guerra-piu-breve": {
+  "description": "Una nave a vapore in un porto antico sotto un cielo nuvoloso.",
+  "digest": "004578311b83",
+  "faces": "none",
+  "people": "minor",
+  "title": "La guerra più breve della storia durò 38 minuti"
+ },
+ "v4-lez-abitudini": {
+  "description": "Una fila di tessere del domino blu con una tessera d'ambra in primo piano.",
+  "digest": "9f7d748d88d2",
+  "faces": "none",
+  "people": "none",
+  "title": "Costruire un'abitudine in 4 passi (e perché la forza di volontà non basta)"
+ },
+ "v4-lez-anno-luce": {
+  "description": "Un cielo stellato notturno con una stella brillante e la Via Lattea.",
+  "digest": "1d0fffecaf18",
+  "faces": "none",
+  "people": "none",
+  "title": "Anno luce: come misurare distanze che non si possono percorrere"
+ },
+ "v4-lez-ascolto-attivo": {
+  "description": "Un uomo e una donna conversano seduti al tavolo di un caffè.",
+  "digest": "8158d20cf15c",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Ascolto attivo: farsi capire ascoltando meglio"
+ },
+ "v4-lez-atomo": {
+  "description": "Un modello atomico stilizzato brilla in un laboratorio scientifico.",
+  "digest": "d6cb68060ee9",
+  "faces": "none",
+  "people": "none",
+  "title": "Com'è fatto un atomo, spiegato senza formule"
+ },
+ "v4-lez-batteria": {
+  "description": "Una batteria agli ioni di litio con cavi collegati su una superficie scura.",
+  "digest": "e3a845e4a8fe",
+  "faces": "none",
+  "people": "none",
+  "title": "Far durare la batteria del telefono: cosa funziona davvero"
+ },
+ "v4-lez-budget-50-30-20": {
+  "description": "Tre barattoli di vetro di diverse dimensioni pieni di monete su un tavolo.",
+  "digest": "33bec1d66f55",
+  "faces": "none",
+  "people": "none",
+  "title": "Il budget 50/30/20: gestire lo stipendio in 4 passi"
+ },
+ "v4-lez-catena-alimentare": {
+  "description": "Un falco pellegrino appollaiato su una roccia in un paesaggio montano.",
+  "digest": "cdd26adace6b",
+  "faces": "none",
+  "people": "none",
+  "title": "La catena alimentare: perché i predatori sono sempre pochi"
+ },
+ "v4-lez-cloud": {
+  "description": "Una fila di server in un data center con una nuvola luminosa sullo sfondo.",
+  "digest": "bd37e9d34ccd",
+  "faces": "none",
+  "people": "none",
+  "title": "Cosa significa davvero 'salvato nel cloud'"
+ },
+ "v4-lez-coincidenze": {
+  "description": "Una donna siede malinconica accanto a un vecchio telefono a disco in una stanza buia.",
+  "digest": "14da11e4f719",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché le coincidenze non sono così incredibili"
+ },
+ "v4-lez-densita": {
+  "description": "Due becher di vetro in un laboratorio con un sughero che galleggia e una sfera di metallo sul fondo.",
+  "digest": "f2f5c0adc4c7",
+  "faces": "none",
+  "people": "none",
+  "title": "Densità: perché le cose galleggiano o affondano"
+ },
+ "v4-lez-domanda-offerta": {
+  "description": "Una mano tiene dei biglietti per un concerto e una mascherina.",
+  "digest": "f85bbbdbfba7",
+  "faces": "none",
+  "people": "minor",
+  "title": "Domanda e offerta: perché i prezzi salgono e scendono"
+ },
+ "v4-lez-fasi-luna": {
+  "description": "Quattro diverse fasi lunari visibili in un cielo notturno stellato.",
+  "digest": "85cc62e0cbba",
+  "faces": "none",
+  "people": "none",
+  "title": "Le fasi della Luna: capirle una volta per tutte"
+ },
+ "v4-lez-fonti-primarie": {
+  "description": "Una vecchia lettera scritta a mano, una busta sigillata e una fotografia d'epoca su un panno blu.",
+  "digest": "2d8ec5d77421",
+  "faces": "clear",
+  "people": "minor",
+  "title": "Fonte primaria o secondaria? Come capire di chi ti stai fidando"
+ },
+ "v4-lez-fotosintesi": {
+  "description": "Una mano che tiene una foglia d'acero verde controluce in un bosco.",
+  "digest": "843ae5fc49bb",
+  "faces": "none",
+  "people": "minor",
+  "title": "La fotosintesi in 4 passi: come una foglia fa il cibo dalla luce"
+ },
+ "v4-lez-galateo-mondo": {
+  "description": "Una tavola apparecchiata con riso e posate in un ambiente raffinato.",
+  "digest": "48aa6bcc7e27",
+  "faces": "none",
+  "people": "none",
+  "title": "Buone maniere nel mondo: 4 gesti che cambiano significato"
+ },
+ "v4-lez-gestire-ansia": {
+  "description": "Un uomo seduto su una panca di pietra in una stanza buia con le mani sul petto.",
+  "digest": "695f145a100d",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Gestire un momento di ansia: 4 tecniche che funzionano in 5 minuti"
+ },
+ "v4-lez-imparare-lingua": {
+  "description": "Un vecchio dizionario italiano su un tavolo di legno con occhiali e una mappa.",
+  "digest": "8a220398c5e8",
+  "faces": "none",
+  "people": "none",
+  "title": "Imparare una lingua da adulti: cosa dice la ricerca in 4 punti"
+ },
+ "v4-lez-incontro-fauna": {
+  "description": "Un capriolo in piedi in una foresta scura illuminata da un raggio di luce.",
+  "digest": "e40f8e9b2167",
+  "faces": "none",
+  "people": "none",
+  "title": "Cosa fare se incontri un animale selvatico"
+ },
+ "v4-lez-leggere-battito": {
+  "description": "Due dita premono sul polso per misurare il battito.",
+  "digest": "c540ffd0401c",
+  "faces": "none",
+  "people": "minor",
+  "title": "Leggere il proprio battito: cosa dice il cuore a riposo"
+ },
+ "v4-lez-leggere-busta-paga": {
+  "description": "Una calcolatrice, monete, una penna e un documento su una scrivania blu.",
+  "digest": "7e778aae2e93",
+  "faces": "none",
+  "people": "none",
+  "title": "Leggere la busta paga: dove finiscono i soldi tra lordo e netto"
+ },
+ "v4-lez-leggere-etichetta": {
+  "description": "Mani con guanti neri che tengono una boccetta di vetro in un laboratorio oscuro.",
+  "digest": "c4d64963abd2",
+  "faces": "none",
+  "people": "minor",
+  "title": "Leggere un'etichetta chimica: cosa c'è davvero nel flacone"
+ },
+ "v4-lez-leggere-fiume": {
+  "description": "Una mano che tiene dei sassi sopra un fiume impetuoso in un bosco.",
+  "digest": "cdfb64479149",
+  "faces": "none",
+  "people": "minor",
+  "title": "Leggere un fiume: capire cosa succede sott'acqua guardando la superficie"
+ },
+ "v4-lez-leggere-mappa-storica": {
+  "description": "Una vecchia mappa nautica su un tavolo con bussola e lente d'ingrandimento.",
+  "digest": "a97bc297550c",
+  "faces": "none",
+  "people": "none",
+  "title": "Leggere una mappa storica senza farsi ingannare"
+ },
+ "v4-lez-leggere-poesia": {
+  "description": "Un libro aperto con fiori secchi e una tazza di tè su un tessuto blu scuro.",
+  "digest": "630980653e12",
+  "faces": "none",
+  "people": "none",
+  "title": "Come leggere una poesia senza sentirsi stupidi"
+ },
+ "v4-lez-orientarsi-natura": {
+  "description": "Un sentiero si addentra in un fitto bosco verdeggiante.",
+  "digest": "8b28cd97cf6c",
+  "faces": "none",
+  "people": "none",
+  "title": "Orientarsi senza bussola: 4 indizi che la natura ti dà"
+ },
+ "v4-lez-osservare-uccelli": {
+  "description": "Un pettirosso appollaiato su una recinzione metallica.",
+  "digest": "b9102736928c",
+  "faces": "none",
+  "people": "none",
+  "title": "Riconoscere gli uccelli in città: il metodo in 4 passi"
+ },
+ "v4-lez-perche-cadono-imperi": {
+  "description": "Un frammento di busto marmoreo su un basamento di pietra in un ambiente cupo.",
+  "digest": "210f66efca5f",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché cadono gli imperi: 4 schemi che si ripetono"
+ },
+ "v4-lez-perche-cielo-notte": {
+  "description": "Un telescopio d'epoca puntato verso un cielo notturno pieno di stelle.",
+  "digest": "e97ab7a3830f",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché di notte è buio: il paradosso che rivela l'età dell'universo"
+ },
+ "v4-lez-primo-soccorso": {
+  "description": "Una persona inginocchiata tiene in braccio un neonato in una stanza buia.",
+  "digest": "35b0079cd116",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Le 4 mosse di primo soccorso che tutti dovrebbero sapere"
+ },
+ "v4-lez-riconoscere-phishing": {
+  "description": "Un amo da pesca che infilza una busta bianca accanto a un computer portatile.",
+  "digest": "807c8388b3b5",
+  "faces": "none",
+  "people": "none",
+  "title": "Riconoscere un'email di phishing in 4 controlli"
+ },
+ "v4-lez-riconoscere-pianeti": {
+  "description": "Un uomo visto di spalle indica una stella nel cielo notturno.",
+  "digest": "65644f42b1b4",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Come riconoscere un pianeta a occhio nudo"
+ },
+ "v4-lez-sonno-cicli": {
+  "description": "Una camera da letto in penombra con lenzuola blu scuro e una lampada accesa sul comodino.",
+  "digest": "e626642d0b4d",
+  "faces": "none",
+  "people": "none",
+  "title": "I cicli del sonno: perché a volte 6 ore bastano e 8 no"
+ },
+ "v4-lez-stimare": {
+  "description": "Una donna scrive su un taccuino di fronte a una piazza notturna.",
+  "digest": "1e0fcfd45142",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Stimare al volo: quanti, quanto, quanto grande"
+ },
+ "v4-luna-stessa-faccia": {
+  "description": "La Luna e la Terra viste dallo spazio profondo tra le stelle.",
+  "digest": "a09eec1c8755",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché vediamo sempre la stessa faccia della Luna?"
+ },
+ "v4-microonde": {
+  "description": "Una ciotola di zuppa fumante all'interno di un forno a microonde aperto.",
+  "digest": "e36d0b3a4095",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fa il microonde a scaldare il cibo senza scaldarsi?"
+ },
+ "v4-migrazione-anguille": {
+  "description": "Un'anguilla nuota tra alghe dorate in acque profonde.",
+  "digest": "5d5d78027d7f",
+  "faces": "none",
+  "people": "none",
+  "title": "Il mistero delle anguille che nascono in mezzo all'Atlantico"
+ },
+ "v4-okay-origine": {
+  "description": "Una scrivania antica con giornali d'epoca, una penna stilografica e caratteri mobili che formano la parola 'OK'.",
+  "digest": "d912a800bc5b",
+  "faces": "none",
+  "people": "none",
+  "title": "Da dove viene la parola più usata al mondo: OK"
+ },
+ "v4-paradosso-scelta": {
+  "description": "Un uomo di spalle in un lungo corridoio con molte porte.",
+  "digest": "37855bde5d67",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Troppe opzioni ti rendono meno felice"
+ },
+ "v4-pelle-oca": {
+  "description": "Un primo piano della pelle umana con la pelle d'oca.",
+  "digest": "c30c6de3698c",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Perché ci viene la pelle d'oca (e a cosa serviva)"
+ },
+ "v4-pop-corn": {
+  "description": "Un frutto o chicco di mais che esplode su uno sfondo scuro e fumoso.",
+  "digest": "167ae8f981e0",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il pop-corn scoppia"
+ },
+ "v4-prezzi-99": {
+  "description": "Una pila di monete, un piccolo cestino della spesa e un cartellino vuoto su uno sfondo scuro.",
+  "digest": "68a72c2d0839",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i prezzi finiscono sempre con ,99"
+ },
+ "v4-sale-neve": {
+  "description": "Frammenti di ghiaccio su una superficie ghiacciata.",
+  "digest": "dd55895f31ad",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il sale scioglie la neve sulle strade?"
+ },
+ "v4-sbadiglio": {
+  "description": "Una donna che sbadiglia seduta sul letto indossando un maglione blu.",
+  "digest": "aac5b73f6b12",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché sbadigliamo (e perché è contagioso)"
+ },
+ "v4-stomaco-acido": {
+  "description": "Un modello di stomaco in vetro riempito di un liquido ambrato brillante.",
+  "digest": "133956769066",
+  "faces": "none",
+  "people": "none",
+  "title": "Il tuo stomaco potrebbe sciogliere una lametta"
+ },
+ "v4-strisce-zebra": {
+  "description": "Un cavallo con una coperta a strisce zebrate all'interno di una stalla.",
+  "digest": "299dfe12d855",
+  "faces": "none",
+  "people": "none",
+  "title": "Le strisce delle zebre servono contro le mosche"
+ },
+ "v4-touchscreen": {
+  "description": "Un dito tocca lo schermo di uno smartphone creando cerchi luminosi blu.",
+  "digest": "4c1dc9e4bb64",
+  "faces": "none",
+  "people": "minor",
+  "title": "Come fa il touchscreen a sentire il tuo dito?"
+ },
+ "v4-tredici-sfortuna": {
+  "description": "Un ferro di cavallo e un quadrifoglio con un gatto nero sullo sfondo.",
+  "digest": "851fa84b471c",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il 13 porta sfortuna (ma non ovunque)"
+ },
+ "v4-tulipani-bolla": {
+  "description": "Un tulipano striato rosso e bianco cresce da un bulbo accanto a monete d'oro su un tavolo rustico.",
+  "digest": "1e64cbe566d1",
+  "faces": "none",
+  "people": "none",
+  "title": "La prima bolla finanziaria: un bulbo di tulipano per una casa"
+ },
+ "v5-ancoraggio": {
+  "description": "Un'ancora arrugginita con un cartellino vuoto e monete antiche su legno scuro.",
+  "digest": "02a0a2896980",
+  "faces": "none",
+  "people": "none",
+  "title": "Il primo numero che senti decide quanto pagherai"
+ },
+ "v5-anno-senza-estate": {
+  "description": "Un paesaggio rurale invernale con una casa in lontananza sotto un cielo cupo.",
+  "digest": "f3b4b0e8f660",
+  "faces": "none",
+  "people": "none",
+  "title": "Il 1816, l'anno senza estate"
+ },
+ "v5-applausi": {
+  "description": "Mani di un pubblico che applaude durante uno spettacolo in un teatro.",
+  "digest": "1502157480fa",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Perché battiamo le mani per dire che qualcosa ci è piaciuto?"
+ },
+ "v5-arcobaleno-arco": {
+  "description": "Un arcobaleno brilla sopra un borgo collinare sotto un cielo scuro.",
+  "digest": "f0d95bc21081",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché l'arcobaleno è un arco e ha sempre gli stessi colori?"
+ },
+ "v5-astronauti-alti": {
+  "description": "Un'astronauta fluttua all'interno della Stazione Spaziale Internazionale con la Terra visibile dalle finestre.",
+  "digest": "4f738d34716c",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Nello spazio gli astronauti diventano più alti"
+ },
+ "v5-banane-radioattive": {
+  "description": "Una mano che regge una banana in un ambiente buio e suggestivo.",
+  "digest": "22c440a34e40",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Le banane sono radioattive (e tu anche)"
+ },
+ "v5-blu-oltremare": {
+  "description": "Pietre di lapislazzuli, pigmento blu e un pennello su velluto scuro.",
+  "digest": "7b6647bd2d8a",
+  "faces": "none",
+  "people": "none",
+  "title": "Il blu era più costoso dell'oro"
+ },
+ "v5-bolle-sapone": {
+  "description": "Una bolla di sapone iridescente che fluttua in un ambiente scuro.",
+  "digest": "509e34411406",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché le bolle di sapone sono colorate se il sapone è trasparente?"
+ },
+ "v5-brividi-musica": {
+  "description": "Una donna con gli occhi chiusi indossa cuffie in uno studio.",
+  "digest": "2000dd6098ae",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché la musica ti fa venire i brividi?"
+ },
+ "v5-camaleonte": {
+  "description": "Un camaleonte colorato arrampicato su un ramo.",
+  "digest": "c33139188000",
+  "faces": "none",
+  "people": "none",
+  "title": "Il camaleonte non cambia colore per nascondersi"
+ },
+ "v5-candela": {
+  "description": "Una candela quadrata accesa che emette fumo in un ambiente scuro.",
+  "digest": "4b9ce07940c2",
+  "faces": "none",
+  "people": "none",
+  "title": "Cosa brucia davvero in una candela?"
+ },
+ "v5-capelli-bianchi": {
+  "description": "Primo piano del profilo di una donna con capelli brizzolati.",
+  "digest": "593c54bcff9a",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Perché i capelli diventano bianchi?"
+ },
+ "v5-cavi-annodano": {
+  "description": "Auricolari neri aggrovigliati appoggiati sulla tasca di una giacca di jeans.",
+  "digest": "1e60a8f91870",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i cavi delle cuffie si annodano da soli in tasca?"
+ },
+ "v5-citta-piu-fredda": {
+  "description": "Una persona cammina in una strada innevata tra case di legno di notte.",
+  "digest": "7e08b73e5e7d",
+  "faces": "none",
+  "people": "prominent",
+  "title": "La città dove a -50 gradi la scuola resta aperta"
+ },
+ "v5-colibri": {
+  "description": "Un colibrì verde in volo si avvicina a dei fiori blu.",
+  "digest": "9c650e695cec",
+  "faces": "none",
+  "people": "none",
+  "title": "Il colibrì: un cuore che batte 1.200 volte al minuto"
+ },
+ "v5-contactless": {
+  "description": "Una mano che tiene una carta di credito sopra un terminale di pagamento contactless in un negozio.",
+  "digest": "1678ab40e98c",
+  "faces": "none",
+  "people": "minor",
+  "title": "Come fa la carta contactless a pagare senza batteria?"
+ },
+ "v5-corpo-senza-tuta": {
+  "description": "Un astronauta in tuta spaziale appare spaventato con la Terra e le stelle sullo sfondo.",
+  "digest": "a7f21f43a972",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Cosa succede davvero a un corpo nello spazio senza tuta"
+ },
+ "v5-cuffie-rumore": {
+  "description": "Un paio di cuffie moderne con onde sonore stilizzate su sfondo scuro.",
+  "digest": "725ad8191557",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fanno le cuffie a cancellare il rumore?"
+ },
+ "v5-cuore-stanca": {
+  "description": "Un cuore umano stilizzato e luminoso con vasi sanguigni visibili su uno sfondo scuro.",
+  "digest": "f2008f72722e",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il cuore non si stanca mai?"
+ },
+ "v5-david-proporzioni": {
+  "description": "Un primo piano della testa della celebre statua del David di Michelangelo.",
+  "digest": "669a67f90530",
+  "faces": "none",
+  "people": "none",
+  "title": "Il David di Michelangelo ha la testa e le mani troppo grandi, di proposito"
+ },
+ "v5-delfini-nome": {
+  "description": "Due delfini nuotano sott'acqua verso la luce del sole.",
+  "digest": "f78cd79c8d49",
+  "faces": "none",
+  "people": "none",
+  "title": "I delfini si chiamano per nome"
+ },
+ "v5-diamanti-prezzo": {
+  "description": "Un diamante brillante e diversi diamanti grezzi accanto a una lente d'ingrandimento.",
+  "digest": "02cad7f24f1f",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i diamanti costano così tanto se non sono rari?"
+ },
+ "v5-dieci-giorni-persi": {
+  "description": "Un antico libro aperto accanto a una candela accesa e una penna d'oca su una scrivania in legno.",
+  "digest": "9677fd6cf958",
+  "faces": "none",
+  "people": "none",
+  "title": "Nel 1582 sparirono dieci giorni dal calendario"
+ },
+ "v5-dita-acqua": {
+  "description": "Primo piano di una mano bagnata con dita raggrinzite dall'acqua.",
+  "digest": "ea4123726ff7",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché le dita si arricciano nell'acqua?"
+ },
+ "v5-fegato-rigenera": {
+  "description": "Un modello luminoso e trasparente di un fegato umano sospeso sopra un piedistallo.",
+  "digest": "2b4b1358e7d9",
+  "faces": "none",
+  "people": "none",
+  "title": "Il fegato ricresce: puoi donarne metà e riaverlo intero"
+ },
+ "v5-fiori-notte": {
+  "description": "Fiori di genziana blu ricoperti di rugiada in un ambiente naturale scuro.",
+  "digest": "816211672514",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché alcuni fiori si chiudono di notte?"
+ },
+ "v5-formiche-capo": {
+  "description": "Un gruppo di formiche trasporta un pezzo di foglia secca sul muschio.",
+  "digest": "f70d623bc841",
+  "faces": "none",
+  "people": "none",
+  "title": "Le formiche non hanno un capo (e la regina non comanda)"
+ },
+ "v5-foto-notturne": {
+  "description": "Una donna scatta una foto di una strada cittadina di notte con il suo smartphone.",
+  "digest": "83709337e5ac",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Come fa il telefono a scattare foto luminose di notte?"
+ },
+ "v5-gatto-piedi": {
+  "description": "Un gatto tigrato che salta sopra un cuscino scuro.",
+  "digest": "35076d520da8",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i gatti atterrano sempre in piedi?"
+ },
+ "v5-geyser": {
+  "description": "Un geyser in eruzione illuminato dalla luce del tramonto.",
+  "digest": "28e07f72fa50",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona un geyser?"
+ },
+ "v5-giramento-testa": {
+  "description": "Una donna è in piedi accanto a una staccionata in un bosco.",
+  "digest": "0f1f3f216a67",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché gira la testa dopo aver girato su te stesso?"
+ },
+ "v5-helvetica": {
+  "description": "Caratteri tipografici metallici in un blocco di stampa.",
+  "digest": "d791286b0eac",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché lo stesso carattere tipografico è su metà delle insegne del mondo?"
+ },
+ "v5-iperinflazione": {
+  "description": "Un uomo corre in una strada affollata tenendo in mano mazzette di banconote.",
+  "digest": "2a5dd63413bc",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Quando i prezzi raddoppiavano ogni 15 ore: la peggiore inflazione della storia"
+ },
+ "v5-latte-fondo": {
+  "description": "Una persona cammina lungo la corsia di un supermercato tra scaffali ben forniti.",
+  "digest": "18e2fae19a19",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché il latte è sempre in fondo al supermercato?"
+ },
+ "v5-lez-acidi-basi": {
+  "description": "Un limone, bicarbonato su un cucchiaio e un mortaio su un tavolo rustico con una scala del pH.",
+  "digest": "790965dc43a3",
+  "faces": "none",
+  "people": "none",
+  "title": "Acidi e basi in cucina: il pH spiegato con limone e bicarbonato"
+ },
+ "v5-lez-app-server": {
+  "description": "Un uomo di spalle che utilizza un tablet in un centro dati.",
+  "digest": "c78092b956b3",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Cosa succede quando tocchi un'app: il viaggio di una richiesta"
+ },
+ "v5-lez-assenza-peso": {
+  "description": "Un astronauta fluttua all'interno di una stazione spaziale con la Terra visibile dagli oblò.",
+  "digest": "e158169e0c4b",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Perché gli astronauti fluttuano: non è assenza di gravità"
+ },
+ "v5-lez-backup": {
+  "description": "Un iPhone con gocce d'acqua poggiato su un fondale fangoso e scuro.",
+  "digest": "7ec8ef8c50dc",
+  "faces": "none",
+  "people": "none",
+  "title": "Backup 3-2-1: non perdere mai più foto e documenti"
+ },
+ "v5-lez-banca-centrale": {
+  "description": "Una bilancia d'ottone che pesa una casa in miniatura, un carrello e delle monete in un ufficio buio.",
+  "digest": "5bc34a4c3eaf",
+  "faces": "none",
+  "people": "none",
+  "title": "Cosa fa una banca centrale (e perché i tassi ti riguardano)"
+ },
+ "v5-lez-bluetooth-wifi": {
+  "description": "Cuffie moderne appoggiate su una superficie scura con effetti grafici digitali.",
+  "digest": "1cba09af67fb",
+  "faces": "none",
+  "people": "none",
+  "title": "Bluetooth, Wi-Fi e 5G: cosa cambia davvero"
+ },
+ "v5-lez-calore-temperatura": {
+  "description": "Una tazzina di caffè e una ciotola di acqua bollente con un termometro in un laboratorio.",
+  "digest": "4e416485f3c0",
+  "faces": "none",
+  "people": "none",
+  "title": "Calore e temperatura non sono la stessa cosa"
+ },
+ "v5-lez-cognomi": {
+  "description": "Un vecchio registro aperto con nomi scritti a mano su un tavolo di legno.",
+  "digest": "224d4501e7d4",
+  "faces": "none",
+  "people": "none",
+  "title": "Da dove viene il tuo cognome: le 4 origini dei cognomi italiani"
+ },
+ "v5-lez-compost": {
+  "description": "Un contenitore di terracotta per il compostaggio su un balcone di notte.",
+  "digest": "a670d582b687",
+  "faces": "none",
+  "people": "none",
+  "title": "Fare il compost in casa: dai rifiuti alla terra in 4 passi"
+ },
+ "v5-lez-comunicazione-animale": {
+  "description": "Un elefante cammina nella savana sotto un cielo notturno.",
+  "digest": "edb01566985b",
+  "faces": "none",
+  "people": "none",
+  "title": "Come parlano gli animali: i 4 canali della comunicazione"
+ },
+ "v5-lez-coordinate": {
+  "description": "Un mappamondo e una bussola su un tavolo di legno scuro con una libreria sullo sfondo.",
+  "digest": "dc2933dbecf9",
+  "faces": "none",
+  "people": "none",
+  "title": "Latitudine e longitudine: leggere le coordinate in 4 passi"
+ },
+ "v5-lez-correnti-clima": {
+  "description": "Una rappresentazione stilizzata della Terra che mostra le correnti oceaniche nell'Oceano Atlantico.",
+  "digest": "7ce05c49b096",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché Roma e New York hanno inverni così diversi alla stessa latitudine"
+ },
+ "v5-lez-costellazioni": {
+  "description": "Un'antica sfera armillare in ottone su un tavolo di legno davanti a una finestra notturna.",
+  "digest": "d2d5831061f3",
+  "faces": "none",
+  "people": "none",
+  "title": "Le costellazioni di ogni stagione: cosa cercare nel cielo"
+ },
+ "v5-lez-costi-nascosti": {
+  "description": "Un uomo seduto in un cinema vuoto con la testa bassa.",
+  "digest": "075c2b296787",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Costo affondato e costo opportunità: i due errori che ti fanno perdere soldi"
+ },
+ "v5-lez-datare-reperti": {
+  "description": "Mani che esaminano attentamente un antico osso di femore con degli strumenti.",
+  "digest": "9d188c0f337e",
+  "faces": "none",
+  "people": "minor",
+  "title": "Come si dà una data a un reperto: 4 metodi"
+ },
+ "v5-lez-decisioni": {
+  "description": "Due uomini guardano una bussola a terra in un cortile buio.",
+  "digest": "5a1a87091e42",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Prendere una decisione difficile: 4 strumenti che funzionano"
+ },
+ "v5-lez-digestione": {
+  "description": "Una mela morsa situata all'interno di una rappresentazione anatomica dell'apparato digerente.",
+  "digest": "8ceecbaf7003",
+  "faces": "none",
+  "people": "none",
+  "title": "Il viaggio di un boccone: la digestione in 4 tappe"
+ },
+ "v5-lez-distorsioni": {
+  "description": "Un uomo di spalle cammina su un sentiero di pietra tra rocce fluttuanti su una costa cupa.",
+  "digest": "82b735fa3992",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Le 4 distorsioni del pensiero che ti fanno stare peggio"
+ },
+ "v5-lez-diversificare": {
+  "description": "Una vecchia cartella di pelle piena di fogli e gusci d'uovo in un magazzino abbandonato.",
+  "digest": "e8116a613fa3",
+  "faces": "none",
+  "people": "none",
+  "title": "Diversificare: perché non mettere tutte le uova in un paniere (e come farlo)"
+ },
+ "v5-lez-due-fattori": {
+  "description": "Una vecchia porta di legno con chiavi e catena di sicurezza.",
+  "digest": "cb950c125fa2",
+  "faces": "none",
+  "people": "none",
+  "title": "Autenticazione a due fattori: attivarla e non restare chiusi fuori"
+ },
+ "v5-lez-eclissi": {
+  "description": "Un'eclissi solare totale osservata da un gruppo di persone in silhouette.",
+  "digest": "bb3d8dea8265",
+  "faces": "none",
+  "people": "minor",
+  "title": "Le eclissi: come nascono e perché non succedono ogni mese"
+ },
+ "v5-lez-ecosistema": {
+  "description": "Un cervo volante iridescente su un tronco muschioso.",
+  "digest": "ad1053615637",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona un ecosistema: i 4 ruoli che reggono tutto"
+ },
+ "v5-lez-effetto-doppler": {
+  "description": "Un'ambulanza percorre una strada cittadina bagnata di notte con le luci accese.",
+  "digest": "cbf35ad30387",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché la sirena cambia tono quando passa: l'effetto Doppler"
+ },
+ "v5-lez-estinzione": {
+  "description": "Un tilacino che si dissolve in foglie sopra un cumulo di ossa.",
+  "digest": "9c4cd05f6cce",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché le specie si estinguono, e cosa ne ha salvate alcune"
+ },
+ "v5-lez-etichetta-nutrizionale": {
+  "description": "Mani che reggono una scatola di cartone in un supermercato.",
+  "digest": "fda003195bc9",
+  "faces": "none",
+  "people": "minor",
+  "title": "Leggere un'etichetta alimentare in 4 mosse"
+ },
+ "v5-lez-feedback": {
+  "description": "Un uomo siede da solo su una panca in un ambiente scuro e austero.",
+  "digest": "5d803a0bf02d",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Dare un feedback che viene ascoltato: il metodo in 4 passi"
+ },
+ "v5-lez-fondo-emergenza": {
+  "description": "Una donna sconsolata è seduta davanti a una lavatrice rotta in una lavanderia buia.",
+  "digest": "dbd17516bfca",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Il fondo di emergenza: costruirlo in 4 passi anche con poco"
+ },
+ "v5-lez-gesti-italiani": {
+  "description": "Un uomo senza testa compie il tipico gesto italiano con la mano.",
+  "digest": "e245a4407249",
+  "faces": "none",
+  "people": "prominent",
+  "title": "I gesti italiani: 4 gesti, cosa significano e da dove vengono"
+ },
+ "v5-lez-grafici-ingannevoli": {
+  "description": "Un uomo in una biblioteca che esamina un grafico a barre tridimensionale sulla sua scrivania.",
+  "digest": "8efdcc910a46",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Come un grafico può mentire dicendo la verità: 4 trucchi da riconoscere"
+ },
+ "v5-lez-guardare-quadro": {
+  "description": "Una donna osserva un dipinto di paesaggio in un museo.",
+  "digest": "819862daedfb",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Come guardare un quadro: 4 passi per non passare oltre in 8 secondi"
+ },
+ "v5-lez-hotel-hilbert": {
+  "description": "Un portiere d'albergo scrive su un registro in un corridoio monumentale con una lunga fila di persone.",
+  "digest": "3a88acb03842",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "L'albergo con infinite stanze: capire l'infinito con Hilbert"
+ },
+ "v5-lez-ibernazione": {
+  "description": "Un orso bruno raggomitolato che dorme nel bosco.",
+  "digest": "aa429e3dd4b2",
+  "faces": "none",
+  "people": "none",
+  "title": "L'ibernazione: come si sopravvive all'inverno spegnendosi"
+ },
+ "v5-lez-idratazione": {
+  "description": "Una mano che regge un bicchiere d'acqua su uno sfondo scuro.",
+  "digest": "776671ca88b8",
+  "faces": "none",
+  "people": "minor",
+  "title": "Quanta acqua bere davvero: la regola dei due litri è un mito"
+ },
+ "v5-lez-insetti-utili": {
+  "description": "Due mantidi religiose incrociate su una foglia.",
+  "digest": "a4470fef5a7e",
+  "faces": "none",
+  "people": "none",
+  "title": "Gli insetti utili in giardino: chi lavora per te"
+ },
+ "v5-lez-jet-lag": {
+  "description": "Una donna dorme sul sedile di un aereo con una mascherina per gli occhi durante il tramonto.",
+  "digest": "dccc5deb3f57",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Battere il jet lag: 4 passi prima, durante e dopo il volo"
+ },
+ "v5-lez-leggere-edificio": {
+  "description": "Una strada acciottolata con palazzi storici e una facciata di chiesa gotica al tramonto.",
+  "digest": "dd8e1d3029c4",
+  "faces": "partial",
+  "people": "minor",
+  "title": "Leggere un edificio: riconoscere 4 stili architettonici in strada"
+ },
+ "v5-lez-leggere-valle": {
+  "description": "Un grande masso solitario si trova in una valle montuosa sotto un cielo scuro e nuvoloso.",
+  "digest": "4f6e2cffcfe6",
+  "faces": "none",
+  "people": "none",
+  "title": "Leggere un paesaggio: chi ha scavato questa valle?"
+ },
+ "v5-lez-medioevo": {
+  "description": "Un architetto osserva una planimetria all'interno di una cattedrale gotica in costruzione.",
+  "digest": "30c86517f353",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Il Medioevo non era buio: 4 luoghi comuni da smontare"
+ },
+ "v5-lez-mimetismo": {
+  "description": "Una farfalla con grandi macchie a forma di occhio posata sulla corteccia di un albero.",
+  "digest": "948b1301baac",
+  "faces": "none",
+  "people": "none",
+  "title": "Mimetismo: 4 strategie per non farsi vedere (o farsi credere pericolosi)"
+ },
+ "v5-lez-miti-diluvio": {
+  "description": "Una tavoletta di pietra scolpita con incisioni raffiguranti un'arca sulle onde.",
+  "digest": "2f85515f2363",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché tutte le culture raccontano un diluvio: come leggere un mito"
+ },
+ "v5-lez-moneta-antica": {
+  "description": "Una mano tiene un'antica moneta romana sopra un terreno fangoso.",
+  "digest": "a13e50ddf960",
+  "faces": "none",
+  "people": "minor",
+  "title": "Leggere una moneta antica: cosa racconta un pezzo di metallo"
+ },
+ "v5-lez-montagne": {
+  "description": "Una maestosa veduta di cime montuose innevate illuminate dalla luce calda del tramonto.",
+  "digest": "89caa8015b3f",
+  "faces": "none",
+  "people": "none",
+  "title": "Come nascono le montagne (e perché le Alpi crescono ancora)"
+ },
+ "v5-lez-motivazione": {
+  "description": "Una bambina seduta a un tavolo con disegni e un trofeo.",
+  "digest": "a2acdb138323",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Motivazione: perché i premi a volte la uccidono"
+ },
+ "v5-lez-motore-ricerca": {
+  "description": "Un uomo lavora su un computer d'epoca circondato da scaffali di libri.",
+  "digest": "8031443273af",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Come funziona un motore di ricerca in 4 passi"
+ },
+ "v5-lez-muscoli": {
+  "description": "Un uomo muscoloso che dorme su un letto.",
+  "digest": "36f95c81baa8",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Come crescono i muscoli (e perché il dolore del giorno dopo non è acido lattico)"
+ },
+ "v5-lez-mutuo": {
+  "description": "Un modellino di casa diviso tra legno antico e cubi traslucidi luminosi.",
+  "digest": "1743b528f77b",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona un mutuo: tasso, rata e il trucco degli interessi"
+ },
+ "v5-lez-nascita-citta": {
+  "description": "Un antico strumento topografico poggiato sopra una mappa.",
+  "digest": "c6940f6fa118",
+  "faces": "none",
+  "people": "none",
+  "title": "Come nasce una città: le 4 condizioni che si ripetono"
+ },
+ "v5-lez-numeri-primi": {
+  "description": "Una persona incappucciata tiene un vecchio lucchetto tra le mani guantate.",
+  "digest": "ef24e1152838",
+  "faces": "none",
+  "people": "prominent",
+  "title": "I numeri primi: perché proteggono la tua carta di credito"
+ },
+ "v5-lez-opera-lirica": {
+  "description": "Veduta di un palco teatrale che si affaccia su un palcoscenico con un attore.",
+  "digest": "d10542d0de6b",
+  "faces": "none",
+  "people": "minor",
+  "title": "Andare all'opera per la prima volta senza sentirsi fuori posto"
+ },
+ "v5-lez-postura": {
+  "description": "Un uomo seduto a una scrivania si tocca la schiena dolorante.",
+  "digest": "c2893064497d",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Mal di schiena da scrivania: 4 mosse che funzionano davvero"
+ },
+ "v5-lez-pressione": {
+  "description": "Una pentola a pressione che emette vapore su un fornello in una cucina.",
+  "digest": "67aecad14c5d",
+  "faces": "none",
+  "people": "none",
+  "title": "La pressione: perché la pentola a pressione cucina in metà tempo"
+ },
+ "v5-lez-reazione-chimica": {
+  "description": "Un pallone da laboratorio con un liquido arancione in ebollizione su un banco di lavoro.",
+  "digest": "bf2539ae4037",
+  "faces": "none",
+  "people": "none",
+  "title": "Come riconoscere una reazione chimica: 4 segnali"
+ },
+ "v5-lez-regola-terzi": {
+  "description": "Un albero solitario sulla riva di un lago nebbioso all'alba.",
+  "digest": "6f0dacdceda2",
+  "faces": "none",
+  "people": "none",
+  "title": "La regola dei terzi: comporre una foto o un'immagine in 4 mosse"
+ },
+ "v5-lez-regressione-media": {
+  "description": "Un uomo in abito scuro osserva un grafico luminoso in un auditorium vuoto.",
+  "digest": "b4eaeebbbafe",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Perché la sfortuna 'si equilibra': la regressione verso la media"
+ },
+ "v5-lez-riconoscere-alberi": {
+  "description": "Un taccuino aperto con foglie essiccate e disegni botanici su sfondo scuro.",
+  "digest": "cf6b9e43beb6",
+  "faces": "none",
+  "people": "none",
+  "title": "Riconoscere gli alberi dalle foglie in 4 passi"
+ },
+ "v5-lez-rivoluzione-agricola": {
+  "description": "Un'ascia preistorica in pietra poggia sul terreno insieme a semi e frammenti d'ossa.",
+  "digest": "95f00b3b4229",
+  "faces": "none",
+  "people": "none",
+  "title": "La rivoluzione agricola: la scelta che ha cambiato la specie"
+ },
+ "v5-lez-scegliere-font": {
+  "description": "Caratteri mobili in metallo e righelli su un tavolo da lavoro blu.",
+  "digest": "82cb9e524046",
+  "faces": "none",
+  "people": "none",
+  "title": "Scegliere un carattere: 4 regole per non sbagliare font"
+ },
+ "v5-lez-sistema-solare-scala": {
+  "description": "Un uomo in un ambiente buio che regge un pallone da calcio.",
+  "digest": "ed854dc36713",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Il Sistema Solare in scala: quanto è vuoto davvero"
+ },
+ "v5-lez-stati-materia": {
+  "description": "Un laboratorio scientifico con acqua in vari stati fisici.",
+  "digest": "cff95ae00a11",
+  "faces": "none",
+  "people": "none",
+  "title": "Solido, liquido, gas: i passaggi di stato spiegati bene"
+ },
+ "v5-lez-storia-arte-tappe": {
+  "description": "Quattro quadri di stili differenti appesi su una parete illuminata.",
+  "digest": "921be81753ac",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Cinquecento anni di pittura in 4 tappe"
+ },
+ "v5-lez-stress": {
+  "description": "Una studentessa vista di spalle in un corridoio di un edificio antico.",
+  "digest": "b4373924425a",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Come funziona lo stress, e come usarlo invece di subirlo"
+ },
+ "v5-lez-struttura-fiaba": {
+  "description": "Un vecchio libro antico su una mappa del mondo con una scarpetta di vetro e icone di fiabe.",
+  "digest": "2d4c670facfd",
+  "faces": "none",
+  "people": "minor",
+  "title": "Come è fatta una fiaba: i 4 elementi che si ripetono in tutto il mondo"
+ },
+ "v5-lez-suolo": {
+  "description": "Un cucchiaio colmo di terra e piccoli vermi.",
+  "digest": "bc74271c8c3b",
+  "faces": "none",
+  "people": "none",
+  "title": "Il suolo: perché un pugno di terra è vivo"
+ },
+ "v5-lez-telescopio": {
+  "description": "Una mano manovra una grande lente circolare sotto una lampada in un'officina.",
+  "digest": "093bb4d4aee1",
+  "faces": "none",
+  "people": "minor",
+  "title": "Come funziona un telescopio (e perché quello grande vede il passato)"
+ },
+ "v5-lez-terremoti": {
+  "description": "Un uomo con uno zaino scavalca una profonda crepa nel terreno roccioso.",
+  "digest": "b2315d75c197",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Come nasce un terremoto e cosa fare quando arriva"
+ },
+ "v5-mediterraneo-secco": {
+  "description": "Una potente cascata scorre tra scogliere desertiche sotto un cielo tempestoso.",
+  "digest": "2936ec814b6c",
+  "faces": "none",
+  "people": "none",
+  "title": "Il Mediterraneo si è seccato completamente, e poi si è riempito in due anni"
+ },
+ "v5-metallo-freddo": {
+  "description": "Una mano che tocca una struttura metallica in una biblioteca.",
+  "digest": "5abc8c1307d1",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché il metallo sembra più freddo del legno, se hanno la stessa temperatura?"
+ },
+ "v5-miele-non-scade": {
+  "description": "Un vaso di terracotta contenente miele con un cucchiaio all'interno, situato in un ambiente antico.",
+  "digest": "cb4f3f771f2f",
+  "faces": "none",
+  "people": "none",
+  "title": "Il miele non scade mai (e quello dei faraoni era ancora buono)"
+ },
+ "v5-miglia-aeree": {
+  "description": "Un modellino di aereo su pile di monete accanto a una carta di credito con un aeroporto di notte sullo sfondo.",
+  "digest": "672d2a7df0f5",
+  "faces": "none",
+  "people": "none",
+  "title": "Le compagnie aeree guadagnano più vendendo miglia che biglietti"
+ },
+ "v5-napoleone-basso": {
+  "description": "Ritratto di Napoleone in uniforme in una stanza signorile.",
+  "digest": "8123ca65cfeb",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Napoleone non era basso"
+ },
+ "v5-natale-25": {
+  "description": "Un piccolo presepe in legno con una candela accesa su un tavolo rustico.",
+  "digest": "c542f04e6596",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il Natale si festeggia il 25 dicembre?"
+ },
+ "v5-neve-bianca": {
+  "description": "Un ghiacciolo e neve fresca su uno sfondo invernale sfocato.",
+  "digest": "7c77cf0f9328",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché la neve è bianca se il ghiaccio è trasparente?"
+ },
+ "v5-noia": {
+  "description": "Un uomo seduto a un tavolo preme un pulsante rosso in una stanza buia.",
+  "digest": "d07abd2ea362",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché ci annoiamo (e a cosa serve la noia)?"
+ },
+ "v5-odore-pioggia": {
+  "description": "Una goccia di liquido scuro cade sull'asfalto sotto un cielo tempestoso.",
+  "digest": "424901f73476",
+  "faces": "none",
+  "people": "none",
+  "title": "Da dove viene l'odore della pioggia?"
+ },
+ "v5-perche-ridiamo": {
+  "description": "Tre donne che ridono insieme a un tavolo all'aperto con caffè.",
+  "digest": "17cafd3057fd",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché ridiamo (e quasi mai per una battuta)?"
+ },
+ "v5-pietre-yap": {
+  "description": "Una coppia cammina su un sentiero accanto a grandi pietre circolari in un villaggio tropicale.",
+  "digest": "5b9905f6c5fa",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "L'isola dove la moneta erano pietre da quattro tonnellate"
+ },
+ "v5-pioggia-diamanti": {
+  "description": "Pioggia di diamanti luminosi tra nuvole oscure.",
+  "digest": "e9b4d97ea29b",
+  "faces": "none",
+  "people": "none",
+  "title": "Su Nettuno e Urano piovono diamanti"
+ },
+ "v5-pizza-margherita": {
+  "description": "Una pizza Margherita su un tavolo di legno in una pizzeria con un forno a legna sullo sfondo.",
+  "digest": "f297e7ea7b8d",
+  "faces": "partial",
+  "people": "minor",
+  "title": "La pizza Margherita non fu inventata per la regina"
+ },
+ "v5-point-nemo": {
+  "description": "Una boa galleggia solitaria nel vasto oceano blu sotto un cielo nuvoloso.",
+  "digest": "dde933d06cec",
+  "faces": "none",
+  "people": "none",
+  "title": "Il punto della Terra più lontano da qualsiasi terra"
+ },
+ "v5-pollice-alzato": {
+  "description": "Un elmo e uno scudo da gladiatore abbandonati nell'arena di un anfiteatro romano.",
+  "digest": "da95c02f27b5",
+  "faces": "none",
+  "people": "none",
+  "title": "Il pollice alzato non salvava i gladiatori"
+ },
+ "v5-primo-sciopero": {
+  "description": "Un uomo anziano seduto a terra in una tomba antica con i suoi strumenti da lavoro.",
+  "digest": "99de448ce5fd",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Il primo sciopero della storia lo fecero gli operai delle tombe egizie"
+ },
+ "v5-qr-rovinato": {
+  "description": "Uno smartphone inquadra un codice QR rovinato su una superficie blu.",
+  "digest": "f81fcf40f07b",
+  "faces": "none",
+  "people": "minor",
+  "title": "Come fa un codice QR a funzionare anche se è graffiato o sporco?"
+ },
+ "v5-quarantena-venezia": {
+  "description": "Veduta di edifici in mattoni sull'acqua con un veliero nella nebbia all'alba.",
+  "digest": "d9cea23fbb35",
+  "faces": "none",
+  "people": "none",
+  "title": "La quarantena fu inventata a Venezia, e durava davvero quaranta giorni"
+ },
+ "v5-qwerty": {
+  "description": "Una vecchia macchina da scrivere Remington su un tavolo di legno.",
+  "digest": "cc34bc0d1f97",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i tasti della tastiera sono in quest'ordine assurdo?"
+ },
+ "v5-ricordi-flash": {
+  "description": "Vecchie fotografie di famiglia sparse su un tavolo blu sotto la luce di una lampada.",
+  "digest": "535435c3633b",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Ricordi esattamente dove eri quel giorno? Probabilmente sbagli"
+ },
+ "v5-ritratti-sorriso": {
+  "description": "Ritratto di un uomo con barba e colletto di pizzo in una cornice dorata.",
+  "digest": "f279acdd6c70",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché nei ritratti antichi nessuno sorride?"
+ },
+ "v5-sacchetto-patatine": {
+  "description": "Due mani che tengono un pacchetto aperto di patatine.",
+  "digest": "a65e59afc654",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché il sacchetto delle patatine è mezzo vuoto?"
+ },
+ "v5-sahara-verde": {
+  "description": "Un'oasi rigogliosa con ippopotami in un fiume tra dune di sabbia al tramonto.",
+  "digest": "0abb595bd288",
+  "faces": "none",
+  "people": "none",
+  "title": "Il Sahara era verde, con laghi e ippopotami"
+ },
+ "v5-salute-starnuto": {
+  "description": "Una donna con i capelli ricci che si soffia il naso.",
+  "digest": "58b8625183c0",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché diciamo 'salute' quando qualcuno starnutisce?"
+ },
+ "v5-samoa-giorno": {
+  "description": "Veduta aerea di un'isola tropicale al tramonto con acque turchesi e montagne lussureggianti.",
+  "digest": "791e08646462",
+  "faces": "none",
+  "people": "none",
+  "title": "Il paese che ha cancellato un venerdì per cambiare fuso orario"
+ },
+ "v5-saturno-galleggia": {
+  "description": "Il pianeta Saturno galleggia in una vecchia vasca da bagno di pietra piena d'acqua.",
+  "digest": "c0da0deae05c",
+  "faces": "none",
+  "people": "none",
+  "title": "Saturno galleggerebbe in una vasca da bagno"
+ },
+ "v5-seme-germoglia": {
+  "description": "Un piccolo germoglio verde spunta da un seme spaccato nel terreno umido.",
+  "digest": "41ada298443d",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fa un seme a sapere quando germogliare?"
+ },
+ "v5-streaming-sgrana": {
+  "description": "Un grande televisore in un soggiorno buio mostra un paesaggio montano con effetti digitali.",
+  "digest": "16cd1c3830ca",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il video in streaming a volte diventa sgranato per qualche secondo?"
+ },
+ "v5-suono-acqua": {
+  "description": "Una balena nuota in acque scure e profonde.",
+  "digest": "90376d677c43",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il suono viaggia più veloce nell'acqua che nell'aria?"
+ },
+ "v5-tempesta-giove": {
+  "description": "Una veduta ravvicinata del pianeta Giove e della sua Grande Macchia Rossa.",
+  "digest": "686da842e9a5",
+  "faces": "none",
+  "people": "none",
+  "title": "Su Giove c'è una tempesta più grande della Terra da almeno 350 anni"
+ },
+ "v5-van-gogh-vendette": {
+  "description": "Uno studio d'artista con tavolozza, pennelli e un quadro su un cavalletto.",
+  "digest": "e9c4ea31b236",
+  "faces": "none",
+  "people": "none",
+  "title": "Van Gogh vendette un solo quadro in vita (forse)"
+ },
+ "v7-deserto-piu-grande": {
+  "description": "Un escursionista cammina su un ghiacciaio sotto un cielo nuvoloso.",
+  "digest": "e1b6894220ec",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Il deserto più grande del mondo è coperto di ghiaccio"
+ },
+ "v7-fiume-che-scorre-al-contrario": {
+  "description": "Un fiume che scorre tra rive boscose con uno skyline cittadino e templi in lontananza sotto un cielo nuvoloso.",
+  "digest": "4f771556705a",
+  "faces": "none",
+  "people": "none",
+  "title": "Il fiume che scorre in due direzioni"
+ },
+ "v7-fusi-orari-strani": {
+  "description": "Un uomo anziano in abiti tradizionali tiene un orologio in un villaggio di montagna al crepuscolo.",
+  "digest": "b5cc85f96e4d",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Il paese dove il fuso orario è a metà ora"
+ },
+ "v7-graffiti-pompei": {
+  "description": "Parete in pietra con graffiti antichi e una lucerna accesa.",
+  "digest": "107106fc26a8",
+  "faces": "none",
+  "people": "none",
+  "title": "I graffiti sui muri esistevano già a Pompei"
+ },
+ "v7-lez-leggere-clima": {
+  "description": "Una stazione meteorologica che domina una città costiera e le montagne.",
+  "digest": "280cdfdaad68",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il clima è così: leggere una città in 6 passi"
+ },
+ "v7-lez-leggere-fotografia": {
+  "description": "Una donna in una biblioteca esamina una vecchia foto con una lente d'ingrandimento.",
+  "digest": "f7454635716a",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Leggere una fotografia: 6 domande per capire cosa ti sta dicendo"
+ },
+ "v7-lez-musica-classica-orientarsi": {
+  "description": "Un direttore d'orchestra dirige un'orchestra in un grande teatro.",
+  "digest": "84246275b249",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Ascoltare la musica classica senza sentirsi persi: 6 passi"
+ },
+ "v7-lez-orientarsi-senza-gps": {
+  "description": "Una donna in un bosco scuro guarda una bussola davanti a un bivio.",
+  "digest": "82a655f471c8",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Orientarsi senza telefono: 6 metodi che funzionano davvero"
+ },
+ "v7-lez-scultura-materiali": {
+  "description": "Una statua classica di un uomo nudo esposta in un museo.",
+  "digest": "a968f6b1f3fc",
+  "faces": "none",
+  "people": "none",
+  "title": "Riconoscere una scultura: marmo, bronzo, terracotta in 6 passi"
+ },
+ "v7-ombre-cinema": {
+  "description": "Una donna seduta in un cinema buio guarda verso lo schermo.",
+  "digest": "50f66f53ad88",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché il buio in sala rende i film più belli"
+ },
+ "v7-quadri-al-contrario": {
+  "description": "Un uomo misura accuratamente un quadro in una galleria d'arte.",
+  "digest": "7e827965cfcc",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché i musei appendono i quadri a quell'altezza?"
+ },
+ "v8-crows-remember-human-faces": {
+  "description": "Un corvo nero appollaiato su un ramo in una foresta oscura.",
+  "digest": "204a92429a62",
+  "faces": "none",
+  "people": "none",
+  "title": "I corvi si ricordano le facce delle persone"
+ },
+ "v8-how-did-people-know-the-time-before-clocks": {
+  "description": "Un'anziana donna con il velo tocca una meridiana di pietra al tramonto.",
+  "digest": "3216605d71dc",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Come si sapeva che ora fosse prima degli orologi?"
+ },
+ "v8-how-do-fireflies-make-light-without-heat": {
+  "description": "Una lucciola brilla sopra una foglia bagnata nel buio.",
+  "digest": "fbd5554f5080",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fanno le lucciole a produrre luce senza scaldarsi?"
+ },
+ "v8-how-do-rivers-draw-their-curves": {
+  "description": "Un fiume serpeggiante attraversa una valle tra montagne scure sotto un cielo nuvoloso.",
+  "digest": "0245f9221623",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fanno i fiumi a disegnare le loro curve?"
+ },
+ "v8-how-do-stars-and-craters-get-their-names": {
+  "description": "Una galassia a spirale circondata da innumerevoli stelle nello spazio profondo.",
+  "digest": "24ecb0a6da07",
+  "faces": "none",
+  "people": "none",
+  "title": "Come si sceglie il nome di una stella o di un cratere?"
+ },
+ "v8-how-do-whales-sleep-without-drowning": {
+  "description": "Una balena megattera nuota appena sotto la superficie dell'oceano.",
+  "digest": "7b3e390a63d7",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fanno le balene a dormire senza affogare?"
+ },
+ "v8-how-does-a-double-rainbow-form": {
+  "description": "Un doppio arcobaleno sovrasta un paesaggio montuoso sotto un cielo scuro e tempestoso.",
+  "digest": "4b06761ea147",
+  "faces": "none",
+  "people": "none",
+  "title": "Come nasce un arcobaleno doppio?"
+ },
+ "v8-how-does-shazam-recognise-a-song-in-three-seconds": {
+  "description": "Una giovane donna con i capelli ricci guarda il suo smartphone in un locale poco illuminato.",
+  "digest": "b28e229eda31",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Come fa Shazam a riconoscere una canzone in tre secondi?"
+ },
+ "v8-how-does-your-phone-know-you-ve-rotated-it": {
+  "description": "Una giovane donna con capelli ricci guarda uno smartphone.",
+  "digest": "7b77ad413d18",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Come fa il telefono a sapere che l'hai girato?"
+ },
+ "v8-how-much-does-earth-weigh-and-how-did-we-measure-it": {
+  "description": "Una rappresentazione della Terra nello spazio sostenuta da una struttura meccanica con orbite luminose.",
+  "digest": "2e14f49ca36f",
+  "faces": "none",
+  "people": "none",
+  "title": "Quanto pesa la Terra e come l'abbiamo misurata?"
+ },
+ "v8-lez-arguing-well-6-rules-for-a-discussion-that-resolves": {
+  "description": "Una scacchiera di legno con molti pezzi caduti o in piedi.",
+  "digest": "305cf41b9ed9",
+  "faces": "none",
+  "people": "none",
+  "title": "Litigare bene: 6 regole per una discussione che risolve"
+ },
+ "v8-lez-cookies-and-tracking-who-follows-you-online-and-how-to-l": {
+  "description": "Un uomo lavora al laptop in un ambiente buio.",
+  "digest": "744de0415190",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Cookie e tracciamento: chi ti segue online e come limitarlo"
+ },
+ "v8-lez-correlation-isn-t-causation-how-to-read-a-scientific-stu": {
+  "description": "Una bussola d'epoca appoggiata sopra vecchi libri e mappe in uno studio buio.",
+  "digest": "c676e3954833",
+  "faces": "none",
+  "people": "none",
+  "title": "Correlazione non è causa: leggere uno studio scientifico"
+ },
+ "v8-lez-does-gratitude-really-work-what-the-research-says": {
+  "description": "Una donna seduta in una stanza buia che legge un taccuino.",
+  "digest": "c85eb096358f",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "La gratitudine funziona davvero? Cosa dice la ricerca"
+ },
+ "v8-lez-earth-s-seasons-tilt-not-distance": {
+  "description": "Un'antica sfera armillare in bronzo su un tavolo di legno scuro.",
+  "digest": "d9fef842149d",
+  "faces": "none",
+  "people": "none",
+  "title": "Le stagioni della Terra: inclinazione, non distanza"
+ },
+ "v8-lez-growing-a-balcony-vegetable-garden-in-6-steps": {
+  "description": "Un vaso di terracotta con erbe aromatiche e pomodori su un balcone al crepuscolo.",
+  "digest": "c91b838f96ae",
+  "faces": "none",
+  "people": "none",
+  "title": "Coltivare un orto sul balcone in 6 passi"
+ },
+ "v8-lez-how-a-cave-forms-water-carving-stone": {
+  "description": "Una stalattite in una grotta buia con una goccia d'acqua che cade.",
+  "digest": "df04faccee95",
+  "faces": "none",
+  "people": "none",
+  "title": "Come si forma una grotta: l'acqua che scolpisce la pietra"
+ },
+ "v8-lez-how-a-lever-works-lifting-a-lot-with-a-little": {
+  "description": "Un uomo anziano usa una trave di legno come leva per sollevare una grande roccia.",
+  "digest": "da1a829e37d0",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Come funziona una leva: sollevare tanto con poco"
+ },
+ "v8-lez-how-a-weather-satellite-works-and-what-it-sees": {
+  "description": "Un satellite in orbita sopra la Terra nello spazio.",
+  "digest": "23c62d5d6d97",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona un satellite meteo e cosa vede"
+ },
+ "v8-lez-how-an-exoplanet-is-discovered-in-6-steps": {
+  "description": "Un astronauta nello spazio interagisce con uno schermo digitale davanti a una galassia.",
+  "digest": "5f13122d42dc",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Come si trova un esopianeta in 6 passi"
+ },
+ "v8-lez-how-animals-migrate-compasses-stars-and-smells": {
+  "description": "Un uccello bianco in volo sopra una costa scoscesa e un mare scuro.",
+  "digest": "d1d930e4c39c",
+  "faces": "none",
+  "people": "none",
+  "title": "Come migrano gli animali: bussole, stelle e odori"
+ },
+ "v8-lez-how-animals-raise-their-young": {
+  "description": "Un'orsa trasporta il suo cucciolo in una foresta oscura.",
+  "digest": "25eea3c3704f",
+  "faces": "none",
+  "people": "none",
+  "title": "Come si allevano i piccoli nel regno animale"
+ },
+ "v8-lez-how-attention-works-and-why-multitasking-doesn-t-exist": {
+  "description": "Un metronomo di legno su un tavolo rustico.",
+  "digest": "9bb86007ce31",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona l'attenzione e perché il multitasking non esiste"
+ },
+ "v8-lez-how-end-to-end-encryption-works-in-6-steps": {
+  "description": "Un lucchetto di metallo decorato con numeri romani e fili di luce blu.",
+  "digest": "53fca908d514",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona la crittografia end-to-end in 6 passi"
+ },
+ "v8-lez-how-history-gets-written-who-decides-what-we-remember": {
+  "description": "Mani che scrivono su una pergamena antica con penna e calamaio.",
+  "digest": "9dac264a75b7",
+  "faces": "none",
+  "people": "minor",
+  "title": "Come si scrive la storia: chi decide cosa ricordare"
+ },
+ "v8-lez-how-revolutions-start-the-ingredients-that-repeat": {
+  "description": "Un'antica pressa tipografica in un vicolo buio con una pila di giornali.",
+  "digest": "1dd26271c6e2",
+  "faces": "none",
+  "people": "none",
+  "title": "Come nascono le rivoluzioni: gli ingredienti che si ripetono"
+ },
+ "v8-lez-mass-weight-and-force-the-differences-everyone-mixes-up": {
+  "description": "Un astronauta che regge un piccolo vassoio dorato con un peso da un chilo.",
+  "digest": "544460685605",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Massa, peso e forza: le differenze che confondono tutti"
+ },
+ "v8-lez-posture-and-breath-6-minutes-to-feel-better-at-your-desk": {
+  "description": "Una donna d'affari seduta a una scrivania che guarda verso l'alto in un ufficio buio.",
+  "digest": "1c60b1aadb8d",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Postura e respiro: 6 minuti per stare meglio alla scrivania"
+ },
+ "v8-lez-predators-and-prey-how-a-hunt-works": {
+  "description": "Un caracal che cammina in un campo scuro.",
+  "digest": "22f35c9400c6",
+  "faces": "none",
+  "people": "none",
+  "title": "Predatori e prede: come funziona una caccia"
+ },
+ "v8-lez-reading-a-cat-s-body-language-in-6-signals": {
+  "description": "Un gatto soriano seduto su un pavimento di legno in un ambiente scuro.",
+  "digest": "fc7577898c96",
+  "faces": "none",
+  "people": "none",
+  "title": "Leggere il linguaggio del corpo di un gatto in 6 segnali"
+ },
+ "v8-lez-reading-a-space-telescope-photo-true-and-false-colours": {
+  "description": "Una donna lavora al computer in una stanza buia con un osservatorio sullo sfondo.",
+  "digest": "1df308fed768",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Leggere una foto del telescopio spaziale: colori veri e falsi"
+ },
+ "v8-lez-reading-an-old-document-6-questions-to-ask": {
+  "description": "Mani che tengono un antico rotolo di carta su un tavolo di legno.",
+  "digest": "eeb0a30df0ee",
+  "faces": "none",
+  "people": "minor",
+  "title": "Leggere un documento antico: 6 domande da farsi"
+ },
+ "v8-lez-reading-the-periodic-table-what-a-square-tells-you-in-6-": {
+  "description": "Una mano tiene un piccolo blocco decorativo che rappresenta l'elemento carbonio.",
+  "digest": "4125fd8af3ef",
+  "faces": "none",
+  "people": "minor",
+  "title": "Leggere la tavola periodica: cosa dice una casella in 6 passi"
+ },
+ "v8-lez-recognising-burnout-before-it-hits": {
+  "description": "Una donna siede a una scrivania di notte, apparendo stressata.",
+  "digest": "31031ce437be",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Riconoscere il burnout prima che arrivi"
+ },
+ "v8-lez-recognising-rocks-sedimentary-volcanic-metamorphic": {
+  "description": "Una mano tiene tre diversi tipi di rocce.",
+  "digest": "4c27ddf93736",
+  "faces": "none",
+  "people": "minor",
+  "title": "Riconoscere le rocce: sedimentarie, vulcaniche, metamorfiche"
+ },
+ "v8-lez-saying-no-without-guilt-the-6-step-method": {
+  "description": "Una donna in maglione verde seduta al tavolo di un caffè parla con qualcuno.",
+  "digest": "555cb33381b3",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Dire di no senza sentirsi in colpa: il metodo in 6 passi"
+ },
+ "v8-lez-spotting-a-deepfake-6-practical-checks": {
+  "description": "Mani che utilizzano un tablet con grafici digitali.",
+  "digest": "841733f6077e",
+  "faces": "none",
+  "people": "minor",
+  "title": "Riconoscere un deepfake: 6 controlli pratici"
+ },
+ "v8-lez-spotting-the-space-station-overhead-a-6-step-guide": {
+  "description": "Un uomo osserva il cielo notturno stellato con un binocolo.",
+  "digest": "f01ac745980e",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Vedere la Stazione Spaziale passare: guida in 6 passi"
+ },
+ "v8-lez-the-cold-war-in-6-steps-understanding-a-divided-world": {
+  "description": "Un uomo visto di spalle cammina in un tetro corridoio industriale.",
+  "digest": "6a05428ffd5d",
+  "faces": "none",
+  "people": "prominent",
+  "title": "La Guerra Fredda in 6 passi: capire il mondo diviso"
+ },
+ "v8-lez-tides-reading-a-tide-table-before-heading-to-the-beach": {
+  "description": "Un cartello di legno con la tavola delle maree su una spiaggia scura.",
+  "digest": "37a11d5fade1",
+  "faces": "none",
+  "people": "none",
+  "title": "Le maree: leggere una tabella prima di andare al mare"
+ },
+ "v8-lez-to-update-or-not-understanding-security-patches": {
+  "description": "Un uomo usa un tablet davanti a dei server in una stanza buia.",
+  "digest": "5432f0be128c",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Aggiornare o no? Capire le patch di sicurezza"
+ },
+ "v8-lez-visiting-an-archaeological-site-and-understanding-what-y": {
+  "description": "Un'archeologa pulisce un antico mosaico tra le rovine di notte.",
+  "digest": "f4e35bb1ad1f",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Visitare un sito archeologico e capire cosa vedi"
+ },
+ "v8-lez-watching-pollinators-what-to-look-for-and-when": {
+  "description": "Un bombo in volo si avvicina a un fiore di cardo in un prato.",
+  "digest": "3dfaefe51cc9",
+  "faces": "none",
+  "people": "none",
+  "title": "Osservare gli insetti impollinatori: cosa cercare e quando"
+ },
+ "v8-lez-watching-wildlife-without-disturbing-it": {
+  "description": "Un uomo osserva un cervo con un binocolo in una foresta densa.",
+  "digest": "8b055d86f6b5",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Osservare gli animali in natura senza disturbarli"
+ },
+ "v8-lez-what-a-file-is-bits-bytes-and-formats-explained": {
+  "description": "Un disco rigido aperto su uno sfondo scuro di circuiti.",
+  "digest": "3b2416953f37",
+  "faces": "none",
+  "people": "none",
+  "title": "Che cos'è un file: bit, byte e formati spiegati bene"
+ },
+ "v8-lez-what-light-is-waves-particles-and-colours": {
+  "description": "Un prisma di vetro scompone un raggio di luce bianca in uno spettro di colori su un tavolo di legno.",
+  "digest": "46ccd02f2f75",
+  "faces": "none",
+  "people": "none",
+  "title": "Che cos'è la luce: onde, particelle e colori"
+ },
+ "v8-the-brain-hates-losing-more-than-it-loves-winning": {
+  "description": "Un uomo visibilmente stressato guarda delle banconote su un tavolo di legno.",
+  "digest": "c03ddff1f203",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Il cervello odia perdere più di quanto ami vincere"
+ },
+ "v8-the-silk-road-wasn-t-a-road": {
+  "description": "Una donna conduce un cammello carico attraverso un paesaggio montuoso.",
+  "digest": "3f41755e3ce1",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "La Via della Seta non era una strada"
+ },
+ "v8-what-happened-to-the-voyager-probes-beyond-the-solar-sys": {
+  "description": "Una sonda spaziale fluttua nell'oscurità dello spazio stellato.",
+  "digest": "f9cc427df4e2",
+  "faces": "none",
+  "people": "none",
+  "title": "Che cosa è successo alle sonde Voyager, oltre il Sistema Solare"
+ },
+ "v8-who-invented-the-weekend": {
+  "description": "Un uomo con una coppola siede a un tavolo da lavoro in un'officina scura.",
+  "digest": "5e196d67c86f",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Chi ha inventato il fine settimana?"
+ },
+ "v8-why-are-flamingos-pink": {
+  "description": "Un fenicottero rosa in piedi nell'acqua scura.",
+  "digest": "b1e173b5c68a",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i fenicotteri sono rosa?"
+ },
+ "v8-why-are-some-beaches-black-and-others-white": {
+  "description": "Una mano che tiene sabbia nera e una piccola conchiglia bianca su una spiaggia scura.",
+  "digest": "32a844a1a099",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché alcune spiagge sono nere e altre bianche?"
+ },
+ "v8-why-do-dogs-tilt-their-heads-when-you-talk-to-them": {
+  "description": "Un cane tigrato marrone guarda l'obiettivo con la testa inclinata.",
+  "digest": "7d98c8a370eb",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i cani inclinano la testa quando gli parli?"
+ },
+ "v8-why-do-jpeg-photos-lose-quality-every-time-you-save-them": {
+  "description": "Una giovane donna concentrata mentre lavora al computer in un ambiente buio.",
+  "digest": "f337967e20a1",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché le foto JPEG perdono qualità ogni volta che le salvi?"
+ },
+ "v8-why-do-rockets-almost-always-launch-toward-the-east": {
+  "description": "Un motore a razzo in fiamme nel cielo scuro.",
+  "digest": "14a093495f2c",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i razzi partono quasi sempre verso est?"
+ },
+ "v8-why-do-songs-get-stuck-in-your-head": {
+  "description": "Una donna seduta a un tavolo di legno guarda fuori dalla finestra con delle cuffie davanti a lei.",
+  "digest": "f3e77076a87b",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché le canzoni ti restano in testa?"
+ },
+ "v8-why-do-we-drive-on-the-right-and-the-british-on-the-left": {
+  "description": "Un ufficiale a cavallo guida le truppe su un campo di battaglia sotto un cielo nuvoloso.",
+  "digest": "bc77f4e30429",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché guidiamo a destra (e gli inglesi a sinistra)?"
+ },
+ "v8-why-do-we-feel-embarrassed-for-other-people": {
+  "description": "Una donna con le mani sul volto in un momento di intensa emozione.",
+  "digest": "aec98153e229",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Perché ci vergogniamo per gli altri?"
+ },
+ "v8-why-do-we-shiver-when-we-have-a-fever": {
+  "description": "Una donna a letto che mostra segni di sofferenza.",
+  "digest": "0e7680416c0b",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché ci vengono i brividi quando abbiamo la febbre?"
+ },
+ "v8-why-do-we-talk-to-ourselves-and-why-it-s-good": {
+  "description": "Una giovane donna pensierosa seduta a una scrivania in uno studio.",
+  "digest": "4a47de91d6a7",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché parliamo da soli (e fa bene)?"
+ },
+ "v8-why-does-a-charger-stay-warm-even-when-it-s-charging-not": {
+  "description": "Un caricabatterie USB inserito in una presa a muro con un cavo su un mobile di legno.",
+  "digest": "a8476d6a87bf",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il caricatore rimane caldo anche quando non carica nulla?"
+ },
+ "v8-why-does-a-stranger-s-face-instantly-seem-likeable-or-no": {
+  "description": "Ritratto di un uomo di mezz'età con barba e giacca scura davanti a un muro di mattoni.",
+  "digest": "9fd487b43a88",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché il volto di uno sconosciuto ci sembra subito simpatico o no?"
+ },
+ "v8-why-does-bread-rise-the-chemistry-of-bubbles": {
+  "description": "Un panettiere che lavora l'impasto su un tavolo di legno.",
+  "digest": "f9fa307fcdc8",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché il pane lievita? La chimica delle bolle"
+ },
+ "v8-why-does-coffee-make-some-people-sleepy": {
+  "description": "Un uomo stanco sbadiglia seduto al bancone di un bar davanti a una tazzina di caffè.",
+  "digest": "840bac21c6e6",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché il caffè fa venire sonno a qualcuno?"
+ },
+ "v8-why-does-desert-sand-sing": {
+  "description": "Una duna di sabbia illuminata fiocamente sotto un cielo crepuscolare.",
+  "digest": "27b78e5319af",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché la sabbia del deserto canta?"
+ },
+ "v8-why-does-helium-give-you-a-cartoon-voice": {
+  "description": "Una donna di profilo con una rappresentazione grafica della laringe e onde sonore sul collo.",
+  "digest": "b38e266b8304",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché l'elio ti fa la voce da cartone animato?"
+ },
+ "v8-why-does-hot-water-freeze-faster-than-cold-water": {
+  "description": "Due becher con acqua a diverse temperature in un laboratorio.",
+  "digest": "ff707952f878",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché l'acqua calda gela prima di quella fredda?"
+ },
+ "v8-why-does-moss-grow-on-only-one-side-of-trees-maybe": {
+  "description": "Un tronco d'albero coperto di muschio verde in una foresta oscura.",
+  "digest": "a05815bb2e72",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il muschio cresce solo da un lato degli alberi (forse)?"
+ },
+ "v8-why-does-the-colosseum-have-holes-in-its-walls": {
+  "description": "Il Colosseo di Roma illuminato sotto un cielo nuvoloso all'imbrunire.",
+  "digest": "c48d8f62bc26",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il Colosseo ha i buchi nelle pareti?"
+ },
+ "v8-why-does-the-progress-bar-never-tell-the-truth": {
+  "description": "Primo piano di una mano su un laptop che mostra una barra di caricamento al 99%.",
+  "digest": "78df581c841a",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Perché la barra di caricamento non dice mai la verità?"
+ },
+ "v8-why-is-fire-hot-and-what-is-a-flame-made-of": {
+  "description": "Un fuoco che arde vivacemente tra pezzi di legna in un braciere.",
+  "digest": "128725cdb448",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il fuoco è caldo e di che cosa è fatta una fiamma?"
+ },
+ "v8-why-is-glass-transparent-if-it-s-made-of-sand": {
+  "description": "Una mano regge un vaso di vetro sopra una ciotola di sabbia in una vetreria.",
+  "digest": "9cb20b9f6c49",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché il vetro è trasparente se è fatto di sabbia?"
+ },
+ "v8-why-is-there-no-sound-in-space": {
+  "description": "Una vasta galassia a spirale circondata da innumerevoli stelle nello spazio profondo.",
+  "digest": "24ecb0a6da07",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché nello spazio non c'è suono?"
+ },
+ "v9-how-do-experts-tell-if-a-painting-is-a-fake": {
+  "description": "Mani con guanti blu esaminano un dipinto antico con una lente d'ingrandimento.",
+  "digest": "0f0e6921662e",
+  "faces": "partial",
+  "people": "minor",
+  "title": "Come si capisce se un quadro è falso?"
+ },
+ "v9-how-does-a-free-app-make-billions": {
+  "description": "Un uomo con la barba in una sala server tiene in mano uno smartphone.",
+  "digest": "c85a1f13f807",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Come fa un'app gratuita a guadagnare miliardi?"
+ },
+ "v9-how-is-an-island-born": {
+  "description": "Un vulcano che emerge dal mare con la sua struttura visibile sott'acqua.",
+  "digest": "5e172f89df88",
+  "faces": "none",
+  "people": "none",
+  "title": "Come nasce un'isola?"
+ },
+ "v9-lez-dialects-aren-t-bad-italian-6-things-to-know-about-the-l": {
+  "description": "Una pila di libri antichi su un leggio di legno con occhiali e calamaio.",
+  "digest": "e34a80e4c026",
+  "faces": "none",
+  "people": "none",
+  "title": "Il dialetto non è italiano sbagliato: 6 cose da sapere sulle lingue d'Italia"
+ },
+ "v9-lez-how-a-sign-language-works-6-things-almost-everyone-gets-": {
+  "description": "Una mano umana ripresa in primo piano contro uno sfondo scuro.",
+  "digest": "1fb1a7ed9f96",
+  "faces": "none",
+  "people": "minor",
+  "title": "Come funziona una lingua dei segni: 6 cose che quasi tutti sbagliano"
+ },
+ "v9-lez-how-a-vaccine-works-6-steps-from-the-shot-to-immune-memo": {
+  "description": "Rappresentazione medica di un'iniezione nel braccio con sovrapposizioni grafiche di cellule.",
+  "digest": "c75b4fb745ce",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Come funziona un vaccino: 6 passi dall'iniezione alla memoria immunitaria"
+ },
+ "v9-lez-how-translation-works-6-steps-to-understand-why-it-s-nev": {
+  "description": "Una vecchia macchina da scrivere con un elenco numerato su un foglio di carta.",
+  "digest": "531440e01f26",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona la traduzione: 6 passi per capire perché non è mai letterale"
+ },
+ "v9-lez-measuring-blood-pressure-at-home-6-steps-to-read-it-righ": {
+  "description": "Un uomo misura la sua pressione sanguigna con un misuratore digitale.",
+  "digest": "73fcbc8b8eed",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Misurare la pressione a casa: 6 passi per leggerla bene"
+ },
+ "v9-lez-negotiating-a-salary-or-a-price-the-6-step-method": {
+  "description": "Un uomo in abito seduto a un tavolo gioca con blocchi metallici.",
+  "digest": "8a73a1246024",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Negoziare uno stipendio o un prezzo: il metodo in 6 passi"
+ },
+ "v9-lez-protecting-your-eyes-in-front-of-screens-6-steps": {
+  "description": "Una giovane donna guarda un tablet in un ambiente buio.",
+  "digest": "14c67d0d635f",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Proteggere gli occhi davanti agli schermi: 6 passi"
+ },
+ "v9-lez-reading-a-blood-test-6-values-worth-understanding": {
+  "description": "Una provetta contenente un liquido rosso scuro in un laboratorio.",
+  "digest": "c97790b01590",
+  "faces": "none",
+  "people": "none",
+  "title": "Leggere le analisi del sangue: 6 valori da capire"
+ },
+ "v9-lez-reading-a-landscape-for-risk-6-signs-of-landslides-and-f": {
+  "description": "Un esploratore accovacciato su una montagna mentre scrive su un taccuino.",
+  "digest": "2da162e72673",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Leggere un paesaggio a rischio: 6 segni di frane e alluvioni"
+ },
+ "v9-lez-reading-a-music-score-without-playing-6-symbols-to-under": {
+  "description": "Una persona con i capelli ricci studia uno spartito musicale a una scrivania.",
+  "digest": "c719a5e62843",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Leggere uno spartito senza saper suonare: 6 simboli per capire la musica scritta"
+ },
+ "v9-lez-reading-a-utility-bill-6-line-items-to-understand-what-y": {
+  "description": "Una donna seduta a un tavolo esamina attentamente una bolletta dell'energia.",
+  "digest": "6b6b3cb3a1ab",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Leggere una bolletta: 6 voci per capire cosa paghi davvero"
+ },
+ "v9-lez-reading-a-weather-forecast-the-6-numbers-that-really-mat": {
+  "description": "Un uomo con lo zaino guarda lo smartphone in una stazione buia.",
+  "digest": "f86cb1e9a6b0",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Leggere una previsione meteo: i 6 numeri che contano davvero"
+ },
+ "v9-lez-reading-an-ancient-city-6-roman-traces-you-can-still-see": {
+  "description": "Un uomo con una mappa sta sotto un antico arco di pietra.",
+  "digest": "63ded758710d",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Leggere una città antica: 6 tracce romane che vedi ancora oggi"
+ },
+ "v9-lez-recognising-coastlines-6-shapes-and-what-they-reveal": {
+  "description": "Una roccia stratificata in primo piano su uno sfondo marino notturno.",
+  "digest": "33d53fe87c48",
+  "faces": "none",
+  "people": "none",
+  "title": "Riconoscere le coste: 6 forme e cosa raccontano"
+ },
+ "v9-lez-recognising-techniques-fresco-oil-tempera-and-watercolou": {
+  "description": "Una tavolozza di legno con un pennello e diverse macchie di colore.",
+  "digest": "f8c28f83d14c",
+  "faces": "none",
+  "people": "none",
+  "title": "Riconoscere le tecniche: affresco, olio, tempera e acquerello in 6 passi"
+ },
+ "v9-lez-spotting-a-financial-scam-6-warning-signs-that-repeat": {
+  "description": "Una mano sta per premere un pulsante dorato con il simbolo del dollaro sopra una pietra scura.",
+  "digest": "1b24e50a7626",
+  "faces": "none",
+  "people": "minor",
+  "title": "Riconoscere una truffa finanziaria: 6 segnali che si ripetono"
+ },
+ "v9-lez-understanding-an-insurance-policy-premium-deductible-and": {
+  "description": "Una donna seduta a una scrivania scura che legge dei documenti.",
+  "digest": "f05c3ee826cf",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Capire un'assicurazione: premio, franchigia e massimale in 6 passi"
+ },
+ "v9-lez-understanding-jazz-in-6-steps-what-to-listen-for-when-it": {
+  "description": "Una tromba appoggiata su un tavolo in un jazz club con un musicista sfocato sullo sfondo.",
+  "digest": "e8d67f1ee94d",
+  "faces": "partial",
+  "people": "minor",
+  "title": "Capire il jazz in 6 passi: cosa ascoltare quando sembra caos"
+ },
+ "v9-lez-understanding-your-dog-reading-body-language-in-6-signal": {
+  "description": "Un pastore tedesco guarda una mano che gli offre un premio.",
+  "digest": "069760723e03",
+  "faces": "none",
+  "people": "minor",
+  "title": "Capire il tuo cane: leggere il linguaggio del corpo in 6 segnali"
+ },
+ "v9-lez-visiting-a-museum-without-burning-out-the-6-step-method": {
+  "description": "Un uomo scrive su un taccuino davanti a un quadro in un museo.",
+  "digest": "f57a9e47500e",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Visitare un museo senza stancarsi: il metodo in 6 passi"
+ },
+ "v9-lez-watching-a-film-with-new-eyes-6-director-s-choices-to-no": {
+  "description": "Un operatore dietro una cinepresa professionale su un set cinematografico.",
+  "digest": "ca1f9f5032f5",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Guardare un film con occhi nuovi: 6 scelte del regista da notare"
+ },
+ "v9-lez-what-to-do-in-a-thunderstorm-6-rules-that-save-lives": {
+  "description": "Un uomo accovacciato sotto un ulivo durante una tempesta.",
+  "digest": "d345dc4899af",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Cosa fare durante un temporale: 6 regole che salvano la vita"
+ },
+ "v9-lez-why-people-migrate-6-factors-behind-every-great-movement": {
+  "description": "Una pila di valigie vintage con oggetti da viaggio e una vecchia fotografia di famiglia.",
+  "digest": "d86eb761f500",
+  "faces": "partial",
+  "people": "minor",
+  "title": "Perché le persone migrano: 6 fattori dietro ogni grande spostamento"
+ },
+ "v9-lez-winds-and-currents-why-ship-and-plane-routes-aren-t-stra": {
+  "description": "Mani rugose che tengono un antico sestante in ottone davanti a una vecchia mappa.",
+  "digest": "aa453f7de856",
+  "faces": "none",
+  "people": "minor",
+  "title": "Venti e correnti: perché le rotte di navi e aerei non sono dritte"
+ },
+ "v9-the-amazon-river-has-not-a-single-bridge-why": {
+  "description": "Un gruppo di persone su una barca a motore naviga lungo un fiume al crepuscolo.",
+  "digest": "938a035ab928",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Il Rio delle Amazzoni non ha nemmeno un ponte: perché?"
+ },
+ "v9-the-box-that-changed-the-world-how-the-shipping-containe": {
+  "description": "Un container in un porto di notte con gru e una nave da carico.",
+  "digest": "87eb30c59121",
+  "faces": "none",
+  "people": "minor",
+  "title": "La scatola che ha cambiato il mondo: come il container ha fatto la globalizzazione"
+ },
+ "v9-the-red-sky-in-munch-s-scream-was-real-a-volcano-behind-": {
+  "description": "Un pittore realizza un quadro davanti a un cielo infuocato e un'eruzione vulcanica.",
+  "digest": "e0909befc7d5",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Il cielo rosso dell'Urlo di Munch era vero: un vulcano dietro il quadro"
+ },
+ "v9-the-romans-knew-about-steam-power-why-didn-t-they-start-": {
+  "description": "Un'eolipile di bronzo che emette vapore sopra una piccola fiamma in un'antica officina.",
+  "digest": "03abd1731133",
+  "faces": "none",
+  "people": "minor",
+  "title": "I Romani conoscevano il vapore: perché non fecero la rivoluzione industriale?"
+ },
+ "v9-the-sea-that-vanished-in-30-years-the-story-of-the-aral-": {
+  "description": "Una nave arrugginita abbandonata in mezzo a un deserto sotto un cielo cupo.",
+  "digest": "53b1863a5fdc",
+  "faces": "none",
+  "people": "none",
+  "title": "Il mare che è sparito in 30 anni: la storia del lago d'Aral"
+ },
+ "v9-tomatoes-only-reached-italy-in-the-1500s-the-history-of-": {
+  "description": "Una pizza napoletana con basilico servita su un tavolo di legno in un ambiente rustico.",
+  "digest": "836e753da748",
+  "faces": "none",
+  "people": "none",
+  "title": "Il pomodoro è arrivato in Italia solo nel Cinquecento: la storia della cucina 'italiana'"
+ },
+ "v9-what-is-a-recession-and-why-does-it-come-in-waves": {
+  "description": "Un uomo anziano cammina pensieroso lungo una strada cittadina al crepuscolo.",
+  "digest": "e422365a0eda",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Che cos'è una recessione (e perché arriva a ondate)?"
+ },
+ "v9-what-is-public-debt-and-why-is-it-never-fully-repaid": {
+  "description": "Un uomo preoccupato siede a una scrivania carica di vecchi libri e documenti contabili.",
+  "digest": "63964d20b5cf",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Che cos'è il debito pubblico e perché non si ripaga mai del tutto?"
+ },
+ "v9-where-do-the-names-of-the-days-of-the-week-come-from": {
+  "description": "Un busto di bronzo di un antico guerriero con elmo esposto in un museo.",
+  "digest": "1866b7d5f12b",
+  "faces": "none",
+  "people": "none",
+  "title": "Da dove vengono i nomi dei giorni della settimana?"
+ },
+ "v9-who-sets-the-price-of-oil-and-why-it-rises-because-of-a-": {
+  "description": "Un uomo in giacca tiene un tablet davanti a un porto industriale con una nave cargo e un globo nel cielo.",
+  "digest": "7c6e46439d59",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Chi decide il prezzo del petrolio (e perché sale per una crisi lontana)?"
+ },
+ "v9-why-are-old-paintings-so-dark-varnish-smoke-and-restorat": {
+  "description": "Una restauratrice pulisce con cura un antico dipinto a olio.",
+  "digest": "b4db30ee89dc",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché i quadri antichi sono così scuri? Vernici, fumo e restauri"
+ },
+ "v9-why-are-there-countries-inside-other-countries-enclaves-": {
+  "description": "Un anziano signore che studia una mappa con una lente d'ingrandimento.",
+  "digest": "299d59b886c2",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché ci sono paesi dentro altri paesi? Enclave ed exclave"
+ },
+ "v9-why-can-t-the-brain-feel-pain-but-headaches-hurt": {
+  "description": "Un'immagine realistica di un cervello umano su sfondo scuro.",
+  "digest": "bafbebc97721",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il cervello non sente dolore (ma il mal di testa sì)?"
+ },
+ "v9-why-can-t-trees-grow-beyond-a-certain-height": {
+  "description": "Un maestoso albero secolare svetta sotto un cielo tempestoso e scuro.",
+  "digest": "414187316676",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché gli alberi non crescono oltre una certa altezza?"
+ },
+ "v9-why-can-t-you-sink-in-the-dead-sea": {
+  "description": "Una donna galleggia sulla superficie dell'acqua in un paesaggio costiero al crepuscolo.",
+  "digest": "a6bb09745ae4",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché nel Mar Morto non si affonda?"
+ },
+ "v9-why-do-90-of-people-live-in-the-northern-hemisphere": {
+  "description": "Un mappamondo illuminato con le luci delle città su una scrivania scura.",
+  "digest": "1254be9359c0",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché il 90% delle persone vive nell'emisfero nord?"
+ },
+ "v9-why-do-almost-all-languages-call-mother-mama": {
+  "description": "Una madre che tiene teneramente in braccio il suo neonato.",
+  "digest": "9fedc4ca256c",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché quasi tutte le lingue chiamano la madre 'mamma'?"
+ },
+ "v9-why-do-bones-heal-themselves-but-teeth-don-t": {
+  "description": "Un osso umano e un dente posizionati verticalmente su uno sfondo scuro.",
+  "digest": "aeea77aac2af",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché le ossa si riparano da sole (e i denti no)?"
+ },
+ "v9-why-do-brides-wear-white-a-fashion-less-than-200-years-o": {
+  "description": "Una giovane donna in abito da sposa d'epoca tiene un bouquet di fiori.",
+  "digest": "ba8a4a46f69e",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché la sposa si veste di bianco? Una moda che ha meno di 200 anni"
+ },
+ "v9-why-do-gothic-cathedrals-have-monsters-on-their-roofs": {
+  "description": "Un gargoyle di pietra si erge sul tetto di una cattedrale di notte.",
+  "digest": "76df2be1cac8",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché le cattedrali gotiche hanno mostri sui tetti?"
+ },
+ "v9-why-do-mosquitoes-bite-you-in-particular": {
+  "description": "Una zanzara posata su un braccio umano.",
+  "digest": "31690cfd16e7",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché le zanzare pungono proprio te?"
+ },
+ "v9-why-do-sales-exist-and-who-really-profits": {
+  "description": "Una mano con un guanto nero regge un piccolo pacchetto regalo a forma di cartellino con prezzi scontati.",
+  "digest": "73091fcbdb3c",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché esistono i saldi (e chi ci guadagna davvero)?"
+ },
+ "v9-why-do-scars-last-forever-while-a-foetus-heals-without-a": {
+  "description": "Primo piano di un avambraccio con una cicatrice chirurgica evidente.",
+  "digest": "f8f73d7db590",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Perché le cicatrici restano per sempre (mentre un feto si ripara senza segni)?"
+ },
+ "v9-why-do-stars-twinkle-but-planets-don-t": {
+  "description": "Una donna osserva le stelle attraverso un telescopio di notte.",
+  "digest": "a066914670e2",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché le stelle brillano a intermittenza e i pianeti no?"
+ },
+ "v9-why-do-stradivarius-violins-sound-so-good-and-why-can-t-": {
+  "description": "Le mani rugose di un liutaio che sorreggono il manico di un antico violino in bottega.",
+  "digest": "17bb70af3db0",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché i violini di Stradivari suonano così bene (e nessuno riesce a rifarli)?"
+ },
+ "v9-why-do-the-british-queue-while-others-don-t-the-culture-": {
+  "description": "Un uomo in cappotto cammina su un marciapiede bagnato vicino a una cabina telefonica rossa.",
+  "digest": "521c40a43282",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché in Inghilterra si fa la fila e altrove no? La cultura dell'attesa"
+ },
+ "v9-why-do-waves-always-arrive-parallel-to-the-beach": {
+  "description": "Una surfista in muta guarda l'oceano da una spiaggia al tramonto.",
+  "digest": "e09df5f4b527",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Perché le onde arrivano sempre parallele alla spiaggia?"
+ },
+ "v9-why-do-we-eat-three-meals-a-day-it-wasn-t-always-like-th": {
+  "description": "Un operaio consuma un pasto frugale all'interno di una fabbrica.",
+  "digest": "f024a8ab80be",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché mangiamo tre pasti al giorno? Non è sempre stato così"
+ },
+ "v9-why-do-we-forget-what-we-came-for-when-we-walk-through-a": {
+  "description": "Una donna preoccupata in una cucina.",
+  "digest": "c65e7ffc13a3",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché dimentichiamo cosa volevamo fare appena cambiamo stanza?"
+ },
+ "v9-why-does-a-pop-song-last-three-minutes-blame-a-shellac-r": {
+  "description": "Un disco in vinile nero poggiato su un tavolo di legno scuro.",
+  "digest": "c2cad8fe3372",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché una canzone pop dura tre minuti? Colpa di un disco di gommalacca"
+ },
+ "v9-why-does-an-hour-have-60-minutes-not-100-the-babylonian-": {
+  "description": "Una persona tiene tra le mani una tavoletta d'argilla con incisioni cuneiformi.",
+  "digest": "5334a41d22ed",
+  "faces": "none",
+  "people": "prominent",
+  "title": "Perché un'ora ha 60 minuti e non 100? L'eredità dei Babilonesi"
+ },
+ "v9-why-does-hail-fall-in-summer-not-winter": {
+  "description": "Una mano sporca tiene un grande chicco di grandine in un vigneto.",
+  "digest": "54785aa297bf",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché la grandine cade d'estate e non d'inverno?"
+ },
+ "v9-why-does-it-feel-like-everyone-is-watching-you-the-spotl": {
+  "description": "Una donna dall'aria afflitta tiene un bicchiere in mano in mezzo a una folla sfocata.",
+  "digest": "d96e8d963177",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché ci sembra che tutti ci guardino? L'effetto riflettore"
+ },
+ "v9-why-does-our-recorded-voice-sound-different-to-us": {
+  "description": "Una donna parla al telefono in una stanza buia.",
+  "digest": "92cc52f5d9b3",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché la nostra voce registrata ci sembra diversa?"
+ },
+ "v9-why-does-punctuation-exist-writing-once-had-no-spaces-at": {
+  "description": "Un monaco legge un antico manoscritto alla luce di una candela.",
+  "digest": "3bd5adf5e6d7",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché esiste la punteggiatura? Un tempo si scriveva tutto attaccato"
+ },
+ "v9-why-does-the-moon-look-bigger-on-the-horizon": {
+  "description": "Una persona di spalle osserva una luna gigante sorgere sul mare di notte.",
+  "digest": "f1e0949803cd",
+  "faces": "partial",
+  "people": "prominent",
+  "title": "Perché la Luna sembra più grande all'orizzonte?"
+ },
+ "v9-why-does-the-wind-always-pick-up-at-the-seaside-in-the-a": {
+  "description": "Una donna sulla costa rocciosa davanti al mare agitato.",
+  "digest": "33435a291640",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché in riva al mare il vento si alza sempre di pomeriggio?"
+ },
+ "v9-why-does-your-arm-fall-asleep-and-what-are-pins-and-need": {
+  "description": "Un braccio e una mano riposano su un tessuto scuro.",
+  "digest": "833937588bed",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché si 'addormenta' un braccio (e cosa sono i formicolii)?"
+ },
+ "v9-why-doesn-t-the-leaning-tower-of-pisa-fall": {
+  "description": "La Torre di Pisa illuminata di notte sotto un cielo nuvoloso.",
+  "digest": "082e1e8abf9b",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché la Torre di Pisa non cade?"
+ },
+ "v9-why-don-t-banks-keep-all-your-money-in-the-vault": {
+  "description": "Una pesante porta blindata di un caveau aperta su una stanza vuota con scaffali.",
+  "digest": "8396aee09efa",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché le banche non tengono tutti i tuoi soldi in cassaforte?"
+ },
+ "v9-why-has-gold-been-precious-for-5-000-years-and-not-coppe": {
+  "description": "Un lingotto d'oro grezzo poggiato su una superficie di pietra scura in un ambiente sotterraneo.",
+  "digest": "38f55cec2791",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché l'oro è prezioso da 5.000 anni (e non il rame)?"
+ },
+ "v9-why-is-black-the-colour-of-mourning-but-not-everywhere": {
+  "description": "Una donna anziana vestita a lutto tiene tra le mani un rosario.",
+  "digest": "fb59f1ddd6f2",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché il nero è il colore del lutto (ma non ovunque)?"
+ },
+ "v9-why-is-tea-english-if-it-comes-from-china": {
+  "description": "Due mani anziane tengono una tazza di tè fumante.",
+  "digest": "4ced06c33059",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché il tè è 'inglese' se viene dalla Cina?"
+ },
+ "v9-why-is-the-venus-de-milo-missing-her-arms-and-why-no-one": {
+  "description": "Una statua della Venere di Milo esposta in un museo.",
+  "digest": "5b98db930f4a",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché la Venere di Milo non ha le braccia (e nessuno gliele rimette)?"
+ },
+ "v9-why-is-venice-sinking-and-how-long-does-it-have": {
+  "description": "Uno scorcio notturno di un canale veneziano con un palo da ormeggio in primo piano.",
+  "digest": "4331aec31dad",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché Venezia affonda (e quanto tempo le resta)?"
+ },
+ "v9-why-isn-t-the-netherlands-underwater": {
+  "description": "Una diga in cemento si affaccia sul mare sotto un cielo notturno e nuvoloso.",
+  "digest": "122e80a1259f",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché l'Olanda non è sott'acqua?"
+ },
+ "v9-why-the-lottery-only-pays-whoever-sells-it-the-maths-of-": {
+  "description": "Mani che grattano un biglietto della lotteria istantanea in una tabaccheria.",
+  "digest": "24a171a22df6",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché il gratta e vinci conviene solo a chi lo vende? La matematica del gioco"
+ },
+ "vikings-truth": {
+  "description": "Un guerriero vichingo con un'ascia e uno scudo in un ambiente rustico.",
+  "digest": "fa1c6cb1c90d",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "I vichinghi erano davvero solo barbari?"
+ },
+ "volcanoes-basics": {
+  "description": "Un vulcano innevato con colate di lava che formano un disegno simile a radici.",
+  "digest": "773c25020b70",
+  "faces": "none",
+  "people": "none",
+  "title": "Cosa c'è davvero dentro un vulcano?"
+ },
+ "what-is-blockchain": {
+  "description": "Una rappresentazione astratta di strutture cubiche interconnesse da linee di luce blu.",
+  "digest": "a0346f26e11d",
+  "faces": "none",
+  "people": "none",
+  "title": "Cos'è la blockchain, in parole normali?"
+ },
+ "why-comets-tails": {
+  "description": "Un grande asteroide che viaggia nello spazio profondo tra le stelle.",
+  "digest": "fe6374fad0bb",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché le comete hanno la coda?"
+ },
+ "why-dogs-love-us": {
+  "description": "Un cucciolo di golden retriever tiene un tulipano in bocca.",
+  "digest": "7dd5fde1baa8",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i cani ci amano così tanto?"
+ },
+ "why-evolution": {
+  "description": "Tre piccoli uccelli appollaiati su un ramo all'interno di una teca da museo.",
+  "digest": "839308fecd7d",
+  "faces": "none",
+  "people": "none",
+  "title": "Come funziona l'evoluzione (davvero)?"
+ },
+ "why-lefties": {
+  "description": "Una donna con i capelli ricci scrive su un taccuino in una stanza scura.",
+  "digest": "f90ce86340fd",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché il 10% delle persone è mancino?"
+ },
+ "why-magnets": {
+  "description": "Un magnete a ferro di cavallo con limatura di ferro e diagrammi del campo magnetico.",
+  "digest": "8b546787aceb",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i magneti attirano il ferro?"
+ },
+ "why-many-languages": {
+  "description": "Una pila di libri ammucchiati su un tavolo con uno sfondo sfocato.",
+  "digest": "84a824f5a410",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché parliamo lingue così diverse?"
+ },
+ "why-rain-falls": {
+  "description": "Un massiccio temporale con pioggia battente sopra una campagna al tramonto.",
+  "digest": "c2ac6edffd7a",
+  "faces": "none",
+  "people": "none",
+  "title": "Come nasce la pioggia?"
+ },
+ "why-romans-fell": {
+  "description": "Il Colosseo a Roma illuminato al crepuscolo sotto un cielo nuvoloso.",
+  "digest": "c48d8f62bc26",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché è crollato l'Impero Romano?"
+ },
+ "why-seasons": {
+  "description": "Un mappamondo realistico montato su un supporto metallico, sospeso nello spazio profondo tra le stelle.",
+  "digest": "08cf740ef969",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché ci sono le stagioni?"
+ },
+ "why-smartphones-fast": {
+  "description": "Un uomo in camicia bianca che usa uno smartphone.",
+  "digest": "256779378cc4",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché uno smartphone è più potente di un PC di 20 anni fa?"
+ },
+ "why-sun-shines": {
+  "description": "Un'immagine dettagliata del sole nello spazio con brillamenti solari.",
+  "digest": "7c1e5ec7c4ca",
+  "faces": "none",
+  "people": "none",
+  "title": "Come fa il Sole a brillare da 5 miliardi di anni?"
+ },
+ "why-time-flies": {
+  "description": "Una mano che tiene una piccola sveglia bianca.",
+  "digest": "fe04eefc5ec0",
+  "faces": "none",
+  "people": "minor",
+  "title": "Perché il tempo vola quando ti diverti?"
+ },
+ "why-water-strange": {
+  "description": "Una goccia di cristallo blu sospesa sopra uno spruzzo d'acqua.",
+  "digest": "bf77ed6ae82f",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché l'acqua è così strana?"
+ },
+ "why-we-cry": {
+  "description": "Un uomo con la barba che piange e si tocca il viso.",
+  "digest": "e37ecd81ceea",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché piangiamo?"
+ },
+ "why-we-sleep": {
+  "description": "Un gatto che dorme sotto un piumone bianco.",
+  "digest": "6138a73f31f9",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché passiamo un terzo della vita a dormire?"
+ },
+ "why-yawn-cat": {
+  "description": "Un gatto bianco e nero guarda verso la fotocamera.",
+  "digest": "d8cd20a69e73",
+  "faces": "none",
+  "people": "none",
+  "title": "Perché i gatti fanno le fusa?"
+ },
+ "world-war-1": {
+  "description": "Un giovane uomo viene arrestato tra la folla in una strada storica.",
+  "digest": "342c8389fb02",
+  "faces": "clear",
+  "people": "prominent",
+  "title": "Perché scoppiò la Prima Guerra Mondiale?"
+ }
+}

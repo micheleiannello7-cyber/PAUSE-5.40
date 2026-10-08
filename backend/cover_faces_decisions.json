@@ -1,0 +1,496 @@
+{
+ "arte-color-psychology": {
+  "at": "2026-10-06T11:02:59.343334+00:00",
+  "backup": "covers_backup_pre_nofaces/arte-color-psychology.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "La tavolozza con colori vivaci è una metafora visiva perfetta per un articolo che parla dell'impatto emotivo dei colori, specialmente nella categoria Arte & Design.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/arte-color-psychology-a6de8915af41.webp",
+  "reason": "Un soggetto senza persone è più diretto e specifico: una tavolozza di colori comunica subito emozione, percezione e design meglio della pittrice."
+ },
+ "arte-design-everyday": {
+  "at": "2026-10-06T11:08:46.343015+00:00",
+  "backup": "covers_backup_pre_nofaces/arte-design-everyday.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine rappresenta perfettamente il concetto di design confuso citato nel testo (una porta con maniglie e piastre contraddittorie).",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/arte-design-everyday-970e84ea5a2f.webp",
+  "reason": "Un oggetto concreto e universalmente legato al tema dell’usabilità funziona meglio della scena con persona: una porta ambigua comunica subito il problema del design che non suggerisce l’azione corretta."
+ },
+ "arte-music-emotion": {
+  "at": "2026-10-06T11:08:46.643451+00:00",
+  "backup": "covers_backup_pre_nofaces/arte-music-emotion.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine del vinile bagnato (lacrime?) è una metafora efficace per l'emozione musicale.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/arte-music-emotion-3f2b67c73121.webp",
+  "reason": "Un soggetto senza persone può rendere bene l’idea centrale: la musica come vibrazione che provoca brividi ed emozione, restando concreto e immediato."
+ },
+ "arte-perspective": {
+  "at": "2026-10-06T11:09:00.127059+00:00",
+  "backup": "covers_backup_pre_nofaces/arte-perspective.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine illustra perfettamente il concetto di prospettiva con diagrammi tecnici coerenti con il titolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/arte-perspective-b792c3350de8.webp",
+  "reason": "Si può mostrare in modo diretto e specifico il principio della prospettiva con una tavola geometrica rinascimentale, senza persone e senza perdere chiarezza editoriale."
+ },
+ "arte-street-art": {
+  "at": "2026-10-06T11:09:00.413620+00:00",
+  "backup": "covers_backup_pre_nofaces/arte-street-art.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine mostra graffiti su un blocco di cemento esposto in un museo, illustrando perfettamente la transizione da vandalismo a arte istituzionalizzata.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/arte-street-art-fa6fc812acc5.webp",
+  "reason": "Il soggetto si presta bene a un’immagine senza persone: un muro di street art battuto all’asta rende subito il passaggio da strada a mercato."
+ },
+ "arte-why-modern-art": {
+  "at": "2026-10-06T11:09:09.883146+00:00",
+  "backup": "covers_backup_pre_nofaces/arte-why-modern-art.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine rappresenta fedelmente uno degli esempi citati nel testo (l'orinatoio), illustrando perfettamente il concetto di arte provocatoria.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/arte-why-modern-art-293f358cd1dd.webp",
+  "reason": "Un soggetto senza persone è possibile ed è persino più diretto: l’orinatoio di Duchamp è un’icona immediatamente riconoscibile del tema arte moderna come idea."
+ },
+ "blood-basics": {
+  "at": "2026-10-06T11:09:10.305319+00:00",
+  "backup": "covers_backup_pre_nofaces/blood-basics.jpg",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine mostra chiaramente una goccia di sangue su vetrini da laboratorio, perfettamente in linea con il tema dell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/blood-basics-8e1d2b900065.webp",
+  "reason": "Si può mostrare il soggetto concreto in modo più diretto e forte: una macro del sangue come tessuto vivente comunica subito ossigeno, difesa e vita senza persone."
+ },
+ "cor-why-hiccup": {
+  "at": "2026-10-06T11:09:49.079614+00:00",
+  "backup": "covers_backup_pre_nofaces/cor-why-hiccup.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine mostra chiaramente l'anatomia dei polmoni e del diaframma, la parte del corpo direttamente coinvolta nel singhiozzo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/cor-why-hiccup-da8337645171.webp",
+  "reason": "Si può mostrare in modo diretto e specifico il meccanismo del singhiozzo senza persone, con un soggetto anatomico immediatamente leggibile."
+ },
+ "cul-handshake": {
+  "at": "2026-10-07T11:38:25.567056+00:00",
+  "backup": "covers_backup_pre_nofaces/cul-handshake.webp",
+  "check": {
+   "faces": "none",
+   "people": "minor",
+   "quality": "ok",
+   "reason": "L'immagine rappresenta esattamente il tema dell'articolo: una stretta di mano.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/cul-handshake-298224a8e737.webp",
+  "reason": "La storia è sul gesto della stretta di mano: un close-up di sole mani comunica subito fiducia, pace e disarmo senza mostrare volti."
+ },
+ "cul-why-clink-glasses": {
+  "at": "2026-10-06T11:09:35.702260+00:00",
+  "backup": "covers_backup_pre_nofaces/cul-why-clink-glasses.jpg",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine rappresenta esattamente il gesto del brindisi descritto nel titolo dell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/cul-why-clink-glasses-753c47b0a80c.webp",
+  "reason": "Il soggetto può essere reso in modo diretto e specifico senza persone: il tintinnio di due calici racconta subito il brindisi."
+ },
+ "cul-why-music-universal": {
+  "at": "2026-10-06T11:09:36.095131+00:00",
+  "backup": "covers_backup_pre_nofaces/cul-why-music-universal.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine mostra strumenti musicali primitivi, evocando correttamente le origini universali della musica citate nell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/cul-why-music-universal-3b07076c51a8.webp",
+  "reason": "Un soggetto senza persone può essere altrettanto forte e più universale: uno strumento musicale concreto comunica subito il tema della musica presente in tutte le culture."
+ },
+ "cur-why-mirrors-reverse": {
+  "at": "2026-10-07T11:38:23.601785+00:00",
+  "backup": "covers_backup_pre_nofaces/cur-why-mirrors-reverse.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine illustra chiaramente il concetto di riflessione speculare tramite un oggetto quotidiano (tazza), coerente con il tema scientifico dell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/cur-why-mirrors-reverse-f1c9f7a9e086.webp",
+  "reason": "Si può rappresentare in modo diretto il principio dello specchio con un oggetto simmetrico e il suo riflesso, senza ricorrere a un volto umano."
+ },
+ "cur-why-onions-cry": {
+  "at": "2026-10-07T11:38:49.660583+00:00",
+  "backup": "covers_backup_pre_nofaces/cur-why-onions-cry.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine mostra chiaramente una cipolla tagliata, coerente con il titolo e il contenuto dell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/cur-why-onions-cry-2e21046532a3.webp",
+  "reason": "Una cipolla tagliata che rilascia vapori irritanti comunica il tema in modo diretto e specifico senza ricorrere a un volto umano."
+ },
+ "cur-why-time-flies": {
+  "at": "2026-10-07T11:38:50.151088+00:00",
+  "backup": "covers_backup_pre_nofaces/cur-why-time-flies.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine della clessidra circondata da foto rappresenta efficacemente il trascorrere del tempo e i ricordi, in linea con il tema della percezione temporale.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/cur-why-time-flies-85b9a64749bd.webp",
+  "reason": "Si può rendere il tema in modo diretto e specifico con un oggetto editoriale forte: una clessidra che allude alla percezione del tempo che accelera, senza bisogno di un volto."
+ },
+ "eco-compound-interest": {
+  "at": "2026-10-07T11:38:55.954513+00:00",
+  "backup": "covers_backup_pre_nofaces/eco-compound-interest.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine del barattolo colmo di monete è una metafora classica e calzante per il risparmio e l'interesse composto.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/eco-compound-interest-df420640afc5.webp",
+  "reason": "Si può mostrare il concetto in modo diretto e specifico senza persone: monete che si moltiplicano visivamente nel tempo rendono subito l’interesse composto."
+ },
+ "eco-inflation": {
+  "at": "2026-10-07T11:39:04.370957+00:00",
+  "backup": "covers_backup_pre_nofaces/eco-inflation.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "Rappresenta bene potere d'acquisto e beni di prima necessità.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/eco-inflation-bcf3daa26453.webp",
+  "reason": "Si può mostrare in modo più diretto e specifico la perdita di potere d’acquisto del denaro senza persone, con un soggetto immediatamente leggibile e legato al tema."
+ },
+ "eco-scarcity-choices": {
+  "at": "2026-10-07T11:39:02.746366+00:00",
+  "backup": "covers_backup_pre_nofaces/eco-scarcity-choices.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine rappresenta visivamente i temi del tempo e del denaro discussi nell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/eco-scarcity-choices-d998eadf2362.webp",
+  "reason": "Un soggetto senza persone può rendere in modo diretto e specifico la scarsità e il costo opportunità."
+ },
+ "eco-stock-market": {
+  "at": "2026-10-07T11:39:12.215691+00:00",
+  "backup": "covers_backup_pre_nofaces/eco-stock-market.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine rappresenta chiaramente grafici di borsa coerenti con l'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/eco-stock-market-d9de5b01f798.webp",
+  "reason": "Si può sostituire con un soggetto concreto e immediato: un display di mercato con grafico e quotazioni comunica direttamente borsa e oscillazione dei prezzi senza persone."
+ },
+ "eco-supply-demand": {
+  "at": "2026-10-07T11:39:17.344787+00:00",
+  "backup": "covers_backup_pre_nofaces/eco-supply-demand.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "Illustra visivamente il paradosso acqua-diamante citato.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/eco-supply-demand-65f2032092b4.webp",
+  "reason": "Si può mostrare in modo diretto e memorabile il paradosso acqua-diamante senza persone, restando perfettamente aderenti al tema di domanda, offerta e scarsità."
+ },
+ "eco-why-taxes": {
+  "at": "2026-10-07T11:39:19.209334+00:00",
+  "backup": "covers_backup_pre_nofaces/eco-why-taxes.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "Metafora visiva efficace: i servizi pubblici (ospedale, tribunale, strade) poggiano letteralmente su pile di monete, illustrando dove finiscono le tasse.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/eco-why-taxes-dc23e2ace70d.webp",
+  "reason": "Si può rendere il tema in modo più diretto e specifico mostrando i servizi pubblici finanziati dalle tasse senza persone."
+ },
+ "eco-why-things-cost": {
+  "at": "2026-10-07T11:39:27.909963+00:00",
+  "backup": "covers_backup_pre_nofaces/eco-why-things-cost.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine illustra perfettamente l'esempio dei voli citato nel testo, con un tabellone che mostra prezzi differenti per varie destinazioni.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/eco-why-things-cost-7f27f5b46aea.webp",
+  "reason": "Si può rappresentare il pricing dinamico in modo diretto e specifico con un tabellone voli aeroportuale e prezzi che cambiano, senza ricorrere a persone."
+ },
+ "empathy-basics": {
+  "at": "2026-10-07T11:39:31.308953+00:00",
+  "backup": "covers_backup_pre_nofaces/empathy-basics.jpg",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "Rappresentazione efficace e pulita del cervello e delle connessioni neurali citate nel testo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/empathy-basics-ca5b4453afe2.webp",
+  "reason": "L’empatia si può rendere in modo immediato e specifico con un dettaglio neuroscientifico concreto, senza ricorrere a un volto umano."
+ },
+ "exoplanets-basics": {
+  "at": "2026-10-07T11:39:33.292015+00:00",
+  "backup": "covers_backup_pre_nofaces/exoplanets-basics.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine rappresenta pianeti nello spazio, perfettamente in linea con il tema della ricerca di esopianeti simili alla Terra.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/exoplanets-basics-685c7417ece4.webp",
+  "reason": "Un astronauta è generico: il tema sono gli esopianeti simili alla Terra, che si possono rappresentare in modo diretto e più specifico senza persone."
+ },
+ "fear-basics": {
+  "at": "2026-10-07T11:39:41.343948+00:00",
+  "backup": "covers_backup_pre_nofaces/fear-basics.jpg",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine rappresenta un cervello con un'area specifica (amigdala/sistema limbico) evidenziata, metafora perfetta per l'origine neurologica della paura.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/fear-basics-50eef9911b27.webp",
+  "reason": "Si può rendere la paura in modo più specifico e immediato mostrando il suo meccanismo biologico: l’amigdala come sistema d’allarme del cervello."
+ },
+ "french-revolution": {
+  "at": "2026-10-07T11:39:44.021534+00:00",
+  "backup": "covers_backup_pre_nofaces/french-revolution.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine della Bastiglia sotto attacco rappresenta perfettamente l'evento simbolo della Rivoluzione Francese del 1789.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/french-revolution-4d8f932769ce.webp",
+  "reason": "La Bastiglia è un soggetto storico immediato, specifico e più forte di una figura generica di povertà."
+ },
+ "geo-borders": {
+  "at": "2026-10-07T11:39:47.821356+00:00",
+  "backup": "covers_backup_pre_nofaces/geo-borders.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine mostra chiaramente confini su una mappa geografica, in linea perfetta con il tema dell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/geo-borders-3e2136ec4ace.webp",
+  "reason": "Un’immagine senza persone può essere più diretta e specifica: una mappa politica con confini irregolari comunica subito il tema di forme, trattati e geografia."
+ },
+ "geo-highest-mountain": {
+  "at": "2026-10-08T06:35:42.966864+00:00",
+  "backup": "covers_backup_pre_nofaces/geo-highest-mountain.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "Immagine di alta qualità che rappresenta perfettamente il tema delle montagne più alte.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/geo-highest-mountain-d40d5ae07f36.webp",
+  "reason": "Si può sostituire con un soggetto più diretto e specifico: l’Everest stesso, evitando la figura umana senza perdere chiarezza editoriale."
+ },
+ "geo-map-lies": {
+  "at": "2026-10-07T11:39:57.374638+00:00",
+  "backup": "covers_backup_pre_nofaces/geo-map-lies.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine illustra perfettamente il confronto tra un globo sferico e una mappa piatta (proiezione), che è il tema centrale dell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/geo-map-lies-fa522f9f4f19.webp",
+  "reason": "Si può mostrare direttamente il tema della distorsione cartografica con un soggetto preciso e immediato, senza persone."
+ },
+ "geo-plate-tectonics": {
+  "at": "2026-10-07T11:40:04.637020+00:00",
+  "backup": "covers_backup_pre_nofaces/geo-plate-tectonics.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine del mappamondo che mostra Africa e Sudamerica è perfettamente coerente con il tema della deriva dei continenti.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/geo-plate-tectonics-b208a7e6cb29.webp",
+  "reason": "Il tema si presta perfettamente a un soggetto concreto e specifico senza persone: una mappa fisica/globo con i continenti che combaciano e la dorsale oceanica rende subito l’idea della tettonica a placche."
+ },
+ "how-many-galaxies": {
+  "at": "2026-10-07T11:40:09.132098+00:00",
+  "backup": "covers_backup_pre_nofaces/how-many-galaxies.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine mostra una galassia a spirale circondata da altre galassie minori, perfettamente in linea con il tema dell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/how-many-galaxies-9586203be693.webp",
+  "reason": "Una galassia a spirale vista nello spazio è più diretta, specifica e forte della figura umana per raccontare il tema del numero immenso di galassie."
+ },
+ "lez-eco": {
+  "at": "2026-10-07T11:40:15.325259+00:00",
+  "backup": "covers_backup_pre_nofaces/lez-eco.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine illustra chiaramente il concetto di onde sonore tra le montagne, coerente con il tema dell'eco trattato nell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/lez-eco-cfb3796386fa.webp",
+  "reason": "Si può mostrare il fenomeno in modo diretto e più specifico della persona in montagna."
+ },
+ "lez-orientarsi-stelle": {
+  "at": "2026-10-08T06:35:37.673700+00:00",
+  "backup": "covers_backup_pre_nofaces/lez-orientarsi-stelle.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine mostra chiaramente un cielo stellato con costellazioni, perfettamente in linea con il tema dell'orientamento astronomico.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/lez-orientarsi-stelle-879dff910827.webp",
+  "reason": "Si può mostrare direttamente il soggetto concreto della storia: il Grande Carro e la Stella Polare, senza ricorrere a una persona."
+ },
+ "lez-prospettiva": {
+  "at": "2026-10-08T06:35:37.292764+00:00",
+  "backup": "covers_backup_pre_nofaces/lez-prospettiva.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine illustra perfettamente la prospettiva lineare e il richiamo al Rinascimento citato nel testo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/lez-prospettiva-69cef943473d.webp",
+  "reason": "Un soggetto senza persone è più chiaro e più pertinente: la prospettiva lineare si spiega perfettamente con un interno rinascimentale o un disegno costruito sui punti di fuga."
+ },
+ "nat-tides": {
+  "at": "2026-10-08T06:35:50.997024+00:00",
+  "backup": "covers_backup_pre_nofaces/nat-tides.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine della luna sul mare notturno è perfettamente coerente con il tema delle maree trattato nell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/nat-tides-92cee03999d8.webp",
+  "reason": "Una copertina senza persone può raccontare le maree in modo più diretto e specifico mostrando il mare che avanza o si ritira sotto la Luna."
+ },
+ "printing-press": {
+  "at": "2026-10-08T06:35:49.218469+00:00",
+  "backup": "covers_backup_pre_nofaces/printing-press.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine rappresenta esattamente una pressa da stampa d'epoca coerente con il tema storico dell'articolo.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/printing-press-4504f076a0db.webp",
+  "reason": "La pressa tipografica a caratteri mobili è un soggetto concreto, storico e immediatamente leggibile senza persone, perfettamente coerente col titolo."
+ },
+ "psi-dunning-kruger": {
+  "at": "2026-10-08T06:35:57.440807+00:00",
+  "backup": "covers_backup_pre_nofaces/psi-dunning-kruger.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "Il trofeo su un banco con test scolastici è una metafora efficace del sentirsi i migliori pur in contesti di apprendimento o valutazione.",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/psi-dunning-kruger-392ed29baa54.webp",
+  "reason": "Si può rendere il paradosso in modo immediato e specifico con un oggetto che comunica falsa padronanza senza mostrare persone."
+ },
+ "v4-lez-coincidenze": {
+  "at": "2026-10-08T06:36:09.579433+00:00",
+  "backup": "covers_backup_pre_nofaces/v4-lez-coincidenze.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine rappresenta visivamente il paradosso del compleanno citato nel testo (23 cupcakes con candeline).",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/v4-lez-coincidenze-adb8b4501ddc.webp",
+  "reason": "Una cover senza persone può essere più chiara e specifica: il paradosso del compleanno rende subito visibile il tema delle coincidenze improbabili ma comuni."
+ },
+ "v4-lez-fonti-primarie": {
+  "at": "2026-10-08T06:36:10.773056+00:00",
+  "backup": "covers_backup_pre_nofaces/v4-lez-fonti-primarie.webp",
+  "check": {
+   "faces": "none",
+   "people": "none",
+   "quality": "ok",
+   "reason": "L'immagine illustra perfettamente gli esempi citati nel sottotitolo: una lettera antica (fonte primaria), un libro di storia e una pellicola cinematografica (documentario).",
+   "verdict": "coherent"
+  },
+  "previous": "pause/hero/v4-lez-fonti-primarie-b508bc5a59f7.webp",
+  "reason": "Si può rendere il tema in modo più preciso e senza persone mostrando fonti storiche concrete a confronto, già coerenti con il contenuto dell’articolo."
+ }
+}
