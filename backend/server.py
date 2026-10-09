@@ -91,6 +91,38 @@ def _estimated_audio_minutes(doc: dict) -> int:
     return max(1, math.ceil(seconds / 60.0))
 
 
+# Lettura silenziosa su smartphone: ~210 parole/minuto per un testo divulgativo
+# (media IT/EN), + ~3 s di pausa per ogni cambio capitolo. Arrotondato al minuto
+# più vicino (min 1): un testo da 1,3 min mostra "1 min", non "2 min".
+_READ_WPM = 210
+_READ_CHAPTER_PAUSE_S = 3
+
+def _estimated_reading_minutes(doc: dict) -> int:
+    if not doc:
+        return 1
+    parts = [doc.get("title") or "", doc.get("hook") or ""]
+    chapters = doc.get("chapters") or []
+    for ch in chapters:
+        parts += [ch.get("title") or "", ch.get("body") or ""]
+    words = len(_re.findall(r"\w+", _clean_for_estimate(" ".join(parts))))
+    seconds = words / _READ_WPM * 60 + len(chapters) * _READ_CHAPTER_PAUSE_S
+    return max(1, int(seconds / 60.0 + 0.5))
+
+
+def _merged_translation(doc: dict, lang: str) -> Optional[dict]:
+    tr = (doc.get("translations") or {}).get(lang)
+    if not tr:
+        return None
+    base_ch = doc.get("chapters") or []
+    tr_ch = tr.get("chapters") or []
+    return {
+        "title": tr.get("title") or doc.get("title"),
+        "hook": tr.get("hook") or doc.get("hook"),
+        "chapters": [{"title": (tr_ch[i] if i < len(tr_ch) else {}).get("title") or b.get("title"),
+                      "body": (tr_ch[i] if i < len(tr_ch) else {}).get("body") or b.get("body")} for i, b in enumerate(base_ch)],
+    }
+
+
 def _estimate_from_translation(doc: dict, lang: str) -> int:
     """Compute the ceil minutes using the translated payload when available."""
     tr = (doc.get("translations") or {}).get(lang)
@@ -132,8 +164,12 @@ def _localize(doc: dict, lang: str) -> dict:
     # scritto al boot in `ensure_estimated_minutes`. Fallback: stima al volo.
     est_map = doc.get("audio_minutes_est") or {}
     est = est_map.get(lang) or est_map.get("it") or _estimated_audio_minutes(doc)
-    out["reading_time_min"] = est
-    out["deep_dive_time_min"] = est
+    read_map = doc.get("reading_minutes_est") or {}
+    read = read_map.get(lang) or read_map.get("it") or _estimated_reading_minutes(doc)
+    # Badge "N min" = tempo reale di LETTURA; la durata audio resta in audio_time_min.
+    out["reading_time_min"] = read
+    out["deep_dive_time_min"] = read
+    out["audio_time_min"] = est
     if lang == "it":
         return out
     # Nome categoria localizzato dal catalogo categorie (indipendente dalle translations della storia).
@@ -151,9 +187,10 @@ def _localize(doc: dict, lang: str) -> dict:
             merged.append({**base, "title": t.get("title", base["title"]), "body": t.get("body", base["body"])})
         out["chapters"] = merged
     # Se abbiamo la stima nel doc, usa quella; altrimenti calcola al volo.
-    est_lang = est_map.get(lang) or _estimated_audio_minutes(out)
-    out["reading_time_min"] = est_lang
-    out["deep_dive_time_min"] = est_lang
+    out["audio_time_min"] = est_map.get(lang) or _estimated_audio_minutes(out)
+    read_lang = read_map.get(lang) or _estimated_reading_minutes(out)
+    out["reading_time_min"] = read_lang
+    out["deep_dive_time_min"] = read_lang
     return out
 
 def _localize_category(doc: dict, lang: str) -> dict:
@@ -187,6 +224,7 @@ class Story(BaseModel):
     hero_focal: Optional[dict] = None
     reading_time_min: int
     deep_dive_time_min: int
+    audio_time_min: Optional[int] = None
     chapters: List[Chapter]
     summary: str
     kind: str = "story"
@@ -209,6 +247,7 @@ class StoryPreview(BaseModel):
     hero_focal: Optional[dict] = None
     reading_time_min: int
     deep_dive_time_min: int
+    audio_time_min: Optional[int] = None
     kind: str = "story"
     objective: Optional[str] = None
     is_new: bool = False
@@ -431,14 +470,17 @@ async def ensure_estimated_minutes() -> None:
     available). Idempotent: skip docs where the value already matches."""
     changed = 0
     async for doc in db.stories.find({}, {"_id": 0, "id": 1, "title": 1, "hook": 1, "summary": 1,
-                                          "chapters": 1, "translations": 1, "audio_minutes_est": 1}):
+                                          "chapters": 1, "translations": 1, "audio_minutes_est": 1, "reading_minutes_est": 1}):
         est_it = _estimated_audio_minutes(doc)
         est_map = {"it": est_it}
-        if (doc.get("translations") or {}).get("en"):
+        read_map = {"it": _estimated_reading_minutes(doc)}
+        en = _merged_translation(doc, "en")
+        if en:
             est_map["en"] = _estimate_from_translation(doc, "en")
-        current = doc.get("audio_minutes_est") or {}
-        if current != est_map:
-            await db.stories.update_one({"id": doc["id"]}, {"$set": {"audio_minutes_est": est_map}})
+            read_map["en"] = _estimated_reading_minutes(en)
+        if (doc.get("audio_minutes_est") or {}) != est_map or (doc.get("reading_minutes_est") or {}) != read_map:
+            await db.stories.update_one({"id": doc["id"]}, {"$set": {"audio_minutes_est": est_map, "reading_minutes_est": read_map,
+                                                                      "reading_time_min": read_map["it"], "deep_dive_time_min": read_map["it"]}})
             changed += 1
     logger.info("audio_minutes_est precomputed: %s updated", changed)
 

@@ -1,0 +1,34 @@
+{
+  "summary": "Reading-time fix fully verified end-to-end. Backend: 10/10 pytest cases PASS in /app/backend/tests/test_iter_reading_time.py. All 493 stories now carry `reading_minutes_est` for IT and 288/288 translated stories for EN. The IT catalog distribution is 390 stories at 2 min and 103 at 3 min — zero stories still show 5 min (the user complaint). `/api/stories` and `/api/stories/{id}` return identical `reading_time_min` = `deep_dive_time_min` (2-3) and a separate `audio_time_min` (3-5) for both lang=it and lang=en. Spot-check against the ~210 wpm formula + 3s/chapter pause matches within ±1 min. Frontend: home card `home-story-meta` reads 'CURIOSITY · ANIMALS · 2 min', reader intro `story-info-grid` also reads '2 min' for the same story (perfect list-vs-detail consistency). Playlist screen correctly consumes `audio_time_min ?? deep_dive_time_min` (playlist.tsx:109,146); browse uses `reading_time_min` (browse.tsx:260); bookmarks/home/reader rely on StoryInfoGrid which now receives the small minute value. No regressions in guest onboarding → reader flow. 401 object-storage upload logs ignored per note from main agent.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [],
+    "react_native_issues": [
+      {"component": "textShadow styles", "issue": "'textShadow* style props are deprecated. Use textShadow.' warnings remain (carry-over from prior iterations). Non-blocking."},
+      {"component": "Animated.View pointerEvents prop", "issue": "'props.pointerEvents is deprecated. Use style.pointerEvents' warning still appears once on first render. Non-blocking."}
+    ]
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_iter_reading_time.py",
+    "/app/test_reports/pytest/iter_reading_time.xml"
+  ],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "server.py:100-109 `_estimated_reading_minutes` uses ~210 wpm with +3s/chapter and rounds to nearest minute (min 1) — matches the user's requested formula.",
+    "server.py:468-485 `ensure_estimated_minutes` is idempotent and precomputes BOTH `audio_minutes_est` and `reading_minutes_est` for IT + EN on every boot, and ALSO back-writes `reading_time_min`/`deep_dive_time_min` on the base doc so legacy consumers that project only those fields stay consistent.",
+    "server.py:151-194 `_localize` now overwrites `reading_time_min` and `deep_dive_time_min` with the precomputed read estimate (per lang) and exposes `audio_time_min` separately — eliminates the old mismatch (badge '3 min' while audio was 4:50).",
+    "Frontend already partitions correctly: home/reader/browse/bookmarks → `reading_time_min` / `deep_dive_time_min`; playlist → `audio_time_min` (playlist.tsx:109,146). Clean separation of 'reading badge' vs 'audio duration'.",
+    "list endpoint uses projection `{chapters: 0}` but still returns correct minutes because `_localize` falls back to the stored `audio_minutes_est` / `reading_minutes_est` maps — important invariant preserved."
+  ],
+  "updated_files": [
+    "/app/backend/tests/test_iter_reading_time.py (new)"
+  ],
+  "success_rate": {"backend": "100% (10/10)", "frontend": "100% (home + reader badge verified)"},
+  "seed_data_creation": "None",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Reading-time estimate lives in two places: Mongo field `reading_minutes_est.{it,en}` (set at boot via ensure_estimated_minutes) and the response field `reading_time_min` / `deep_dive_time_min` (both equal, set per lang by `_localize`). `audio_time_min` is the independent TTS estimate. If the user reports a specific story still showing 5 min, run `/api/stories/{id}?lang=it|en` and compare with words/210. The playlist endpoint intentionally sums `deep_dive_time_min` for its minute budget, but displays `audio_time_min` — this is correct because the user asked the playlist screen to show narration minutes.",
+  "rca_of_issue": "Prior to this iteration, `reading_time_min` and `deep_dive_time_min` came straight from the seed files and had been hand-set to 5 for most stories regardless of real length. The fix (server.py:_estimated_reading_minutes + ensure_estimated_minutes + _localize) computes the value from the actual text at ~210 wpm, writes it to Mongo for all 493 stories (IT) and 288 (EN), and always overrides the response field. Result: distribution is now 390×2min + 103×3min, exactly matching the user's expectation ('bastano molti meno di 5 minuti')."
+}

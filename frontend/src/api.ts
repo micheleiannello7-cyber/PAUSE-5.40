@@ -114,6 +114,7 @@ export type StoryPreview = {
   hero_focal?: HeroFocal | null;
   reading_time_min: number;
   deep_dive_time_min: number;
+  audio_time_min?: number;
   kind?: "story" | "lesson";
   objective?: string | null;
   is_new?: boolean;

@@ -106,7 +106,7 @@ export default function Playlist() {
                 </View>
                 <Text style={styles.nowTitle} numberOfLines={2}>{first.title}</Text>
                 <Text style={styles.nowMeta}>
-                  {first.category_name.toUpperCase()} · {first.deep_dive_time_min} min
+                  {first.category_name.toUpperCase()} · {first.audio_time_min ?? first.deep_dive_time_min} min
                 </Text>
               </View>
             </Pressable>
@@ -143,7 +143,7 @@ export default function Playlist() {
                       {String(i + 2).padStart(2, "0")} · {s.category_name.toUpperCase()}
                     </Text>
                     <Text style={styles.rowTitle} numberOfLines={2}>{s.title}</Text>
-                    <Text style={styles.rowSub} numberOfLines={1}>{s.deep_dive_time_min} min</Text>
+                    <Text style={styles.rowSub} numberOfLines={1}>{s.audio_time_min ?? s.deep_dive_time_min} min</Text>
                   </View>
                   <Ionicons name="chevron-forward" size={18} color={colors.muted} />
                 </Pressable>
