@@ -1385,15 +1385,14 @@ async def user_stats(user_id: str, lang: Optional[str] = Query("it")):
 
 @api_router.get("/user/{user_id}/collection")
 async def user_collection(user_id: str, lang: Optional[str] = Query("it")):
-    """Collezione: tutte le curiosità raggruppate per argomento.
-    Una carta è sbloccata quando la storia è in completed_story_ids."""
+    """Collezione: TUTTO il catalogo (curiosità + lezioni) raggruppato per argomento.
+    Una carta è sbloccata quando la storia è in completed_story_ids; le novità
+    in accesso anticipato Premium compaiono comunque come carte da scoprire."""
     state = await _get_or_create_state(user_id)
     done = list(state.get("completed_story_ids", []))
     done_set = set(done)
     cats = await list_categories(lang=lang)
-    visible = {"$or": [_early_filter(state) or {}, {"id": {"$in": done}}]}
-    query = {"kind": {"$ne": "lesson"}, **visible}
-    docs = await db.stories.find(query, {"_id": 0, "chapters": 0}).sort("created_at", 1).to_list(5000)
+    docs = await db.stories.find({}, {"_id": 0, "chapters": 0}).sort("created_at", 1).to_list(5000)
     by_cat: dict = {}
     for d in docs:
         by_cat.setdefault(d.get("category_id"), []).append(d)

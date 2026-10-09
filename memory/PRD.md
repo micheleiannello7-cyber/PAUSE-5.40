@@ -48,3 +48,4 @@ Imported from https://github.com/micheleiannello7-cyber/PAUSE-5.38 and overlaid 
 - Collection: "storie completate" shown as bold pill; quote changed to "Non smettere mai di essere curioso, la curiosità è la chiave di ogni scoperta". Mini collection card (reader ending) shows the full cover without title overlay.
 - Collection locked cards now show dimmed category 3D art + lock badge per category.
 - Reading time: reading_time_min/deep_dive_time_min now = real silent-reading estimate (210 wpm + 3s/chapter, rounded; stored as reading_minutes_est it/en). Audio estimate exposed as audio_time_min (used by playlist). Note: Universal Key currently invalid/without credit → new cover uploads to object storage fail (401), existing covers served from cache; gen_theme_icons.py ready for Gemstone categories + Carta theme.
+- Collection now counts full catalog (493 = 304 curiosità + 189 lezioni); early-access Premium stories shown as locked cards.

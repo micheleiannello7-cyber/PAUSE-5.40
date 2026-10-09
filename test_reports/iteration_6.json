@@ -1,0 +1,36 @@
+{
+  "summary": "Collection full-catalog fix verified end-to-end. Backend: 7/7 pytest cases PASS in /app/backend/tests/test_iter_collection_full_catalog.py. GET /api/user/{guest_id}/collection returns total=493 for a brand-new user in both lang=it and lang=en, with exactly 12 category groups. Per-group totals: scienza=53 and every other category (animali, storia, economia, natura, geografia, cultura, tecnologia, spazio, arte, psicologia, corpo-umano, lezioni) = 40, summing to 53 + 11×40 = 493 — matching the user's expectation. For a fresh guest: unlocked=0, every group has stories=[] and locked_ids length == total. After POST /api/user/complete on both a 'story' (curiosità) and a 'lesson', unlocked rises to 2, each completed id disappears from locked_ids and appears in the correct group's stories[] with full StoryPreview payload. Frontend: /collection screen loads at mobile 390×844 for a guest, summary ring shows '0 /493', progress label 'STORIES COMPLETED' is visible, collection-empty tagline shows, all 12 category rows render with the exact per-group counts observed in the API (0/40 ×11 and 0/53 for scienza), 264+ LockedCard tiles render across the horizontal FlatLists, no red screen, no crashes. Only pre-existing non-blocking warnings (textShadow*, pointerEvents prop, Reanimated easing on web) remain from prior iterations.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [],
+    "react_native_issues": [
+      {"component": "textShadow styles", "issue": "'textShadow* style props are deprecated. Use textShadow.' – pre-existing, non-blocking."},
+      {"component": "Animated.View pointerEvents prop", "issue": "'props.pointerEvents is deprecated. Use style.pointerEvents' warning on first render – pre-existing, non-blocking."},
+      {"component": "Reanimated easing on web", "issue": "'Selected easing is not currently supported on web. Using linear easing instead.' – pre-existing, non-blocking."}
+    ]
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_iter_collection_full_catalog.py",
+    "/app/test_reports/pytest/iter_collection.xml"
+  ],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "server.py:1386-1415 user_collection now iterates ALL stories (chapters projected out) and groups by category_id, then enumerates every category — so Premium early-access novità and lessons are included as locked_ids even for free users. This matches the fix description.",
+    "server.py:1395 uses .find({}, {'_id': 0, 'chapters': 0}).sort('created_at', 1).to_list(5000) — the 5000 ceiling comfortably covers 493 stories; if the catalog grows past 5000 the limit should be revisited.",
+    "server.py:1402-1404 'if not items: continue' means a category with zero stories is dropped from the response — currently all 12 configured categories have stories (scienza 53, lezioni 40, etc.), so this is fine and prevents empty 0/0 cards.",
+    "collection.tsx:93-96 renders data.unlocked and data.total raw — correctly displays '0 /493' for guests; no NaN or '0 of 254' remaining.",
+    "collection.tsx:160 per-group count label uses `${g.unlocked}/${g.total}` — matches API grouping.",
+    "Frontend contract (CollectionGroup in /app/frontend/src/api.ts) must include 'total', 'unlocked', 'stories', 'locked_ids' — confirmed via UI (locked tiles render from locked_ids)."
+  ],
+  "updated_files": [
+    "/app/backend/tests/test_iter_collection_full_catalog.py (new)"
+  ],
+  "success_rate": {"backend": "100% (7/7)", "frontend": "100% (collection screen renders 0/493, 12 groups, locked tiles)"},
+  "seed_data_creation": "Each test uses a fresh TEST_coll_<uuid> guest id; no persistent seed data left behind beyond the single user_state doc (ephemeral).",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Collection endpoint: GET /api/user/{user_id}/collection?lang=it|en returns {total, unlocked, categories:[{id,name,color,total,unlocked,stories[],locked_ids[]}]}. For a new user total MUST be 493 and categories length 12 (scienza=53, others=40). Completion is driven by POST /api/user/complete {user_id, story_id, minutes, seconds}. The frontend screen /collection reads from api.collection(userId) via useQuery; renders testIDs: collection-screen, collection-summary, collection-count ('N'), collection-empty, collection-group-{catId}, collection-group-count-{catId} ('N/total'), collection-card-{storyId}, collection-locked-{storyId}. If the user later complains the number is wrong, verify db.stories count == 493 with `db.stories.countDocuments()` and that each category_id maps to a configured category in list_categories().",
+  "rca_of_issue": "Before the fix, user_collection iterated only completed_story_ids (or a subset of categories), so a fresh user saw 0/254 instead of 0/493 — the 254 figure was coming from a subset (likely curiosità categories excluding lezioni and Premium early-access novità). The fix widens the aggregation to the full db.stories collection grouped by category_id and treats every uncompleted story as a locked card. Verified: /api/user/<fresh>/collection → total=493, 12 groups (scienza 53 + 11×40), unlocked=0, locked_ids sums to 493."
+}
